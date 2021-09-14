@@ -1,0 +1,604 @@
+  <head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>DirectodeFinca.com | Log in</title>
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-128043695-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-128043695-1');
+</script>
+        <meta name="description" content="Vende directo, con menos intermediarios">
+    <meta name="keywords" content="venta directa, venta desde la finca, comercialización directa, visitas, agrícola, integración, automatización,mercado agrícola,visitas técnicas,gestor de visitas técnicas, fertilizantes foliares, fertilizantes, foliares,abonos">
+    <link rel="author" href="https://www.agronielsen.com" />
+    <link rel="canonical" href="https://www.agronielsen.com"/>
+    <!-- FB Meta tags -->
+    <meta property="og:title" content="Directo de Finca: Por un campo más justo"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:image" content="https://www.agronielsen.com/encampo/public/css/appx/media/banner/encampoapp.png"/>
+    <meta property="og:url" content="https://www.agronielsen.com"/>
+
+    <link rel="icon" type="image/png" sizes="32x32" href="https://www.agronielsen.com/encampo/public/css/appx/assets/img/favicon/faviconnielsen.png">  
+
+    <link rel="stylesheet" href="https://getbootstrap.com/docs/4.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://www.agronielsen.com/encampo/public/css/pe-icon-7-stroke.css">
+    <link rel="stylesheet" href="https://www.agronielsen.com/encampo/public/css/material/css/ionicons.min.css">
+    <link rel="stylesheet" href="https://www.agronielsen.com/encampo/public/css/appx/dependencies/simple-line-icons/css/simple-line-icons.css" type="text/css">
+    <!-- Theme style -->
+    <link rel="stylesheet" href="https://www.agronielsen.com/encampo/public/dist/css/AdminLTE.min.css">
+    <!-- iCheck -->
+    <link rel="stylesheet" href="https://www.agronielsen.com/encampo/public/plugins/iCheck/square/blue.css">
+
+    <link rel="stylesheet" href="https://www.agronielsen.com/encampo/public/css/sistemalaravel.css">
+
+
+
+   <link href="https://www.agronielsen.com/encampo/public/css/main.css" rel="stylesheet"> 
+
+   <link rel="stylesheet" href="https://www.agronielsen.com/encampo/public/css/material/style.css">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+ <link rel="stylesheet" href="https://www.agronielsen.com/encampo/public/css/pe-icon-7-stroke.css">
+   
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+ <link rel="stylesheet" href="https://www.agronielsen.com/encampo/public/css/pe-icon-7-stroke.css">
+
+  <meta name="description" content="Vende directo, con menos intermediarios">
+    <meta name="keywords" content="venta directa, venta desde la finca, comercialización directa, visitas, agrícola, integración, automatización,mercado agrícola,visitas técnicas,gestor de visitas técnicas, fertilizantes foliares, fertilizantes, foliares,abonos">
+    <link rel="author" href="http://www.directodefinca.com" />
+    <link rel="canonical" href="http://www.directodefinca.com"/>
+    <!-- FB Meta tags -->
+    <meta property="og:title" content="Directo de Finca: Por un campo más justo"/>
+    <meta property="og:type" content="website"/>
+      <meta property="og:image" content="http://www.directodefinca.com/public/css/olympus/dfpreviewapp.jpg"/>
+    <meta property="og:url" content="http://www.directodefinca.com"/>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" type="text/css" href="{{url('css/olympus/app/Bootstrap/dist/css/bootstrap-reboot.css')}}">
+  <link rel="stylesheet" type="text/css" href="{{url('css/olympus/app/Bootstrap/dist/css/bootstrap.css')}}">
+  <link rel="stylesheet" type="text/css" href="{{url('css/olympus/app/Bootstrap/dist/css/bootstrap-grid.css')}}">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://www.agronielsen.com/encampo/public/css/appx/assets/img/favicon/faviconnielsen.png">  
+  <!-- Main Styles CSS -->
+  <link rel="stylesheet" type="text/css" href="{{url('css/olympus/app/css/main.min.css')}}">
+
+  <link rel="stylesheet" type="text/css" href="{{url('css/olympus/app/css/fonts.min.css')}}">
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
+  
+  <link href='https://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-168760775-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-168760775-1');
+</script>
+
+
+  </head>
+
+  <body class="mini-sidebar" style="background: url(https://www.agronielsen.com/encampo/public/imagenes/Agricultores.png) no-repeat center center;height:1000px;box-shadow: inset 0 0 0 2000px rgba(55,52,53,0.6);background-size:cover;">
+
+
+
+    
+   
+        <div class="col-md-12"   style="background: rgb(65, 103, 178);position: relative;height: 144.391px;margin-top: -58px;padding-top: 44px;">
+        <div class="row sorting-container responsive text-center"  data-layout="masonry" style="background: rgb(65, 103, 178);position: relative;height: 167.391px;padding-top:30px;padding-bottom: 20px;">
+
+                <div class="col col-xl-6 col-lg-6 col-md-12 col-sm-12  sorting-item ecommerce natural text-center" style="left: 0%;top:0">
+
+              <div class="header--standard-wrap text-center" >
+
+                <a href="landing" class="logo" style="margin-right: 100px;">
+                  <div class="img-wrap text-center">
+                    <img src="{{asset('imagenes/logotico.png')}}" alt="DF">
+                  
+                  </div>
+                  <div class="title-block text-center">
+                    <h3 class="logo-title" style="color:#fff;text-transform: capitalize;font-weight:600">DirectodeFinca.com</h3>
+                    <h6 class="logo-title" style="font-weight:300;color:#fff;text-transform: capitalize;">Por un mejor Campo</h6>
+                  </div>
+                </a>
+              </div>
+          </div>
+
+          <div class="col col-xl-6 col-lg-6 col-md-12 col-sm-12  sorting-item worlds family politics responsive-display-none">
+              <form class=""  action="login" method="post">
+            <input type="hidden" name="_token" value="<?php echo csrf_token(); ?>">   
+                   <div class="row">
+                  <div class="col col-lg-4 col-md-4 col-sm-12 col-12">
+                                <div class="form-group label-floating">
+                                    <label class="control-label">Email</label>
+                                    <input type="email" class="form-control" id="email" name="email" required>
+                                </div>
+                            </div>
+                            <div class="col col-lg-4 col-md-4 col-sm-12 col-12">
+                                <div class="form-group label-floating">
+                                    <label class="control-label">Contraseña</label>
+                                    <input type="password" class="form-control" id="password" name="password" required>
+                                </div>
+                             </div>
+                             <div class="col col-lg-4 col-md-4 col-sm-12 col-12 text-left">
+                                <button type="submit" class="btn btn-secondary btn-md-2">Ver Ofertas
+                                  <div class="ripple-container">
+                                  </div>
+                                </button>
+                            </div>
+                        </div>
+                       </form>
+           </div>
+
+
+
+
+        <div class="col-md-8" style="margin-top:150px;background:url('storage/fotografias/foto1visita-45147.jpg')"> 
+ 
+         
+
+       
+
+                         <div class="white typed" style="padding-top:100px;font-size:35px;color:#fff;line-height:32px;font-weight:700">                                 
+                                  </div>
+                                <span class="typed-cursor"></span>
+
+                   
+
+
+
+</div>
+
+
+  <div class="col-md-4" style="margin-top:100px">
+
+        <div class="login-box card" style="margin-right:auto;margin-left:auto;margin-top: 0px">
+            <div class="card-body">
+
+
+
+      <div class="row">
+              <div class="col-xs-12 col-sm-12 col-md-12 mt-2 text-center">
+              <div class="social" style="margin-top:-28px">
+
+   <img style="max-width: 35%;" class="responsive" src="{{url('imagenes/vegetables.png')}}" alt="Directo de Finca"> 
+
+
+
+          <form action="register" method="post" class="form-horizontal form-material">
+            <input type="hidden" name="_token" value="<?php echo csrf_token(); ?>">
+       
+            <h3 class="box-title text-center" style="padding: 10px;background: #00A859;/* margin-bottom: 28px; */color:#fff;border-radius: .25rem;font-size: 22px;line-height: 21px;">Crea tu cuenta como Restaurante y empieza a realizar nuevos contactos y negocios!</h3>
+              
+              <div style="color: #a94442; font-size:13px;border-color: #ebccd1;line-height:19px;border-radius: .25rem;">
+                  <?php if( isset($errors) ){ ?>
+                  <ul>
+                       
+                        <?php foreach($errors->all() as $error){ ?>
+                                <li style="color:#FA206A;" ><?= $error  ?></li>
+                        <?php }  ?>
+
+                  </ul>
+
+                  <?php }  ?> </div> 
+                    </div></div></div>
+          
+        
+       <div class="row text-center" style="padding-top:0px">
+         <div class="col-md-6">
+                                <div class="form-group label-floating is-empty">
+                                      <label class="control-label">Nombre</label>
+                                      <input type="text" class="form-control" name="name" required >
+                                     <span class="material-input"></span>
+                               </div>
+          </div>
+
+
+            <div class="col-md-6">
+              <div class="form-group label-floating is-empty">
+               <label class="control-label">Email (válido)</label>
+              <input type="email" class="form-control" name="email" required >
+              <span class="material-input"></span>
+
+             </div>
+    
+    </div> 
+        
+<div class="row text-center" style="padding-top:0px">
+          <div class="col-md-6">
+         <div class="form-group label-floating is-empty">
+            <label class="control-label">Contraseña</label>
+            <input type="password" class="form-control" name="password" required>
+            <span class="material-input"></span>
+          </div>
+          </div>
+
+          <div class="col-md-6">
+          <div class="form-group label-floating is-empty">
+            <label class="control-label">Confirmar</label>
+            <input type="password" class="form-control" name="cpassword" required >
+            <span class="material-input"></span>
+          </div>
+          </div>
+   
+         
+        
+              <div class="col-xs-12 col-sm-12 col-md-12 mt-2 text-center">
+                  <button type="submit" class="btn btn-lg btn-primary full-width" style="background:#2f5b9d;border-color:#2f5b9d;font-size:15px">Registrarme</button>
+                  <a href="landing" class="btn btn-lg btn-primary full-width" style="font-size:15px">Volver</a>
+             </div>
+    
+          
+
+          </div></div>
+
+          
+    
+                          <div class="or"></div>
+                    <label style="color:#888da8">Ó Regístrate con facebook</label>
+                    <a href="redirect" class="btn btn-lg bg-facebook full-width btn-icon-left"><svg class="svg-inline--fa fa-facebook-f fa-w-9" aria-hidden="true" data-prefix="fab" data-icon="facebook-f" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 264 512" data-fa-i2svg=""><path fill="currentColor" d="M76.7 512V283H0v-91h76.7v-71.7C76.7 42.4 124.3 0 193.8 0c33.3 0 61.9 2.5 70.2 3.6V85h-48.2c-37.8 0-45.1 18-45.1 44.3V192H256l-11.7 91h-73.6v229"></path></svg><!-- <i class="fab fa-facebook-f" aria-hidden="true"></i> -->Registrarme con facebook</a>
+                    
+
+</body>
+
+
+
+
+<!-- jQuery 2.1.4 -->
+<script src="{{url('css/olympus/app/js/jquery-3.2.1.js')}}"></script>
+<script src="{{url('css/olympus/app/js/jquery.appear.js')}}"></script>
+<script src="{{url('css/olympus/app/js/jquery.mousewheel.js')}}"></script>
+<script src="{{url('css/olympus/app/js/perfect-scrollbar.js')}}"></script>
+<script src="{{url('css/olympus/app/js/jquery.matchHeight.js')}}"></script>
+<script src="{{url('css/olympus/app/js/svgxuse.js')}}"></script>
+<script src="{{url('css/olympus/app/js/imagesloaded.pkgd.js')}}"></script>
+<script src="{{url('css/olympus/app/js/Headroom.js')}}"></script>
+<script src="{{url('css/olympus/app/js/velocity.js')}}"></script>
+<script src="{{url('css/olympus/app/js/ScrollMagic.js')}}"></script>
+<script src="{{url('css/olympus/app/js/jquery.waypoints.js')}}"></script>
+<script src="{{url('css/olympus/app/js/jquery.countTo.js')}}"></script>
+<script src="{{url('css/olympus/app/js/popper.min.js')}}"></script>
+<script src="{{url('css/olympus/app/js/material.min.js')}}"></script>
+<script src="{{url('css/olympus/app/js/bootstrap-select.js')}}"></script>
+<script src="{{url('css/olympus/app/js/smooth-scroll.js')}}"></script>
+<script src="{{url('css/olympus/app/js/selectize.js')}}"></script>
+<script src="{{url('css/olympus/app/js/swiper.jquery.js')}}"></script>
+<script src="{{url('css/olympus/app/js/moment.js')}}"></script>
+<script src="{{url('css/olympus/app/js/daterangepicker.js')}}"></script>
+<script src="{{url('css/olympus/app/js/simplecalendar.js')}}"></script>
+<script src="{{url('css/olympus/app/js/fullcalendar.js')}}"></script>
+<script src="{{url('css/olympus/app/js/isotope.pkgd.js')}}"></script>
+<script src="{{url('css/olympus/app/js/ajax-pagination.js')}}"></script>
+<script src="{{url('css/olympus/app/js/Chart.js')}}"></script>
+<script src="{{url('css/olympus/app/js/chartjs-plugin-deferred.js')}}"></script>
+<script src="{{url('css/olympus/app/js/circle-progress.js')}}"></script>
+<script src="{{url('css/olympus/app/js/loader.js')}}"></script>
+<script src="{{url('css/olympus/app/js/run-chart.js')}}"></script>
+<script src="{{url('css/olympus/app/js/jquery.magnific-popup.js')}}"></script>
+<script src="{{url('css/olympus/app/js/jquery.gifplayer.js')}}"></script>
+<script src="{{url('css/olympus/app/js/mediaelement-and-player.js')}}"></script>
+<script src="{{url('css/olympus/app/js/mediaelement-playlist-plugin.min.js')}}"></script>
+
+<script src="{{url('css/olympus/app/js/base-init.js')}}"></script>
+<script defer src="{{url('css/olympus/app/fonts/fontawesome-all.js')}}"></script>
+
+<script src="{{url('css/olympus/app/Bootstrap/dist/js/bootstrap.bundle.js')}}"></script>
+
+  
+
+
+  <script src="https://www.agronielsen.com/encampo/public/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js"></script>
+
+
+  <script src="https://www.agronielsen.com/encampo/public/js/typewriter.js" type="text/javascript"></script>
+  <script src="https://www.agronielsen.com/encampo/public/js/typed.js" type="text/javascript"></script>
+  <script src="https://www.agronielsen.com/encampo/public/js/main.js" type="text/javascript"></script>
+  <script src="https://www.agronielsen.com/encampo/public/js/sistemalaravel.js" type="text/javascript"></script>
+
+
+
+
+
+
+
+ <script type="text/javascript">
+  $(function(){
+        $(".typed").typed({
+            strings: ["Apoya nuestros Agricultores, Explora nuevas oportunidades de abastecimiento.","Mejoramos la calidad de vida de nuestra comunidad ayudando a construir un campo más justo"],
+            typeSpeed: 50,
+        });
+    });
+</script>   
+
+
+
+<!-- Start of  Zendesk Widget script -->
+<script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=c5c1215c-ecf8-44af-b71c-210ea7a83f5a"> </script>
+<!-- End of  Zendesk Widget script -->
+
+
+
+
+
+
+<style>
+.card-body {
+    padding: 3.5rem;
+
+background:#fff;
+    color: #000;}
+
+              .or {
+    position: relative;
+    width: 100%;
+    height: 1px;
+    margin: 1rem 0 2rem;
+    background-color: #e6ecf5;
+    color:#000;
+}
+     
+
+.carousel-item {
+position: relative;
+    display: none;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100%;
+    transition: -webkit-transform .6s ease;
+    transition: transform .6s ease;
+    transition: transform .6s ease,-webkit-transform .6s ease;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-perspective: 1000px;
+    perspective: 1000px;
+    padding:0px 20px 20px 20px; }
+
+    .btn-lg {
+    /* padding: 1rem 6rem; */
+    font-size: .875rem;
+    line-height: 2.5;
+    border-radius: .3rem;
+    width: 103%;
+}
+
+    .carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 20px;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+              }
+
+              
+              
+              .ajuste-caption {margin-bottom: .5rem;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+    color: inherit;
+    font-size: 1.25rem;
+}
+
+
+</style>
+
+<style>
+.btn-info,
+.btn-info.disabled {
+  background: #1e88e5;
+  border: 1px solid #1e88e5;
+  -webkit-box-shadow: 0 2px 2px 0 rgba(66, 165, 245, 0.14), 0 3px 1px -2px rgba(66, 165, 245, 0.2), 0 1px 5px 0 rgba(66, 165, 245, 0.12);
+  box-shadow: 0 2px 2px 0 rgba(66, 165, 245, 0.14), 0 3px 1px -2px rgba(66, 165, 245, 0.2), 0 1px 5px 0 rgba(66, 165, 245, 0.12);
+  -webkit-transition: 0.2s ease-in;
+  -o-transition: 0.2s ease-in;
+  transition: 0.2s ease-in;
+  font-size: 26px }
+  .btn-info:hover,
+  .btn-info.disabled:hover {
+    background: #1e88e5;
+    border: 1px solid #1e88e5;
+    -webkit-box-shadow: 0 14px 26px -12px rgba(23, 105, 255, 0.42), 0 4px 23px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(23, 105, 255, 0.2);
+    box-shadow: 0 14px 26px -12px rgba(23, 105, 255, 0.42), 0 4px 23px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(23, 105, 255, 0.2); }
+  .btn-info.active, .btn-info:focus,
+  .btn-info.disabled.active,
+  .btn-info.disabled:focus {
+    background: #028ee1;
+    -webkit-box-shadow: 0 14px 26px -12px rgba(23, 105, 255, 0.42), 0 4px 23px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(23, 105, 255, 0.2);
+    box-shadow: 0 14px 26px -12px rgba(23, 105, 255, 0.42), 0 4px 23px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(23, 105, 255, 0.2); }
+
+    .bd-example {
+padding: 0rem;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    border-width: 0rem;
+}
+</style>
+
+
+<style>
+.align-items-center {
+    -ms-flex-align: center!important;
+    align-items: center!important;
+}
+.d-flex {
+    display: -ms-flexbox!important;
+    display: flex!important;
+}
+</style>
+
+<style>
+.ml-auto, .mx-auto {
+    margin-left: auto!important;
+}
+</style>
+
+<style>
+.login-box{
+    background-color: #fff;
+    opacity: 0.9;
+    margin-right:0;
+}
+.login-box:hover{
+    background-color: #fff;
+    opacity: 1;
+}
+</style>
+
+
+
+<style>
+.form-horizontal .form-group {
+    margin-right: -15px;
+    margin-left: -15px;
+    margin-bottom: 13px;
+}
+</style>
+
+<style>
+
+.card {
+
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+
+}
+
+.header {
+    height: 81px;
+    background-color: #4167b2;
+    padding-right: 0px;
+    position: relative;
+    top: 103px;
+    left: 0;
+    right: 0;
+    z-index: 3;
+    padding-top: 42px;
+        position: absolute;
+    width: 65%;
+    margin-left: 93px;
+}
+
+.header--standard-landing.headroom--not-top .logo, .header--standard-landing.headroom--not-top .logo .logo-title {
+    color: #fff;
+}
+
+.header--standard-wrap {
+    /* display: -webkit-box; */
+    display: -ms-flexbox;
+    /* display: flex; */
+    /* -webkit-box-align: center; */
+    -ms-flex-align: center;
+    align-items: center;
+    /* position: absolute; */
+   /* width: 65%;*/
+    margin-left: 93px;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 1.1rem;
+    font-size: .812rem;
+    line-height: 1.5;
+    color: #fff;
+    background-color: #fff;
+    border: 1px solid #e6ecf5;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.landing-content {
+    color: #fff;
+    margin-bottom: 30px;
+    margin-top: 48px;
+}
+
+.btn-secondary {
+    color: #fff;
+    background-color: #76A82B;
+    border-color: #76A82B;
+    margin-left: 15px;
+}
+</style>
+
+
+
+
+
+<style>
+   body {
+    background-color: #f2f2f2;
+ /*   font-family: "Lato";*/
+    font-weight: 300;
+    font-size: 16px;
+    color: #fff;
+    padding-top: 0px;
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+}
+</style>
+
+<style>
+.form-horizontal .form-group {
+    margin-right: -15px;
+    margin-left: -15px;
+    margin-bottom: 3px;
+}
+</style>
+
+<style>
+
+.card {
+
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+
+}
+</style>
+
+<style>
+.form-material .form-group {
+    /* overflow: hidden; */
+}
+
+.form-group {
+    /* margin-bottom: 25px; */
+}
+
+.form-control:focus {
+  background:#fff;
+}
+</style>

@@ -1,0 +1,11 @@
+
+
+<?php $__env->startSection('htmlheader_title'); ?>
+  Home
+<?php $__env->stopSection(); ?>
+
+
+<?php $__env->startSection('main-content'); ?>
+
+
+<?php $__env->stopSection(); ?>
