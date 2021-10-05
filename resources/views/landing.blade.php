@@ -203,7 +203,7 @@
                 <div class="container">
                     <div class="header-inner clearfix">
                         <div class="site-logo">
-                            <a href="landing" class="main-logo"><img src="https://www.agronielsen.com/encampo/public/css/appx/assets/img/agronielsen.png" alt="Agronielsen en Campo" /></a>
+                            <a href="landing" class="main-logo"><img src="{{url('css/appx/assets/img/agronielsen.png" alt="Agronielsen en Campo" /></a>
 
                             <!--<div class="col col-xl-3 col-lg-3 col-md-12 col-sm-12  sorting-item worlds family politics responsive-display-none" style="position: absolute;left: 0%;color: rgb(0, 0, 0);margin-top:41px;">
                             <label class="control-label" style="color:#fff">{{trans('messages.follower')}}</label>
@@ -388,9 +388,9 @@
         <div class="modal-body">
             <div class="text-center">
 
-                <!--<a href="https://play.google.com/store/apps/details?id=io.ionic.agronielsenmeteo" target="_blank"><img class="responsive" src="https://www.agronielsen.com/encampo/public/css/appx/media/mkt/agronielsen-meteo-1.png" alt="Meteorología" style="max-width:100%;padding-top: 12px;margin-left: 0px"/></a>-->
+                <!--<a href="https://play.google.com/store/apps/details?id=io.ionic.agronielsenmeteo" target="_blank"><img class="responsive" src="{{url('css/appx/media/mkt/agronielsen-meteo-1.png" alt="Meteorología" style="max-width:100%;padding-top: 12px;margin-left: 0px"/></a>-->
 
-                 <a href="https://www.agronielsen.com/blog/precision-y-calidad-de-los-datos-meteorologicos" target="_blank"><img class="responsive" src="https://www.agronielsen.com/encampo/public/css/appx/media/mkt/DirectoFinca2.jpg" alt="Meteorología" style="max-width: 100%;margin-left:0px;margin-top:2px;"/></a>
+                 <a href="https://www.agronielsen.com/blog/precision-y-calidad-de-los-datos-meteorologicos" target="_blank"><img class="responsive" src="{{url('css/appx/media/mkt/DirectoFinca2.jpg" alt="Meteorología" style="max-width: 100%;margin-left:0px;margin-top:2px;"/></a>
                 <!--<iframe width="450px" height="450px" src="https://www.youtube.com/embed/rjNqmfsJ1iE?autoplay=1&rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
                <!-- <p><h1>{{ trans('messages.modalcontentdemo') }}</h1></p>-->
             </div>
@@ -470,8 +470,8 @@
                      
 
                       
-                            <!--<img class="responsive" src="https://www.agronielsen.com/encampo/public/css/appx/media/mkt/ciclo-proceso.png" alt="Prosess" style="max-width:100%;padding-top: 22px;"/>-->
-                            <!--<img class="responsive" src="https://www.agronielsen.com/encampo/public/css/appx/media/mkt/ciclo-proceso.png" alt="Prosess" style="max-width:90%;"/>-->
+                            <!--<img class="responsive" src="{{url('css/appx/media/mkt/ciclo-proceso.png" alt="Prosess" style="max-width:100%;padding-top: 22px;"/>-->
+                            <!--<img class="responsive" src="{{url('css/appx/media/mkt/ciclo-proceso.png" alt="Prosess" style="max-width:90%;"/>-->
                       
                     </div>
                     <!-- /.prosess-feature-image -->
@@ -578,7 +578,7 @@
                  <div class="img-one" style="width: 100%;
     margin-left: 110px;
     margin-top: -103px;padding-top:0px;">
-                            <img class="responsive" style="width:109%;margin-left:-99px;" src="https://www.agronielsen.com/encampo/public/css/appx/media/meteo/meteoag.jpg" alt="Variables meteorológicas" />
+                            <img class="responsive" style="width:109%;margin-left:-99px;" src="{{url('css/appx/media/meteo/meteoag.jpg" alt="Variables meteorológicas" />
                  </div>
 
                     
@@ -880,7 +880,7 @@
                 <div class="col-lg-7">
                     <div class="prosess-feature-image wow fadeInLeft text-right">
                         <div class="img-one">
-                            <img class="" src="https://www.agronielsen.com/encampo/public/css/appx/media/faq/faq3.png" alt="Prosess" />
+                            <img class="" src="{{url('css/appx/media/faq/faq3.png" alt="Prosess" />
 
                             <div class="hotspot-wraper">
                                 <div class="pulse-box">
@@ -902,7 +902,7 @@
                         </div>
 
                         <div class="img-two fadeInDown">
-                            <img src="https://www.agronielsen.com/encampo/public/css/appx/media/faq/faq4.png" alt="Prosess" style="max-width: 130%;"/>
+                            <img src="{{url('css/appx/media/faq/faq4.png" alt="Prosess" style="max-width: 130%;"/>
                         </div>
                     </div>
                     <!-- /.prosess-feature-image -->
@@ -1155,11 +1155,11 @@
         <!-- /.container -->
 
         <div class="bg-animate-mob">
-            <img src="https://www.agronielsen.com/encampo/public/css/appx/media/download/m1.png" class="mbg1" alt="bg-mob" data-parallax='{"x" : 50, "y" : -100}' />
-            <img src="https://www.agronielsen.com/encampo/public/css/appx/media/download/m3.png" class="mbg2" alt="bg-mob" data-parallax='{"x" : 60, "y" : -120}' />
-            <img src="https://www.agronielsen.com/encampo/public/css/appx/media/download/m2.png" class="mbg3" alt="bg-mob" data-parallax='{"x" : 50, "y" : -100}' />
-            <img src="https://www.agronielsen.com/encampo/public/css/appx/media/download/m5.png" class="mbg4" alt="bg-mob" data-parallax='{"x" : 80, "y" : -160}' />
-            <img src="https://www.agronielsen.com/encampo/public/css/appx/media/download/m4.png" class="mbg5" alt="bg-mob" data-parallax='{"x" : 100, "y" : -200}' />
+            <img src="{{url('css/appx/media/download/m1.png" class="mbg1" alt="bg-mob" data-parallax='{"x" : 50, "y" : -100}' />
+            <img src="{{url('css/appx/media/download/m3.png" class="mbg2" alt="bg-mob" data-parallax='{"x" : 60, "y" : -120}' />
+            <img src="{{url('css/appx/media/download/m2.png" class="mbg3" alt="bg-mob" data-parallax='{"x" : 50, "y" : -100}' />
+            <img src="{{url('css/appx/media/download/m5.png" class="mbg4" alt="bg-mob" data-parallax='{"x" : 80, "y" : -160}' />
+            <img src="{{url('css/appx/media/download/m4.png" class="mbg5" alt="bg-mob" data-parallax='{"x" : 100, "y" : -200}' />
         </div>
     </section>
     <!-- /#download -->
@@ -1177,7 +1177,7 @@
                         <div class="testimonial-content-two text-center">
                             <div class="content">
                                 <div class="quote1">
-                                    <span class="quote"><img src="https://www.agronielsen.com/encampo/public/css/appx/media/banner/consolidado-visitas.png" alt="" /></span>
+                                    <span class="quote"><img src="{{url('css/appx/media/banner/consolidado-visitas.png" alt="" /></span>
                                 </div>
 
                                 <p>
@@ -1207,7 +1207,7 @@
                         <div class="testimonial-content-two text-center">
                             <div class="content">
                                 <div class="quote1">
-                                    <span class="quote"><img src="https://www.agronielsen.com/encampo/public/css/appx/media/banner/notificacion-email.png" alt="" /></span>
+                                    <span class="quote"><img src="{{url('css/appx/media/banner/notificacion-email.png" alt="" /></span>
                                 </div>
                                 <p>
                                     Ejemplo de Email de Notificación cada vez que se registra una nueva visita técnica. Se puede configurar para que el reporte llegue con copia al agricultor.
@@ -1236,7 +1236,7 @@
                         <div class="testimonial-content-two text-center">
                             <div class="content">
                                 <div class="quote1">
-                                    <span class="quote"><img src="https://www.agronielsen.com/encampo/public/css/appx/media/banner/panel-integrado.png" alt="" /></span>
+                                    <span class="quote"><img src="{{url('css/appx/media/banner/panel-integrado.png" alt="" /></span>
                                 </div>
                                 <p>
                                     Vista del Panel de Administración consolidando todos los agricultores de su base de datos.
@@ -1265,19 +1265,19 @@
                 <div class="slider-nav">
                     <div class="slide-item">
                         <div class="testi-avatar">
-                            <img src="https://www.agronielsen.com/encampo/public/css/appx/media/testimonial/testimonial1.jpg" alt="Tablero de Control" />
+                            <img src="{{url('css/appx/media/testimonial/testimonial1.jpg" alt="Tablero de Control" />
                         </div>
                     </div>
 
                     <div class="slide-item">
                         <div class="testi-avatar">
-                            <img src="https://www.agronielsen.com/encampo/public/css/appx/media/testimonial/testimonial1.jpg" alt="Tablero de Control" />
+                            <img src="{{url('css/appx/media/testimonial/testimonial1.jpg" alt="Tablero de Control" />
                         </div>
                     </div>
 
                     <div class="slide-item">
                         <div class="testi-avatar">
-                            <img src="https://www.agronielsen.com/encampo/public/css/appx/media/testimonial/testimonial1.jpg" alt="Tablero de Control" />
+                            <img src="{{url('css/appx/media/testimonial/testimonial1.jpg" alt="Tablero de Control" />
                         </div>
                     </div>
                 </div>
@@ -1314,7 +1314,7 @@
                     <div class="col-lg-4 col-md-7">
                         <div class="widget widget-about">
                             <div class="footer-logo">
-                                <img src="https://www.agronielsen.com/encampo/public/css/appx/assets/img/sticky-logo.png" alt="Agronielsen en Campo" />
+                                <img src="{{url('css/appx/assets/img/sticky-logo.png" alt="Agronielsen en Campo" />
                             </div>
 
                             <p class="content">
@@ -1439,25 +1439,25 @@
     
     <!-- Dependency Scripts -->
 
-    <script src="https://www.agronielsen.com/encampo/public/css/appx/dependencies/popper.js/popper.min.js"></script>
-    <script src="https://www.agronielsen.com/encampo/public/css/appx/dependencies/jquery/jquery.min.js"></script>
+    <script src="{{url('css/appx/dependencies/popper.js/popper.min.js')}}"></script>
+    <script src="{{url('css/appx/dependencies/jquery/jquery.min.js')}}"></script>
     <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
-    <script src="https://www.agronielsen.com/encampo/public/css/appx/dependencies/bootstrap/js/bootstrap.min.js"></script>
-      <script src="https://www.agronielsen.com/encampo/public/js/typewriter.js" type="text/javascript"></script>
-  <script src="https://www.agronielsen.com/encampo/public/js/typed.js" type="text/javascript"></script>
-    <script src="https://www.agronielsen.com/encampo/public/css/appx/dependencies/swiper/js/swiper.jquery.min.js"></script>
-    <script src="https://www.agronielsen.com/encampo/public/css/appx/dependencies/swiperRunner/js/swiperRunner.min.js"></script>
-    <script src="https://www.agronielsen.com/encampo/public/css/appx/assets/js/TweenMax.min.js"></script>
-    <script src="https://www.agronielsen.com/encampo/public/css/appx/dependencies/wavify/jquery.wavify.js"></script>
-    <script src="https://www.agronielsen.com/encampo/public/css/appx/dependencies/jquery.parallax-scroll/jquery.parallax-scroll.js"></script>
-    <script src="https://www.agronielsen.com/encampo/public/css/appx/dependencies/countUp.js/countUp.min.js"></script>
-    <script src="https://www.agronielsen.com/encampo/public/css/appx/dependencies/jquery.appear/jquery.appear.js"></script>
-    <script src="https://www.agronielsen.com/encampo/public/css/appx/dependencies/wow/js/wow.min.js"></script>
-    <script src="https://www.agronielsen.com/encampo/public/css/appx/dependencies/raindrops/js/raindrops.js"></script>
-    <script src="https://www.agronielsen.com/encampo/public/css/appx/dependencies/slick-carousel/js/slick.js"></script>
-    <script src="https://www.agronielsen.com/encampo/public/css/appx/dependencies/magnific-popup/js/jquery.magnific-popup.min.js"></script>
-    <script src="https://www.agronielsen.com/encampo/public/css/appx/dependencies/parallax/js/jquery.parallax.min.js"></script>
-    <!--<script src="https://www.agronielsen.com/encampo/public/css/appx/assets/js/SmoothScroll.min.js"></script>-->
+    <script src="{{url('css/appx/dependencies/bootstrap/js/bootstrap.min.js"></script>
+      <script src="{{url('js/typewriter.js" type="text/javascript"></script>
+  <script src="{{url('js/typed.js')}}" type="text/javascript"></script>
+    <script src="{{url('css/appx/dependencies/swiper/js/swiper.jquery.min.js')}}"></script>
+    <script src="{{url('css/appx/dependencies/swiperRunner/js/swiperRunner.min.js')}}"></script>
+    <script src="{{url('css/appx/assets/js/TweenMax.min.js')}}"></script>
+    <script src="{{url('css/appx/dependencies/wavify/jquery.wavify.js')}}"></script>
+    <script src="{{url('css/appx/dependencies/jquery.parallax-scroll/jquery.parallax-scroll.js')}})}}"></script>
+    <script src="{{url('css/appx/dependencies/countUp.js/countUp.min.js')}}"></script>
+    <script src="{{url('css/appx/dependencies/jquery.appear/jquery.appear.js')}}"></script>
+    <script src="{{url('css/appx/dependencies/wow/js/wow.min.js')}}"></script>
+    <script src="{{url('css/appx/dependencies/raindrops/js/raindrops.js')}}"></script>
+    <script src="{{url('css/appx/dependencies/slick-carousel/js/slick.js')}}"></script>
+    <script src="{{url('css/appx/dependencies/magnific-popup/js/jquery.magnific-popup.min.js')}}"></script>
+    <script src="{{url('css/appx/dependencies/parallax/js/jquery.parallax.min.js"></script>
+    <!--<script src="{{url('css/appx/assets/js/SmoothScroll.min.js')}}"></script>-->
 
      <script>
         $(document).ready(function () {
@@ -1512,7 +1512,7 @@
       
       
       xhr = new XMLHttpRequest();
-      xhr.open('GET', 'https://www.agronielsen.com/encampo/public/js/globe/population909500.json', true);
+      xhr.open('GET', '{{url('js/globe/population909500.json', true);
       xhr.onreadystatechange = function(e) {
         if (xhr.readyState === 4) {
           if (xhr.status === 200) {
@@ -1533,8 +1533,8 @@
 
   </script>
     <!-- Site Scripts -->
-    <script src="https://www.agronielsen.com/encampo/public/css/appx/assets/js/app.js"></script>
-    <!--<script src="https://www.agronielsen.com/encampo/public/js/openweathermapipdata.js"></script>-->
+    <script src="{{url('css/appx/assets/js/app.js"></script>
+    <!--<script src="{{url('js/openweathermapipdata.js"></script>-->
 
     <!-- Start of  Zendesk Widget script -->
   
@@ -1730,7 +1730,7 @@ fetch(`https://api.stormglass.io/v2/bio/point?lat=${lat}&lng=${lon}&params=${par
                 map: map,
                 //shape: shape,
                 title: "Aquí estoy!",
-                icon: "https://www.agronielsen.com/encampo/public/imagenes/maker-agronielsen.png",
+                icon: "{{url('imagenes/maker-agronielsen.png",
                 label: {
                     text: "Ubicación",
                     color: "#fff",
@@ -1858,7 +1858,7 @@ fetch(`https://api.stormglass.io/v2/bio/point?lat=${lat}&lng=${lon}&params=${par
                         background-image: linear-gradient(40deg, #76A82B 0%, #76A82B 100%);
                         overflow: hidden;
                         padding-top: 100px;
-                        /*background:url(https://www.agronielsen.com/encampo/public/imagenes/agct.jpg)*/
+                        /*background:url({{url('imagenes/agct.jpg)*/
         }
 
         .site-nav {
