@@ -578,7 +578,7 @@
                  <div class="img-one" style="width: 100%;
     margin-left: 110px;
     margin-top: -103px;padding-top:0px;">
-                            <img class="responsive" style="width:109%;margin-left:-99px;" src="{{url('css/appx/media/meteo/meteoag.jpg" alt="Variables meteorológicas" />
+                            <img class="responsive" style="width:109%;margin-left:-99px;" src="{{url('css/appx/media/meteo/meteoag.jpg')}}" alt="Variables meteorológicas" />
                  </div>
 
                     
@@ -880,7 +880,7 @@
                 <div class="col-lg-7">
                     <div class="prosess-feature-image wow fadeInLeft text-right">
                         <div class="img-one">
-                            <img class="" src="{{url('css/appx/media/faq/faq3.png" alt="Prosess" />
+                            <img class="" src="{{url('css/appx/media/faq/faq3.png')}}" alt="Prosess" />
 
                             <div class="hotspot-wraper">
                                 <div class="pulse-box">
@@ -902,7 +902,7 @@
                         </div>
 
                         <div class="img-two fadeInDown">
-                            <img src="{{url('css/appx/media/faq/faq4.png" alt="Prosess" style="max-width: 130%;"/>
+                            <img src="{{url('css/appx/media/faq/faq4.png')}}" alt="Prosess" style="max-width: 130%;"/>
                         </div>
                     </div>
                     <!-- /.prosess-feature-image -->
@@ -1155,11 +1155,11 @@
         <!-- /.container -->
 
         <div class="bg-animate-mob">
-            <img src="{{url('css/appx/media/download/m1.png" class="mbg1" alt="bg-mob" data-parallax='{"x" : 50, "y" : -100}' />
-            <img src="{{url('css/appx/media/download/m3.png" class="mbg2" alt="bg-mob" data-parallax='{"x" : 60, "y" : -120}' />
-            <img src="{{url('css/appx/media/download/m2.png" class="mbg3" alt="bg-mob" data-parallax='{"x" : 50, "y" : -100}' />
-            <img src="{{url('css/appx/media/download/m5.png" class="mbg4" alt="bg-mob" data-parallax='{"x" : 80, "y" : -160}' />
-            <img src="{{url('css/appx/media/download/m4.png" class="mbg5" alt="bg-mob" data-parallax='{"x" : 100, "y" : -200}' />
+            <img src="{{url('css/appx/media/download/m1.png')}}" class="mbg1" alt="bg-mob" data-parallax='{"x" : 50, "y" : -100}' />
+            <img src="{{url('css/appx/media/download/m3.png')}}" class="mbg2" alt="bg-mob" data-parallax='{"x" : 60, "y" : -120}' />
+            <img src="{{url('css/appx/media/download/m2.png')}}" class="mbg3" alt="bg-mob" data-parallax='{"x" : 50, "y" : -100}' />
+            <img src="{{url('css/appx/media/download/m5.png')}}" class="mbg4" alt="bg-mob" data-parallax='{"x" : 80, "y" : -160}' />
+            <img src="{{url('css/appx/media/download/m4.png')}}" class="mbg5" alt="bg-mob" data-parallax='{"x" : 100, "y" : -200}' />
         </div>
     </section>
     <!-- /#download -->
