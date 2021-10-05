@@ -1177,7 +1177,7 @@
                         <div class="testimonial-content-two text-center">
                             <div class="content">
                                 <div class="quote1">
-                                    <span class="quote"><img src="{{url('css/appx/media/banner/consolidado-visitas.png" alt="" /></span>
+                                    <span class="quote"><img src="{{url('css/appx/media/banner/consolidado-visitas.png')}}" alt="" /></span>
                                 </div>
 
                                 <p>
@@ -1207,7 +1207,7 @@
                         <div class="testimonial-content-two text-center">
                             <div class="content">
                                 <div class="quote1">
-                                    <span class="quote"><img src="{{url('css/appx/media/banner/notificacion-email.png" alt="" /></span>
+                                    <span class="quote"><img src="{{url('css/appx/media/banner/notificacion-email.png')}}" alt="" /></span>
                                 </div>
                                 <p>
                                     Ejemplo de Email de Notificación cada vez que se registra una nueva visita técnica. Se puede configurar para que el reporte llegue con copia al agricultor.
@@ -1236,7 +1236,7 @@
                         <div class="testimonial-content-two text-center">
                             <div class="content">
                                 <div class="quote1">
-                                    <span class="quote"><img src="{{url('css/appx/media/banner/panel-integrado.png" alt="" /></span>
+                                    <span class="quote"><img src="{{url('css/appx/media/banner/panel-integrado.png')}}" alt="" /></span>
                                 </div>
                                 <p>
                                     Vista del Panel de Administración consolidando todos los agricultores de su base de datos.
@@ -1265,19 +1265,19 @@
                 <div class="slider-nav">
                     <div class="slide-item">
                         <div class="testi-avatar">
-                            <img src="{{url('css/appx/media/testimonial/testimonial1.jpg" alt="Tablero de Control" />
+                            <img src="{{url('css/appx/media/testimonial/testimonial1.jpg')}}" alt="Tablero de Control" />
                         </div>
                     </div>
 
                     <div class="slide-item">
                         <div class="testi-avatar">
-                            <img src="{{url('css/appx/media/testimonial/testimonial1.jpg" alt="Tablero de Control" />
+                            <img src="{{url('css/appx/media/testimonial/testimonial1.jpg')}}" alt="Tablero de Control" />
                         </div>
                     </div>
 
                     <div class="slide-item">
                         <div class="testi-avatar">
-                            <img src="{{url('css/appx/media/testimonial/testimonial1.jpg" alt="Tablero de Control" />
+                            <img src="{{url('css/appx/media/testimonial/testimonial1.jpg')}}" alt="Tablero de Control" />
                         </div>
                     </div>
                 </div>
@@ -1314,7 +1314,7 @@
                     <div class="col-lg-4 col-md-7">
                         <div class="widget widget-about">
                             <div class="footer-logo">
-                                <img src="{{url('css/appx/assets/img/sticky-logo.png" alt="Agronielsen en Campo" />
+                                <img src="{{url('css/appx/assets/img/sticky-logo.png')}}" alt="Agronielsen en Campo" />
                             </div>
 
                             <p class="content">
@@ -1442,21 +1442,21 @@
     <script src="{{url('css/appx/dependencies/popper.js/popper.min.js')}}"></script>
     <script src="{{url('css/appx/dependencies/jquery/jquery.min.js')}}"></script>
     <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
-    <script src="{{url('css/appx/dependencies/bootstrap/js/bootstrap.min.js"></script>
-      <script src="{{url('js/typewriter.js" type="text/javascript"></script>
+    <script src="{{url('css/appx/dependencies/bootstrap/js/bootstrap.min.js')}}"></script>
+      <script src="{{url('js/typewriter.js')}}" type="text/javascript"></script>
   <script src="{{url('js/typed.js')}}" type="text/javascript"></script>
     <script src="{{url('css/appx/dependencies/swiper/js/swiper.jquery.min.js')}}"></script>
     <script src="{{url('css/appx/dependencies/swiperRunner/js/swiperRunner.min.js')}}"></script>
     <script src="{{url('css/appx/assets/js/TweenMax.min.js')}}"></script>
     <script src="{{url('css/appx/dependencies/wavify/jquery.wavify.js')}}"></script>
-    <script src="{{url('css/appx/dependencies/jquery.parallax-scroll/jquery.parallax-scroll.js')}})}}"></script>
+    <script src="{{url('css/appx/dependencies/jquery.parallax-scroll/jquery.parallax-scroll.js')}}"></script>
     <script src="{{url('css/appx/dependencies/countUp.js/countUp.min.js')}}"></script>
     <script src="{{url('css/appx/dependencies/jquery.appear/jquery.appear.js')}}"></script>
     <script src="{{url('css/appx/dependencies/wow/js/wow.min.js')}}"></script>
     <script src="{{url('css/appx/dependencies/raindrops/js/raindrops.js')}}"></script>
     <script src="{{url('css/appx/dependencies/slick-carousel/js/slick.js')}}"></script>
     <script src="{{url('css/appx/dependencies/magnific-popup/js/jquery.magnific-popup.min.js')}}"></script>
-    <script src="{{url('css/appx/dependencies/parallax/js/jquery.parallax.min.js"></script>
+    <script src="{{url('css/appx/dependencies/parallax/js/jquery.parallax.min.js')}}"></script>
     <!--<script src="{{url('css/appx/assets/js/SmoothScroll.min.js')}}"></script>-->
 
      <script>
