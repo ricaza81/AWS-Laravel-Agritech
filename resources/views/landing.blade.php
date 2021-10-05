@@ -1348,8 +1348,8 @@
 
                             <ul class="footer-menu">
                                 <li><a href="https://www.agronielsen.com/" target="_blank">Agronielsen</a></li>
-                                <li><a href="{{asset('visor')}}" target="_blank">Analítica de datos</a></li>
-                                <li><a href="{{asset('ventainformes')}}" target="_blank">Venta de Informes</a></li>
+                                <li><a href="{{url('visor')}}" target="_blank">Analítica de datos</a></li>
+                                <li><a href="{{url('ventainformes')}}" target="_blank">Venta de Informes</a></li>
                                 <!-- <li><a href="https://www.agronielsen.com/membresia-inteligencia-de-mercados-agricolas-colombia/?restricted=page" target="_blank">Membresía Inteligencia de Mercados</a></li>-->
                                 <!-- <li><a href="https://www.agronielsen.com/blog/abre-tu-cuenta-gratis/" target="_blank">Demo de tablero de Análisis</a></li>-->
                                 <!-- <li><a href="https://www.agronielsen.com/mineria" target="_blank">Míneria de Clientes</a></li>-->
@@ -1457,7 +1457,6 @@
     <script src="{{url('css/appx/dependencies/slick-carousel/js/slick.js')}}"></script>
     <script src="{{url('css/appx/dependencies/magnific-popup/js/jquery.magnific-popup.min.js')}}"></script>
     <script src="{{url('css/appx/dependencies/parallax/js/jquery.parallax.min.js')}}"></script>
-    <!--<script src="{{url('css/appx/assets/js/SmoothScroll.min.js')}}"></script>-->
 
      <script>
         $(document).ready(function () {
@@ -1474,9 +1473,9 @@
     });
 </script>
 
- <script type="text/javascript">
+ <script>
 
-    if(!Detector.webgl){
+  if(!Detector.webgl){
       Detector.addGetWebGLMessage();
     } else {
 
@@ -1512,7 +1511,7 @@
       
       
       xhr = new XMLHttpRequest();
-      xhr.open('GET', '{{url('js/globe/population909500.json', true);
+      xhr.open('GET', '{{url('js/globe/population909500.json')}}, true);
       xhr.onreadystatechange = function(e) {
         if (xhr.readyState === 4) {
           if (xhr.status === 200) {
@@ -1529,12 +1528,12 @@
         }
       };
       xhr.send(null);
-    }
+  
+    </script>
 
-  </script>
     <!-- Site Scripts -->
-    <script src="{{url('css/appx/assets/js/app.js"></script>
-    <!--<script src="{{url('js/openweathermapipdata.js"></script>-->
+    <script src="{{url('css/appx/assets/js/app.js')}}"></script>
+    <!--<script src="{{url('js/openweathermapipdata.js')}}"></script>-->
 
     <!-- Start of  Zendesk Widget script -->
   
