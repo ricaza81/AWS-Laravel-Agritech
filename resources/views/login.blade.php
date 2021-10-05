@@ -19,13 +19,13 @@
     <!-- Theme style -->
     <link rel="stylesheet" href="{{url('dist/css/AdminLTE.min.css')}}">
     <!-- iCheck -->
-    <link rel="stylesheet" href="https://www.agronielsen.com/encampo/public/plugins/iCheck/square/blue.css">
-    <link rel="stylesheet" href="https://www.agronielsen.com/encampo/public/css/sistemalaravel.css">
-    <link href="https://www.agronielsen.com/encampo/public/css/main.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://www.agronielsen.com/encampo/public/css/material/style.css">
-    <link rel="stylesheet" href="https://www.agronielsen.com/encampo/public/css/appx/dependencies/font-awesome/css/font-awesome.min.css" type="text/css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://www.agronielsen.com/encampo/public/css/pe-icon-7-stroke.css">
+    <link rel="stylesheet" href="{{url('plugins/iCheck/square/blue.css')}}">
+    <link rel="stylesheet" href="{{url('css/sistemalaravel.css')}}">
+    <link href="{{url('css/main.css')}}" rel="stylesheet">
+    <link rel="stylesheet" href="{{url('css/material/style.css')}}">
+    <link rel="stylesheet" href="{{url('css/appx/dependencies/font-awesome/css/font-awesome.min.css" type="text/css')}}">
+    <link rel="stylesheet" href="{{url('css/font-awesome.min.css')}}">
+    <link rel="stylesheet" href="{{url('css/pe-icon-7-stroke.css')}}">
     <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
   
   <link href='https://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
