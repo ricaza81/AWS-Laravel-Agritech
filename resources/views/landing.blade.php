@@ -1729,7 +1729,7 @@ fetch(`https://api.stormglass.io/v2/bio/point?lat=${lat}&lng=${lon}&params=${par
                 map: map,
                 //shape: shape,
                 title: "Aquí estoy!",
-                icon: "{{url('imagenes/maker-agronielsen.png",
+                icon: "{{url('imagenes/maker-agronielsen.png')}}",
                 label: {
                     text: "Ubicación",
                     color: "#fff",
@@ -1857,7 +1857,7 @@ fetch(`https://api.stormglass.io/v2/bio/point?lat=${lat}&lng=${lon}&params=${par
                         background-image: linear-gradient(40deg, #76A82B 0%, #76A82B 100%);
                         overflow: hidden;
                         padding-top: 100px;
-                        /*background:url({{url('imagenes/agct.jpg)*/
+                        /*background:url({{url('imagenes/agct.jpg')}}*/
         }
 
         .site-nav {
