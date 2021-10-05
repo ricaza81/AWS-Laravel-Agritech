@@ -313,14 +313,14 @@
                                                     <!--<p class="featureLinksDescription">{{trans('messages.recorrido')}}</p>-->
                                                 </span>
                                             </a>
-                                            <a class="featureLinksWrapper" href="{{asset('analiticacultivos')}}">
+                                            <a class="featureLinksWrapper" href="{{url('analiticacultivos')}}">
                                                 <span class="featureLinksIcon2 featureIconAllFeatures"></span>
                                                 <span class="featureLinksDetails2">
                                                     <h3 class="featureLinksTitle" style="width: 500px;">Analítica de Cultivos</h3>
                                                     <!--<p class="featureLinksDescription">{{trans('messages.recorrido')}}</p>-->
                                                 </span>
                                             </a>
-                                            <a class="featureLinksWrapper" href="{{asset('visor')}}">
+                                            <a class="featureLinksWrapper" href="{{url('visor')}}">
                                                 <span class="featureLinksIcon2 featureIconAllFeatures"></span>
                                                 <span class="featureLinksDetails2">
                                                     <h3 class="featureLinksTitle" style="width: 500px;">Visor Agronielsen</h3>
@@ -388,9 +388,9 @@
         <div class="modal-body">
             <div class="text-center">
 
-                <!--<a href="https://play.google.com/store/apps/details?id=io.ionic.agronielsenmeteo" target="_blank"><img class="responsive" src="{{url('css/appx/media/mkt/agronielsen-meteo-1.png" alt="Meteorología" style="max-width:100%;padding-top: 12px;margin-left: 0px"/></a>-->
+                <!--<a href="https://play.google.com/store/apps/details?id=io.ionic.agronielsenmeteo" target="_blank"><img class="responsive" src="{{url('css/appx/media/mkt/agronielsen-meteo-1.png')}}" alt="Meteorología" style="max-width:100%;padding-top: 12px;margin-left: 0px"/></a>-->
 
-                 <a href="https://www.agronielsen.com/blog/precision-y-calidad-de-los-datos-meteorologicos" target="_blank"><img class="responsive" src="{{url('css/appx/media/mkt/DirectoFinca2.jpg" alt="Meteorología" style="max-width: 100%;margin-left:0px;margin-top:2px;"/></a>
+                 <a href="https://www.agronielsen.com/blog/precision-y-calidad-de-los-datos-meteorologicos" target="_blank"><img class="responsive" src="{{url('css/appx/media/mkt/DirectoFinca2.jpg')}}" alt="Meteorología" style="max-width: 100%;margin-left:0px;margin-top:2px;"/></a>
                 <!--<iframe width="450px" height="450px" src="https://www.youtube.com/embed/rjNqmfsJ1iE?autoplay=1&rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
                <!-- <p><h1>{{ trans('messages.modalcontentdemo') }}</h1></p>-->
             </div>
@@ -470,8 +470,8 @@
                      
 
                       
-                            <!--<img class="responsive" src="{{url('css/appx/media/mkt/ciclo-proceso.png" alt="Prosess" style="max-width:100%;padding-top: 22px;"/>-->
-                            <!--<img class="responsive" src="{{url('css/appx/media/mkt/ciclo-proceso.png" alt="Prosess" style="max-width:90%;"/>-->
+                            <!--<img class="responsive" src="{{url('css/appx/media/mkt/ciclo-proceso.png')}}" alt="Prosess" style="max-width:100%;padding-top: 22px;"/>-->
+                            <!--<img class="responsive" src="{{url('css/appx/media/mkt/ciclo-proceso.png')}}" alt="Prosess" style="max-width:90%;"/>-->
                       
                     </div>
                     <!-- /.prosess-feature-image -->
