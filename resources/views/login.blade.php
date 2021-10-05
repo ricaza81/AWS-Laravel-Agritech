@@ -14,11 +14,10 @@
     <link rel="stylesheet" href="https://getbootstrap.com/docs/4.0/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="{{url('css/pe-icon-7-stroke.css')}}">
-    <link rel="stylesheet" href="https://www.agronielsen.com/encampo/public/css/pe-icon-7-stroke.css">
-    <link rel="stylesheet" href="https://www.agronielsen.com/encampo/public/css/material/css/ionicons.min.css">
-    <link rel="stylesheet" href="https://www.agronielsen.com/encampo/public/css/appx/dependencies/simple-line-icons/css/simple-line-icons.css" type="text/css">
+    <link rel="stylesheet" href="{{url('css/material/css/ionicons.min.css')}}">
+    <link rel="stylesheet" href="{{url('css/appx/dependencies/simple-line-icons/css/simple-line-icons.css')}}" type="text/css">
     <!-- Theme style -->
-    <link rel="stylesheet" href="https://www.agronielsen.com/encampo/public/dist/css/AdminLTE.min.css">
+    <link rel="stylesheet" href="{{url('dist/css/AdminLTE.min.css')}}">
     <!-- iCheck -->
     <link rel="stylesheet" href="https://www.agronielsen.com/encampo/public/plugins/iCheck/square/blue.css">
     <link rel="stylesheet" href="https://www.agronielsen.com/encampo/public/css/sistemalaravel.css">
