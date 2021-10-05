@@ -203,7 +203,7 @@
                 <div class="container">
                     <div class="header-inner clearfix">
                         <div class="site-logo">
-                            <a href="landing" class="main-logo"><img src="{{url('css/appx/assets/img/agronielsen.png" alt="Agronielsen en Campo" /></a>
+                            <a href="landing" class="main-logo"><img src="{{url('css/appx/assets/img/agronielsen.png')}}" alt="Agronielsen en Campo" /></a>
 
                             <!--<div class="col col-xl-3 col-lg-3 col-md-12 col-sm-12  sorting-item worlds family politics responsive-display-none" style="position: absolute;left: 0%;color: rgb(0, 0, 0);margin-top:41px;">
                             <label class="control-label" style="color:#fff">{{trans('messages.follower')}}</label>
