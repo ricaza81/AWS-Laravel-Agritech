@@ -10,7 +10,7 @@
     />
     <meta property="og:title" content="Agronielsen en Campo: Gestor de visitas técnicas" />
     <meta property="og:type" content="website" />
-    <meta property="og:image" content="https://www.agronielsen.com/encampo/public/css/appx/media/banner/encampoapp.png" />
+    <meta property="og:image" content="<?php echo e(url('css/appx/media/banner/encampoapp.png')); ?>" />
 
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-120906226-1"></script>
     <script>
@@ -23,47 +23,45 @@
         gtag("config", "UA-120906226-1");
     </script>
 
-         <script type="text/javascript" src="<?php echo e(asset('js/globe/third-party/Detector.js')); ?>"></script>
-  <script type="text/javascript" src="<?php echo e(asset('js/globe/third-party/three.min.js')); ?>"></script>
-  <script type="text/javascript" src="<?php echo e(asset('js/globe/third-party/Tween.js')); ?>"></script>
-  <script type="text/javascript" src="<?php echo e(asset('js/globe/third-party/globe.js')); ?>"></script>
+         <script type="text/javascript" src="<?php echo e(url('js/globe/third-party/Detector.js')); ?>"></script>
+  <script type="text/javascript" src="<?php echo e(url('js/globe/third-party/three.min.js')); ?>"></script>
+  <script type="text/javascript" src="<?php echo e(url('js/globe/third-party/Tween.js')); ?>"></script>
+  <script type="text/javascript" src="<?php echo e(url('js/globe/third-party/globe.js')); ?>"></script>
 
-    <link rel="author" href="https://www.agronielsen.com/encampo" />
-    <link rel="canonical" href="https://www.agronielsen.com/encampo" />
+    <link rel="author" href="https://www.agronielsen.com" />
+    <link rel="canonical" href="https://www.agronielsen.com" />
 
     <!-- FB Meta tags -->
 
     <link rel="stylesheet" href="https://getbootstrap.com/docs/4.0/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" type="text/css" href="<?php echo e(asset('css/olympus/app/css/fonts.min.css')); ?>" />
-    <link rel="stylesheet" href="<?php echo e(asset('css/appx/dependencies/font-awesome/css/font-awesome.min.css')); ?>" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="<?php echo e(url('css/olympus/app/css/fonts.min.css')); ?>" />
+    <link rel="stylesheet" href="<?php echo e(url('css/appx/dependencies/font-awesome/css/font-awesome.min.css')); ?>" type="text/css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
-    <link rel="stylesheet" href="<?php echo e(asset('css/pe-icon-7-stroke.css')); ?>" />
+    <link rel="stylesheet" href="<?php echo e(url('css/pe-icon-7-stroke.css')); ?>" />
 
-    <link rel="stylesheet" href="<?php echo e(asset('css/appx/dependencies/components-elegant-icons/css/elegant-icons.min.css')); ?>" type="text/css" />
-    <link rel="stylesheet" href="<?php echo e(asset('css/appx/dependencies/swiper/css/swiper.min.css')); ?>" type="text/css" />
-    <link rel="stylesheet" href="<?php echo e(asset('css/appx/dependencies/simple-line-icons/css/simple-line-icons.css')); ?>" type="text/css" />
-    <link rel="stylesheet" href="<?php echo e(asset('css/appx/dependencies/wow/css/animate.css')); ?>" type="text/css" />
-    <link rel="stylesheet" href="<?php echo e(asset('css/appx/dependencies/slick-carousel/css/slick.css')); ?>" type="text/css" />
-    <link rel="stylesheet" href="<?php echo e(asset('css/appx/dependencies/magnific-popup/css/magnific-popup.css')); ?>" type="text/css" />
-    <link rel="stylesheet" href="<?php echo e(asset('/css/sistemalaravel.css')); ?>">
+    <link rel="stylesheet" href="<?php echo e(url('css/appx/dependencies/components-elegant-icons/css/elegant-icons.min.css')); ?>" type="text/css" />
+    <link rel="stylesheet" href="<?php echo e(url('css/appx/dependencies/swiper/css/swiper.min.css')); ?>" type="text/css" />
+    <link rel="stylesheet" href="<?php echo e(url('css/appx/dependencies/simple-line-icons/css/simple-line-icons.css')); ?>" type="text/css" />
+    <link rel="stylesheet" href="<?php echo e(url('css/appx/dependencies/wow/css/animate.css')); ?>" type="text/css" />
+    <link rel="stylesheet" href="<?php echo e(url('css/appx/dependencies/slick-carousel/css/slick.css')); ?>" type="text/css" />
+    <link rel="stylesheet" href="<?php echo e(url('css/appx/dependencies/magnific-popup/css/magnific-popup.css')); ?>" type="text/css" />
+    <link rel="stylesheet" href="<?php echo e(url('/css/sistemalaravel.css')); ?>">
 
-   <!-- <link rel="stylesheet" href="http://www.aplicatics.co/empresas/public/dist/css/AdminLTE.min.css"> -->
+    <link rel="stylesheet" href="<?php echo e(url('dist/css/AdminLTE.min.css')); ?>">
 
-    <link rel="stylesheet" href="<?php echo e(asset('dist/css/AdminLTE.min.css')); ?>">
-
-    <link rel="icon" type="image/png" sizes="32x32" href="<?php echo e(asset('css/appx/assets/img/favicon/faviconnielsen.png')); ?>" />
+    <link rel="icon" type="image/png" sizes="32x32" href="<?php echo e(url('css/appx/assets/img/favicon/faviconnielsen.png')); ?>" />
 
     <!--<link rel="manifest" href="/site.webmanifest">-->
-    <link rel="mask-icon" href="<?php echo e(asset('css/appx/assets/img/favicon/safari-pinned-tab.svg')); ?>" color="#454be5" />
+    <link rel="mask-icon" href="<?php echo e(url('css/appx/assets/img/favicon/safari-pinned-tab.svg')); ?>" color="#454be5" />
 
     <!-- Dependency Styles -->
 
     <!-- Site Stylesheet -->
-    <link rel="stylesheet" href="<?php echo e(asset('css/appx/assets/css/app.css')); ?>" type="text/css" />
-    <link rel="stylesheet" type="text/css" href="<?php echo e(asset('css/olympus/app/Bootstrap/dist/css/bootstrap-reboot.css')); ?>" />
-    <link rel="stylesheet" type="text/css" href="<?php echo e(asset('css/olympus/app/Bootstrap/dist/css/bootstrap.css')); ?>" />
-    <link rel="stylesheet" type="text/css" href="<?php echo e(asset('css/olympus/app/Bootstrap/dist/css/bootstrap-grid.css')); ?>" />
-    <link rel="stylesheet" type="text/css" href="<?php echo e(asset('css/olympus/app/css/main.min.css')); ?>" />
+    <link rel="stylesheet" href="<?php echo e(url('css/appx/assets/css/app.css')); ?>" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="<?php echo e(url('css/olympus/app/Bootstrap/dist/css/bootstrap-reboot.css')); ?>" />
+    <link rel="stylesheet" type="text/css" href="<?php echo e(url('css/olympus/app/Bootstrap/dist/css/bootstrap.css')); ?>" />
+    <link rel="stylesheet" type="text/css" href="<?php echo e(url('css/olympus/app/Bootstrap/dist/css/bootstrap-grid.css')); ?>" />
+    <link rel="stylesheet" type="text/css" href="<?php echo e(url('css/olympus/app/css/main.min.css')); ?>" />
 
     <!-- Google Web Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,300,400,500,600,700%7CPoppins:100,200,300,400,500,600,700,800,900" rel="stylesheet" />
@@ -207,7 +205,7 @@
                 <div class="container">
                     <div class="header-inner clearfix">
                         <div class="site-logo">
-                            <a href="landing" class="main-logo"><img src="https://www.agronielsen.com/encampo/public/css/appx/assets/img/agronielsen.png" alt="Agronielsen en Campo" /></a>
+                            <a href="landing" class="main-logo"><img src="<?php echo e(url('css/appx/assets/img/agronielsen.png')); ?>" alt="Agronielsen en Campo" /></a>
 
                             <!--<div class="col col-xl-3 col-lg-3 col-md-12 col-sm-12  sorting-item worlds family politics responsive-display-none" style="position: absolute;left: 0%;color: rgb(0, 0, 0);margin-top:41px;">
                             <label class="control-label" style="color:#fff"><?php echo e(trans('messages.follower')); ?></label>
@@ -317,14 +315,14 @@
                                                     <!--<p class="featureLinksDescription"><?php echo e(trans('messages.recorrido')); ?></p>-->
                                                 </span>
                                             </a>
-                                            <a class="featureLinksWrapper" href="<?php echo e(asset('analiticacultivos')); ?>">
+                                            <a class="featureLinksWrapper" href="<?php echo e(url('analiticacultivos')); ?>">
                                                 <span class="featureLinksIcon2 featureIconAllFeatures"></span>
                                                 <span class="featureLinksDetails2">
                                                     <h3 class="featureLinksTitle" style="width: 500px;">Analítica de Cultivos</h3>
                                                     <!--<p class="featureLinksDescription"><?php echo e(trans('messages.recorrido')); ?></p>-->
                                                 </span>
                                             </a>
-                                            <a class="featureLinksWrapper" href="<?php echo e(asset('visor')); ?>">
+                                            <a class="featureLinksWrapper" href="<?php echo e(url('visor')); ?>">
                                                 <span class="featureLinksIcon2 featureIconAllFeatures"></span>
                                                 <span class="featureLinksDetails2">
                                                     <h3 class="featureLinksTitle" style="width: 500px;">Visor Agronielsen</h3>
@@ -392,9 +390,9 @@
         <div class="modal-body">
             <div class="text-center">
 
-                <!--<a href="https://play.google.com/store/apps/details?id=io.ionic.agronielsenmeteo" target="_blank"><img class="responsive" src="https://www.agronielsen.com/encampo/public/css/appx/media/mkt/agronielsen-meteo-1.png" alt="Meteorología" style="max-width:100%;padding-top: 12px;margin-left: 0px"/></a>-->
+                <!--<a href="https://play.google.com/store/apps/details?id=io.ionic.agronielsenmeteo" target="_blank"><img class="responsive" src="<?php echo e(url('css/appx/media/mkt/agronielsen-meteo-1.png')); ?>" alt="Meteorología" style="max-width:100%;padding-top: 12px;margin-left: 0px"/></a>-->
 
-                 <a href="https://www.agronielsen.com/blog/precision-y-calidad-de-los-datos-meteorologicos" target="_blank"><img class="responsive" src="https://www.agronielsen.com/encampo/public/css/appx/media/mkt/DirectoFinca2.jpg" alt="Meteorología" style="max-width: 100%;margin-left:0px;margin-top:2px;"/></a>
+                 <a href="https://www.agronielsen.com/blog/precision-y-calidad-de-los-datos-meteorologicos" target="_blank"><img class="responsive" src="<?php echo e(url('css/appx/media/mkt/DirectoFinca2.jpg')); ?>" alt="Meteorología" style="max-width: 100%;margin-left:0px;margin-top:2px;"/></a>
                 <!--<iframe width="450px" height="450px" src="https://www.youtube.com/embed/rjNqmfsJ1iE?autoplay=1&rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
                <!-- <p><h1><?php echo e(trans('messages.modalcontentdemo')); ?></h1></p>-->
             </div>
@@ -474,8 +472,8 @@
                      
 
                       
-                            <!--<img class="responsive" src="https://www.agronielsen.com/encampo/public/css/appx/media/mkt/ciclo-proceso.png" alt="Prosess" style="max-width:100%;padding-top: 22px;"/>-->
-                            <!--<img class="responsive" src="https://www.agronielsen.com/encampo/public/css/appx/media/mkt/ciclo-proceso.png" alt="Prosess" style="max-width:90%;"/>-->
+                            <!--<img class="responsive" src="<?php echo e(url('css/appx/media/mkt/ciclo-proceso.png')); ?>" alt="Prosess" style="max-width:100%;padding-top: 22px;"/>-->
+                            <!--<img class="responsive" src="<?php echo e(url('css/appx/media/mkt/ciclo-proceso.png')); ?>" alt="Prosess" style="max-width:90%;"/>-->
                       
                     </div>
                     <!-- /.prosess-feature-image -->
@@ -582,7 +580,7 @@
                  <div class="img-one" style="width: 100%;
     margin-left: 110px;
     margin-top: -103px;padding-top:0px;">
-                            <img class="responsive" style="width:109%;margin-left:-99px;" src="https://www.agronielsen.com/encampo/public/css/appx/media/meteo/meteoag.jpg" alt="Variables meteorológicas" />
+                            <img class="responsive" style="width:109%;margin-left:-99px;" src="<?php echo e(url('css/appx/media/meteo/meteoag.jpg')); ?>" alt="Variables meteorológicas" />
                  </div>
 
                     
@@ -889,7 +887,7 @@
                 <div class="col-lg-7">
                     <div class="prosess-feature-image wow fadeInLeft text-right">
                         <div class="img-one">
-                            <img class="" src="https://www.agronielsen.com/encampo/public/css/appx/media/faq/faq3.png" alt="Prosess" />
+                            <img class="" src="<?php echo e(url('css/appx/media/faq/faq3.png')); ?>" alt="Prosess" />
 
                             <div class="hotspot-wraper">
                                 <div class="pulse-box">
@@ -911,7 +909,7 @@
                         </div>
 
                         <div class="img-two fadeInDown">
-                            <img src="https://www.agronielsen.com/encampo/public/css/appx/media/faq/faq4.png" alt="Prosess" style="max-width: 130%;"/>
+                            <img src="<?php echo e(url('css/appx/media/faq/faq4.png')); ?>" alt="Prosess" style="max-width: 130%;"/>
                         </div>
                     </div>
                     <!-- /.prosess-feature-image -->
@@ -1177,11 +1175,11 @@
         <!-- /.container -->
 
         <div class="bg-animate-mob">
-            <img src="https://www.agronielsen.com/encampo/public/css/appx/media/download/m1.png" class="mbg1" alt="bg-mob" data-parallax='{"x" : 50, "y" : -100}' />
-            <img src="https://www.agronielsen.com/encampo/public/css/appx/media/download/m3.png" class="mbg2" alt="bg-mob" data-parallax='{"x" : 60, "y" : -120}' />
-            <img src="https://www.agronielsen.com/encampo/public/css/appx/media/download/m2.png" class="mbg3" alt="bg-mob" data-parallax='{"x" : 50, "y" : -100}' />
-            <img src="https://www.agronielsen.com/encampo/public/css/appx/media/download/m5.png" class="mbg4" alt="bg-mob" data-parallax='{"x" : 80, "y" : -160}' />
-            <img src="https://www.agronielsen.com/encampo/public/css/appx/media/download/m4.png" class="mbg5" alt="bg-mob" data-parallax='{"x" : 100, "y" : -200}' />
+            <img src="<?php echo e(url('css/appx/media/download/m1.png')); ?>" class="mbg1" alt="bg-mob" data-parallax='{"x" : 50, "y" : -100}' />
+            <img src="<?php echo e(url('css/appx/media/download/m3.png')); ?>" class="mbg2" alt="bg-mob" data-parallax='{"x" : 60, "y" : -120}' />
+            <img src="<?php echo e(url('css/appx/media/download/m2.png')); ?>" class="mbg3" alt="bg-mob" data-parallax='{"x" : 50, "y" : -100}' />
+            <img src="<?php echo e(url('css/appx/media/download/m5.png')); ?>" class="mbg4" alt="bg-mob" data-parallax='{"x" : 80, "y" : -160}' />
+            <img src="<?php echo e(url('css/appx/media/download/m4.png')); ?>" class="mbg5" alt="bg-mob" data-parallax='{"x" : 100, "y" : -200}' />
         </div>
     </section>
     <!-- /#download -->
@@ -1199,7 +1197,7 @@
                         <div class="testimonial-content-two text-center">
                             <div class="content">
                                 <div class="quote1">
-                                    <span class="quote"><img src="https://www.agronielsen.com/encampo/public/css/appx/media/banner/consolidado-visitas.png" alt="" /></span>
+                                    <span class="quote"><img src="<?php echo e(url('css/appx/media/banner/consolidado-visitas.png')); ?>" alt="" /></span>
                                 </div>
 
                                 <p>
@@ -1229,7 +1227,7 @@
                         <div class="testimonial-content-two text-center">
                             <div class="content">
                                 <div class="quote1">
-                                    <span class="quote"><img src="https://www.agronielsen.com/encampo/public/css/appx/media/banner/notificacion-email.png" alt="" /></span>
+                                    <span class="quote"><img src="<?php echo e(url('css/appx/media/banner/notificacion-email.png')); ?>" alt="" /></span>
                                 </div>
                                 <p>
                                     Ejemplo de Email de Notificación cada vez que se registra una nueva visita técnica. Se puede configurar para que el reporte llegue con copia al agricultor.
@@ -1258,7 +1256,7 @@
                         <div class="testimonial-content-two text-center">
                             <div class="content">
                                 <div class="quote1">
-                                    <span class="quote"><img src="https://www.agronielsen.com/encampo/public/css/appx/media/banner/panel-integrado.png" alt="" /></span>
+                                    <span class="quote"><img src="<?php echo e(url('css/appx/media/banner/panel-integrado.png')); ?>" alt="" /></span>
                                 </div>
                                 <p>
                                     Vista del Panel de Administración consolidando todos los agricultores de su base de datos.
@@ -1287,19 +1285,19 @@
                 <div class="slider-nav">
                     <div class="slide-item">
                         <div class="testi-avatar">
-                            <img src="https://www.agronielsen.com/encampo/public/css/appx/media/testimonial/testimonial1.jpg" alt="Tablero de Control" />
+                            <img src="<?php echo e(url('css/appx/media/testimonial/testimonial1.jpg')); ?>" alt="Tablero de Control" />
                         </div>
                     </div>
 
                     <div class="slide-item">
                         <div class="testi-avatar">
-                            <img src="https://www.agronielsen.com/encampo/public/css/appx/media/testimonial/testimonial1.jpg" alt="Tablero de Control" />
+                            <img src="<?php echo e(url('css/appx/media/testimonial/testimonial1.jpg')); ?>" alt="Tablero de Control" />
                         </div>
                     </div>
 
                     <div class="slide-item">
                         <div class="testi-avatar">
-                            <img src="https://www.agronielsen.com/encampo/public/css/appx/media/testimonial/testimonial1.jpg" alt="Tablero de Control" />
+                            <img src="<?php echo e(url('css/appx/media/testimonial/testimonial1.jpg')); ?>" alt="Tablero de Control" />
                         </div>
                     </div>
                 </div>
@@ -1336,7 +1334,7 @@
                     <div class="col-lg-4 col-md-7">
                         <div class="widget widget-about">
                             <div class="footer-logo">
-                                <img src="https://www.agronielsen.com/encampo/public/css/appx/assets/img/sticky-logo.png" alt="Agronielsen en Campo" />
+                                <img src="<?php echo e(url('css/appx/assets/img/sticky-logo.png')); ?>" alt="Agronielsen en Campo" />
                             </div>
 
                             <p class="content">
@@ -1370,8 +1368,8 @@
 
                             <ul class="footer-menu">
                                 <li><a href="https://www.agronielsen.com/" target="_blank">Agronielsen</a></li>
-                                <li><a href="<?php echo e(asset('visor')); ?>" target="_blank">Analítica de datos</a></li>
-                                <li><a href="<?php echo e(asset('ventainformes')); ?>" target="_blank">Venta de Informes</a></li>
+                                <li><a href="<?php echo e(url('visor')); ?>" target="_blank">Analítica de datos</a></li>
+                                <li><a href="<?php echo e(url('ventainformes')); ?>" target="_blank">Venta de Informes</a></li>
                                 <!-- <li><a href="https://www.agronielsen.com/membresia-inteligencia-de-mercados-agricolas-colombia/?restricted=page" target="_blank">Membresía Inteligencia de Mercados</a></li>-->
                                 <!-- <li><a href="https://www.agronielsen.com/blog/abre-tu-cuenta-gratis/" target="_blank">Demo de tablero de Análisis</a></li>-->
                                 <!-- <li><a href="https://www.agronielsen.com/mineria" target="_blank">Míneria de Clientes</a></li>-->
@@ -1461,25 +1459,24 @@
     
     <!-- Dependency Scripts -->
 
-    <script src="https://www.agronielsen.com/encampo/public/css/appx/dependencies/popper.js/popper.min.js"></script>
-    <script src="https://www.agronielsen.com/encampo/public/css/appx/dependencies/jquery/jquery.min.js"></script>
+    <script src="<?php echo e(url('css/appx/dependencies/popper.js/popper.min.js')); ?>"></script>
+    <script src="<?php echo e(url('css/appx/dependencies/jquery/jquery.min.js')); ?>"></script>
     <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
-    <script src="https://www.agronielsen.com/encampo/public/css/appx/dependencies/bootstrap/js/bootstrap.min.js"></script>
-      <script src="https://www.agronielsen.com/encampo/public/js/typewriter.js" type="text/javascript"></script>
-  <script src="https://www.agronielsen.com/encampo/public/js/typed.js" type="text/javascript"></script>
-    <script src="https://www.agronielsen.com/encampo/public/css/appx/dependencies/swiper/js/swiper.jquery.min.js"></script>
-    <script src="https://www.agronielsen.com/encampo/public/css/appx/dependencies/swiperRunner/js/swiperRunner.min.js"></script>
-    <script src="https://www.agronielsen.com/encampo/public/css/appx/assets/js/TweenMax.min.js"></script>
-    <script src="https://www.agronielsen.com/encampo/public/css/appx/dependencies/wavify/jquery.wavify.js"></script>
-    <script src="https://www.agronielsen.com/encampo/public/css/appx/dependencies/jquery.parallax-scroll/jquery.parallax-scroll.js"></script>
-    <script src="https://www.agronielsen.com/encampo/public/css/appx/dependencies/countUp.js/countUp.min.js"></script>
-    <script src="https://www.agronielsen.com/encampo/public/css/appx/dependencies/jquery.appear/jquery.appear.js"></script>
-    <script src="https://www.agronielsen.com/encampo/public/css/appx/dependencies/wow/js/wow.min.js"></script>
-    <script src="https://www.agronielsen.com/encampo/public/css/appx/dependencies/raindrops/js/raindrops.js"></script>
-    <script src="https://www.agronielsen.com/encampo/public/css/appx/dependencies/slick-carousel/js/slick.js"></script>
-    <script src="https://www.agronielsen.com/encampo/public/css/appx/dependencies/magnific-popup/js/jquery.magnific-popup.min.js"></script>
-    <script src="https://www.agronielsen.com/encampo/public/css/appx/dependencies/parallax/js/jquery.parallax.min.js"></script>
-    <!--<script src="https://www.agronielsen.com/encampo/public/css/appx/assets/js/SmoothScroll.min.js"></script>-->
+    <script src="<?php echo e(url('css/appx/dependencies/bootstrap/js/bootstrap.min.js')); ?>"></script>
+      <script src="<?php echo e(url('js/typewriter.js')); ?>" type="text/javascript"></script>
+  <script src="<?php echo e(url('js/typed.js')); ?>" type="text/javascript"></script>
+    <script src="<?php echo e(url('css/appx/dependencies/swiper/js/swiper.jquery.min.js')); ?>"></script>
+    <script src="<?php echo e(url('css/appx/dependencies/swiperRunner/js/swiperRunner.min.js')); ?>"></script>
+    <script src="<?php echo e(url('css/appx/assets/js/TweenMax.min.js')); ?>"></script>
+    <script src="<?php echo e(url('css/appx/dependencies/wavify/jquery.wavify.js')); ?>"></script>
+    <script src="<?php echo e(url('css/appx/dependencies/jquery.parallax-scroll/jquery.parallax-scroll.js')); ?>"></script>
+    <script src="<?php echo e(url('css/appx/dependencies/countUp.js/countUp.min.js')); ?>"></script>
+    <script src="<?php echo e(url('css/appx/dependencies/jquery.appear/jquery.appear.js')); ?>"></script>
+    <script src="<?php echo e(url('css/appx/dependencies/wow/js/wow.min.js')); ?>"></script>
+    <script src="<?php echo e(url('css/appx/dependencies/raindrops/js/raindrops.js')); ?>"></script>
+    <script src="<?php echo e(url('css/appx/dependencies/slick-carousel/js/slick.js')); ?>"></script>
+    <script src="<?php echo e(url('css/appx/dependencies/magnific-popup/js/jquery.magnific-popup.min.js')); ?>"></script>
+    <script src="<?php echo e(url('css/appx/dependencies/parallax/js/jquery.parallax.min.js')); ?>"></script>
 
      <script>
         $(document).ready(function () {
@@ -1496,9 +1493,9 @@
     });
 </script>
 
- <script type="text/javascript">
+ <script>
 
-    if(!Detector.webgl){
+  if(!Detector.webgl){
       Detector.addGetWebGLMessage();
     } else {
 
@@ -1534,7 +1531,7 @@
       
       
       xhr = new XMLHttpRequest();
-      xhr.open('GET', 'https://www.agronielsen.com/encampo/public/js/globe/population909500.json', true);
+      xhr.open('GET', '<?php echo e(url('js/globe/population909500.json, true')); ?>;
       xhr.onreadystatechange = function(e) {
         if (xhr.readyState === 4) {
           if (xhr.status === 200) {
@@ -1551,12 +1548,12 @@
         }
       };
       xhr.send(null);
-    }
+  
+    </script>
 
-  </script>
     <!-- Site Scripts -->
-    <script src="https://www.agronielsen.com/encampo/public/css/appx/assets/js/app.js"></script>
-    <!--<script src="https://www.agronielsen.com/encampo/public/js/openweathermapipdata.js"></script>-->
+    <script src="<?php echo e(url('css/appx/assets/js/app.js')); ?>"></script>
+    <!--<script src="<?php echo e(url('js/openweathermapipdata.js')); ?>"></script>-->
 
     <!-- Start of  Zendesk Widget script -->
   
@@ -1752,7 +1749,7 @@ fetch(`https://api.stormglass.io/v2/bio/point?lat=${lat}&lng=${lon}&params=${par
                 map: map,
                 //shape: shape,
                 title: "Aquí estoy!",
-                icon: "https://www.agronielsen.com/encampo/public/imagenes/maker-agronielsen.png",
+                icon: "<?php echo e(url('imagenes/maker-agronielsen.png')); ?>",
                 label: {
                     text: "Ubicación",
                     color: "#fff",
@@ -1880,7 +1877,7 @@ fetch(`https://api.stormglass.io/v2/bio/point?lat=${lat}&lng=${lon}&params=${par
                         background-image: linear-gradient(40deg, #76A82B 0%, #76A82B 100%);
                         overflow: hidden;
                         padding-top: 100px;
-                        /*background:url(https://www.agronielsen.com/encampo/public/imagenes/agct.jpg)*/
+                        /*background:url(<?php echo e(url('imagenes/agct.jpg')); ?>*/
         }
 
         .site-nav {

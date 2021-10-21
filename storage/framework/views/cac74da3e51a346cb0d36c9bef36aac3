@@ -14,19 +14,18 @@
     <link rel="stylesheet" href="https://getbootstrap.com/docs/4.0/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="<?php echo e(url('css/pe-icon-7-stroke.css')); ?>">
-    <link rel="stylesheet" href="https://www.agronielsen.com/encampo/public/css/pe-icon-7-stroke.css">
-    <link rel="stylesheet" href="https://www.agronielsen.com/encampo/public/css/material/css/ionicons.min.css">
-    <link rel="stylesheet" href="https://www.agronielsen.com/encampo/public/css/appx/dependencies/simple-line-icons/css/simple-line-icons.css" type="text/css">
+    <link rel="stylesheet" href="<?php echo e(url('css/material/css/ionicons.min.css')); ?>">
+    <link rel="stylesheet" href="<?php echo e(url('css/appx/dependencies/simple-line-icons/css/simple-line-icons.css')); ?>" type="text/css">
     <!-- Theme style -->
-    <link rel="stylesheet" href="https://www.agronielsen.com/encampo/public/dist/css/AdminLTE.min.css">
+    <link rel="stylesheet" href="<?php echo e(url('dist/css/AdminLTE.min.css')); ?>">
     <!-- iCheck -->
-    <link rel="stylesheet" href="https://www.agronielsen.com/encampo/public/plugins/iCheck/square/blue.css">
-    <link rel="stylesheet" href="https://www.agronielsen.com/encampo/public/css/sistemalaravel.css">
-    <link href="https://www.agronielsen.com/encampo/public/css/main.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://www.agronielsen.com/encampo/public/css/material/style.css">
-    <link rel="stylesheet" href="https://www.agronielsen.com/encampo/public/css/appx/dependencies/font-awesome/css/font-awesome.min.css" type="text/css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://www.agronielsen.com/encampo/public/css/pe-icon-7-stroke.css">
+    <link rel="stylesheet" href="<?php echo e(url('plugins/iCheck/square/blue.css')); ?>">
+    <link rel="stylesheet" href="<?php echo e(url('css/sistemalaravel.css')); ?>">
+    <link href="<?php echo e(url('css/main.css')); ?>" rel="stylesheet">
+    <link rel="stylesheet" href="<?php echo e(url('css/material/style.css')); ?>">
+    <link rel="stylesheet" href="<?php echo e(url('css/appx/dependencies/font-awesome/css/font-awesome.min.css" type="text/css')); ?>">
+    <link rel="stylesheet" href="<?php echo e(url('css/font-awesome.min.css')); ?>">
+    <link rel="stylesheet" href="<?php echo e(url('css/pe-icon-7-stroke.css')); ?>">
     <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
   
   <link href='https://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
