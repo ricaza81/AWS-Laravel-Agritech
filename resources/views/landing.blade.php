@@ -430,7 +430,7 @@
     cursor: auto;">
                         <div id="info">
     <strong>
-        <a href="http://www.chromeexperiments.com/globe"></a></strong> <span class="bull">&bull;</span><span class="bull">&bull;</span><a href="http://sedac.ciesin.columbia.edu/gpw/"></a>
+        <a href="https://www.chromeexperiments.com/globe"></a></strong> <span class="bull">&bull;</span><span class="bull">&bull;</span><a href="http://sedac.ciesin.columbia.edu/gpw/"></a>
   </div>
 
   <div id="currentInfo">
@@ -1511,7 +1511,7 @@
       
       
       xhr = new XMLHttpRequest();
-      xhr.open('GET', '{{url('js/globe/population909500.json, true')}};
+      xhr.open('GET', './js/globe/population909500.json', true);
       xhr.onreadystatechange = function(e) {
         if (xhr.readyState === 4) {
           if (xhr.status === 200) {
@@ -1528,7 +1528,7 @@
         }
       };
       xhr.send(null);
-  
+  }
     </script>
 
     <!-- Site Scripts -->
