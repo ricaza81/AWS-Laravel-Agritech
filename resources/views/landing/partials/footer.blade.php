@@ -20,3 +20,4 @@
     <script src="{{url('css/appx/dependencies/parallax/js/jquery.parallax.min.js')}}"></script>
   <script src="{{url('css/appx/assets/js/SmoothScroll.min.js')}}"></script>
      <script src="{{url('css/appx/assets/js/app.js')}}"></script>
+      <script src="{{url('plugins/fastclick/fastclick.js')}}"></script>

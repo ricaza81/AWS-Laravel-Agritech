@@ -26,10 +26,10 @@
         gtag("config", "UA-120906226-1");
     </script>
 
-      <script type="text/javascript" src="{{asset('js/globe/third-party/Detector.js')}}"></script>
-  <script type="text/javascript" src="{{asset('js/globe/third-party/three.min.js')}}"></script>
-  <script type="text/javascript" src="{{asset('js/globe/third-party/Tween.js')}}"></script>
-  <script type="text/javascript" src="{{asset('js/globe/third-party/globe.js')}}"></script>
+      <script type="text/javascript" src="<?php echo e(asset('js/globe/third-party/Detector.js')); ?>"></script>
+  <script type="text/javascript" src="<?php echo e(asset('js/globe/third-party/three.min.js')); ?>"></script>
+  <script type="text/javascript" src="<?php echo e(asset('js/globe/third-party/Tween.js')); ?>"></script>
+  <script type="text/javascript" src="<?php echo e(asset('js/globe/third-party/globe.js')); ?>"></script>
 
     <link rel="author" href="https://www.agronielsen.com/encampo" />
     <link rel="canonical" href="https://www.agronielsen.com/encampo" />
@@ -37,37 +37,37 @@
     <!-- FB Meta tags -->
 
     <link rel="stylesheet" href="https://getbootstrap.com/docs/4.0/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" type="text/css" href="{{asset('css/olympus/app/css/fonts.min.css')}}" />
-    <link rel="stylesheet" href="{{asset('css/appx/dependencies/font-awesome/css/font-awesome.min.css')}}" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="<?php echo e(asset('css/olympus/app/css/fonts.min.css')); ?>" />
+    <link rel="stylesheet" href="<?php echo e(asset('css/appx/dependencies/font-awesome/css/font-awesome.min.css')); ?>" type="text/css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
-    <link rel="stylesheet" href="{{asset('css/pe-icon-7-stroke.css')}}" />
+    <link rel="stylesheet" href="<?php echo e(asset('css/pe-icon-7-stroke.css')); ?>" />
 
-    <link rel="stylesheet" href="{{asset('css/appx/dependencies/components-elegant-icons/css/elegant-icons.min.css')}}" type="text/css" />
-    <link rel="stylesheet" href="{{asset('css/appx/dependencies/swiper/css/swiper.min.css')}}" type="text/css" />
-    <link rel="stylesheet" href="{{asset('css/appx/dependencies/simple-line-icons/css/simple-line-icons.css')}}" type="text/css" />
-    <link rel="stylesheet" href="{{asset('css/appx/dependencies/wow/css/animate.css')}}" type="text/css" />
-    <link rel="stylesheet" href="{{asset('css/appx/dependencies/slick-carousel/css/slick.css')}}" type="text/css}}" />
-    <link rel="stylesheet" href="{{asset('css/appx/dependencies/magnific-popup/css/magnific-popup.css')}}" type="text/css" />
-    <link rel="stylesheet" href="{{asset('plugins/iCheck/square/blue.css')}}">
-    <!--<link rel="stylesheet" href="{{asset('/css/sistemalaravel.css')}}">-->
+    <link rel="stylesheet" href="<?php echo e(asset('css/appx/dependencies/components-elegant-icons/css/elegant-icons.min.css')); ?>" type="text/css" />
+    <link rel="stylesheet" href="<?php echo e(asset('css/appx/dependencies/swiper/css/swiper.min.css')); ?>" type="text/css" />
+    <link rel="stylesheet" href="<?php echo e(asset('css/appx/dependencies/simple-line-icons/css/simple-line-icons.css')); ?>" type="text/css" />
+    <link rel="stylesheet" href="<?php echo e(asset('css/appx/dependencies/wow/css/animate.css')); ?>" type="text/css" />
+    <link rel="stylesheet" href="<?php echo e(asset('css/appx/dependencies/slick-carousel/css/slick.css')); ?>" type="text/css}}" />
+    <link rel="stylesheet" href="<?php echo e(asset('css/appx/dependencies/magnific-popup/css/magnific-popup.css')); ?>" type="text/css" />
+    <link rel="stylesheet" href="<?php echo e(asset('plugins/iCheck/square/blue.css')); ?>">
+    <!--<link rel="stylesheet" href="<?php echo e(asset('/css/sistemalaravel.css')); ?>">-->
 
    <!-- <link rel="stylesheet" href="http://www.aplicatics.co/empresas/public/dist/css/AdminLTE.min.css"> -->
 
-    <!--<link rel="stylesheet" href="{{asset('dist/css/AdminLTE.min.css')}}">-->
+    <!--<link rel="stylesheet" href="<?php echo e(asset('dist/css/AdminLTE.min.css')); ?>">-->
 
-    <link rel="icon" type="image/png" sizes="32x32" href="{{url('css/appx/assets/img/favicon/faviconnielsen.png')}}" />
+    <link rel="icon" type="image/png" sizes="32x32" href="<?php echo e(url('css/appx/assets/img/favicon/faviconnielsen.png')); ?>" />
 
     <!--<link rel="manifest" href="/site.webmanifest">-->
-    <link rel="mask-icon" href="{{url('css/appx/assets/img/favicon/safari-pinned-tab.svg')}}" color="#454be5" />
+    <link rel="mask-icon" href="<?php echo e(url('css/appx/assets/img/favicon/safari-pinned-tab.svg')); ?>" color="#454be5" />
 
     <!-- Dependency Styles -->
 
     <!-- Site Stylesheet -->
     <link rel="stylesheet" href="https://www.agronielsen.com/encampo/public/css/appx/assets/css/app.css" type="text/css" />
-    <link rel="stylesheet" type="text/css" href="{{asset('css/olympus/app/Bootstrap/dist/css/bootstrap-reboot.css')}}" />
-    <link rel="stylesheet" type="text/css" href="{{asset('css/olympus/app/Bootstrap/dist/css/bootstrap.css')}}" />
-    <link rel="stylesheet" type="text/css" href="{{asset('css/olympus/app/Bootstrap/dist/css/bootstrap-grid.css')}}" />
-    <link rel="stylesheet" type="text/css" href="{{asset('css/olympus/app/css/main.min.css')}}" />
+    <link rel="stylesheet" type="text/css" href="<?php echo e(asset('css/olympus/app/Bootstrap/dist/css/bootstrap-reboot.css')); ?>" />
+    <link rel="stylesheet" type="text/css" href="<?php echo e(asset('css/olympus/app/Bootstrap/dist/css/bootstrap.css')); ?>" />
+    <link rel="stylesheet" type="text/css" href="<?php echo e(asset('css/olympus/app/Bootstrap/dist/css/bootstrap-grid.css')); ?>" />
+    <link rel="stylesheet" type="text/css" href="<?php echo e(asset('css/olympus/app/css/main.min.css')); ?>" />
 
     <!-- Google Web Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,300,400,500,600,700%7CPoppins:100,200,300,400,500,600,700,800,900" rel="stylesheet" />
@@ -75,14 +75,14 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" />
     <!--<link rel="stylesheet" href="https://www.agronielsen.com/encampo/public/css/material/css/ionicons.min.css">-->
 
-    <link rel="stylesheet" href="{{url('css/material/style.css')}}">
+    <link rel="stylesheet" href="<?php echo e(url('css/material/style.css')); ?>">
 </head>
 
 <body style="background:#000000;height: 1000px;/*#48484A*/">
 
       <div class="col col-xl-12 m-auto col-lg-12 col-md-12 col-sm-12 col-12" style="margin-right: -16px;">
         <div class="site-logo" style="padding-top: 45px;margin-right: -16px;padding-bottom: 20px">
-                            <a href="landing" class="main-logo"><img src="{{url('css/appx/assets/img/agronielsen.png')}}" alt="Agronielsen en Campo" />
+                            <a href="landing" class="main-logo"><img src="<?php echo e(url('css/appx/assets/img/agronielsen.png')); ?>" alt="Agronielsen en Campo" />
                             </a>
         </div>
      </div>
@@ -100,7 +100,7 @@
 
                            <div class="ui-block-title inline-items">
                    
-                             <a style="font-size:25px;background: #76A82B;margin-top: 0px;margin-bottom: 60px;" class="btn btn-purple btn-lg" href="{{url('descargables/ConsultaFincaRisaraldaSept2020.pdf')}}" target="_blank">Esto obtienes (clic aquí)
+                             <a style="font-size:25px;background: #76A82B;margin-top: 0px;margin-bottom: 60px;" class="btn btn-purple btn-lg" href="<?php echo e(url('descargables/ConsultaFincaRisaraldaSept2020.pdf')); ?>" target="_blank">Esto obtienes (clic aquí)
                                                     </a>
    
                   </div>
@@ -165,12 +165,12 @@
                         </div>
 
                           <p class="responsive" style="font-size:16px;letter-spacing:0px;line-height:18px;color:#000;"><br>
-                      Ingresando las variables de Latitud y Longitud de una ubicación, obtendrás los datos climatologicos como <b style="color:#1565C0;font-weight: 600"><a href="{{url('descargables/ConsultaFincaRisaraldaSept2020.pdf')}}" target="_blank" style="color:#1565C0;font-weight: 600">Temperatura, Precipitación, Humedad relativa, Presión atmosferica, Velocidad del viento, UV index (luminosidad)</a></b>. 
+                      Ingresando las variables de Latitud y Longitud de una ubicación, obtendrás los datos climatologicos como <b style="color:#1565C0;font-weight: 600"><a href="<?php echo e(url('descargables/ConsultaFincaRisaraldaSept2020.pdf')); ?>" target="_blank" style="color:#1565C0;font-weight: 600">Temperatura, Precipitación, Humedad relativa, Presión atmosferica, Velocidad del viento, UV index (luminosidad)</a></b>. 
                       <br><br>Puedes marcar la casilla "consultar mi ubicación" o arrastrar el marcador para una nueva ubicación. <br> <span><a href="https://agronielsen.com/descargables/ConsultaFincaRisaraldaSept2020.pdf" target="_blank">(Ver informe de ejemplo)</a></span>
 
               </p>
            
-                      <form action="{{ url('/newclima') }}" method="post" id="">  
+                      <form action="<?php echo e(url('/newclima')); ?>" method="post" id="">  
                           <input type="hidden" name="_token" value="<?php echo csrf_token(); ?>"/>
                             
                             <div class="row">
@@ -236,7 +236,7 @@
                     <div class="col-lg-4 col-md-7">
                         <div class="widget widget-about">
                             <div class="footer-logo">
-                                <img src="{{url('css/appx/assets/img/sticky-logo.png')}}" alt="Agronielsen en Campo" />
+                                <img src="<?php echo e(url('css/appx/assets/img/sticky-logo.png')); ?>" alt="Agronielsen en Campo" />
                             </div>
 
                             <p class="content">
@@ -270,8 +270,8 @@
 
                             <ul class="footer-menu">
                                 <li><a href="https://www.agronielsen.com/" target="_blank">Agronielsen</a></li>
-                                <li><a href="{{asset('visor')}}" target="_blank">Analítica de datos</a></li>
-                                <li><a href="{{asset('ventainformes')}}" target="_blank">Venta de Informes</a></li>
+                                <li><a href="<?php echo e(asset('visor')); ?>" target="_blank">Analítica de datos</a></li>
+                                <li><a href="<?php echo e(asset('ventainformes')); ?>" target="_blank">Venta de Informes</a></li>
                                 <!-- <li><a href="https://www.agronielsen.com/membresia-inteligencia-de-mercados-agricolas-colombia/?restricted=page" target="_blank">Membresía Inteligencia de Mercados</a></li>-->
                                 <!-- <li><a href="https://www.agronielsen.com/blog/abre-tu-cuenta-gratis/" target="_blank">Demo de tablero de Análisis</a></li>-->
                                 <!-- <li><a href="https://www.agronielsen.com/mineria" target="_blank">Míneria de Clientes</a></li>-->
@@ -295,7 +295,7 @@
                             </ul>
 
                             <div class="follow-us">
-                                <span>{{trans('messages.follower')}}</span>
+                                <span><?php echo e(trans('messages.follower')); ?></span>
 
                                 <ul class="footer-social-two">
                                     <li>
@@ -353,7 +353,7 @@
 
         <div class="footer-animate-bubble"></div>
     </footer>
-@include('/landing/partials.footer')
+<?php echo $__env->make('/landing/partials.footer', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
 
     <!-- Start of  Zendesk Widget script -->
 <!--<script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=c5c1215c-ecf8-44af-b71c-210ea7a83f5a"> </script>-->

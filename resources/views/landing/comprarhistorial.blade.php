@@ -1,81 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
+
 <head>
-
-    <title>Agronielsen en Campo: Estación meteorológica virtual</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="description" content="La primera plataforma de visitas tecnicas que centraliza y automatiza completamente tu gestión" />
-    <meta
-        name="keywords"
-        content="estacion meteorologica,estacion virtual,estacion meteorologica virtual,clima,variables meteorologicas,meteorologicas,variables,latitud, longitud,coordenadas,Agronielsen,Agro nielsen,agronielsen en campo, visitas, agrícola, integración, automatización,mercado agrícola,visitas técnicas,gestor de visitas técnicas, fertilizantes foliares, fertilizantes, foliares,abonos"
-    />
-    <meta property="og:title" content="Agronielsen en Campo: Estación meteorológica virtual" />
-    <meta property="og:type" content="website" />
-    <meta property="og:image" content="https://www.agronielsen.com/encampo/public/css/appx/media/banner/posicion-gif.gif" />
-
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-120906226-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag("js", new Date());
-
-        gtag("config", "UA-120906226-1");
-    </script>
-
-      <script type="text/javascript" src="{{asset('js/globe/third-party/Detector.js')}}"></script>
-  <script type="text/javascript" src="{{asset('js/globe/third-party/three.min.js')}}"></script>
-  <script type="text/javascript" src="{{asset('js/globe/third-party/Tween.js')}}"></script>
-  <script type="text/javascript" src="{{asset('js/globe/third-party/globe.js')}}"></script>
-
-    <link rel="author" href="https://www.agronielsen.com/encampo" />
-    <link rel="canonical" href="https://www.agronielsen.com/encampo" />
-
-    <!-- FB Meta tags -->
-
-    <link rel="stylesheet" href="https://getbootstrap.com/docs/4.0/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" type="text/css" href="{{asset('css/olympus/app/css/fonts.min.css')}}" />
-    <link rel="stylesheet" href="{{asset('css/appx/dependencies/font-awesome/css/font-awesome.min.css')}}" type="text/css" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
-    <link rel="stylesheet" href="{{asset('css/pe-icon-7-stroke.css')}}" />
-
-    <link rel="stylesheet" href="{{asset('css/appx/dependencies/components-elegant-icons/css/elegant-icons.min.css')}}" type="text/css" />
-    <link rel="stylesheet" href="{{asset('css/appx/dependencies/swiper/css/swiper.min.css')}}" type="text/css" />
-    <link rel="stylesheet" href="{{asset('css/appx/dependencies/simple-line-icons/css/simple-line-icons.css')}}" type="text/css" />
-    <link rel="stylesheet" href="{{asset('css/appx/dependencies/wow/css/animate.css')}}" type="text/css" />
-    <link rel="stylesheet" href="{{asset('css/appx/dependencies/slick-carousel/css/slick.css')}}" type="text/css}}" />
-    <link rel="stylesheet" href="{{asset('css/appx/dependencies/magnific-popup/css/magnific-popup.css')}}" type="text/css" />
-    <link rel="stylesheet" href="{{asset('plugins/iCheck/square/blue.css')}}">
-    <!--<link rel="stylesheet" href="{{asset('/css/sistemalaravel.css')}}">-->
-
-   <!-- <link rel="stylesheet" href="http://www.aplicatics.co/empresas/public/dist/css/AdminLTE.min.css"> -->
-
-    <!--<link rel="stylesheet" href="{{asset('dist/css/AdminLTE.min.css')}}">-->
-
-    <link rel="icon" type="image/png" sizes="32x32" href="{{url('css/appx/assets/img/favicon/faviconnielsen.png')}}" />
-
-    <!--<link rel="manifest" href="/site.webmanifest">-->
-    <link rel="mask-icon" href="{{url('css/appx/assets/img/favicon/safari-pinned-tab.svg')}}" color="#454be5" />
-
-    <!-- Dependency Styles -->
-
-    <!-- Site Stylesheet -->
-    <link rel="stylesheet" href="https://www.agronielsen.com/encampo/public/css/appx/assets/css/app.css" type="text/css" />
-    <link rel="stylesheet" type="text/css" href="{{asset('css/olympus/app/Bootstrap/dist/css/bootstrap-reboot.css')}}" />
-    <link rel="stylesheet" type="text/css" href="{{asset('css/olympus/app/Bootstrap/dist/css/bootstrap.css')}}" />
-    <link rel="stylesheet" type="text/css" href="{{asset('css/olympus/app/Bootstrap/dist/css/bootstrap-grid.css')}}" />
-    <link rel="stylesheet" type="text/css" href="{{asset('css/olympus/app/css/main.min.css')}}" />
-
-    <!-- Google Web Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,300,400,500,600,700%7CPoppins:100,200,300,400,500,600,700,800,900" rel="stylesheet" />
-    <!--<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />-->
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" />
-    <!--<link rel="stylesheet" href="https://www.agronielsen.com/encampo/public/css/material/css/ionicons.min.css">-->
-
-    <link rel="stylesheet" href="{{url('css/material/style.css')}}">
+    @include('/landing/partials.header')
 </head>
 
 <body style="background:#000000;height: 1000px;/*#48484A*/">
@@ -402,7 +329,7 @@
       
       
       xhr = new XMLHttpRequest();
-      xhr.open('GET', 'https://www.agronielsen.com/encampo/public/js/globe/population909500.json', true);
+      xhr.open('GET', './js/globe/population909500.json', true);
       xhr.onreadystatechange = function(e) {
         if (xhr.readyState === 4) {
           if (xhr.status === 200) {
