@@ -732,6 +732,8 @@
                     <script>
                          (adsbygoogle = window.adsbygoogle || []).push({});
                     </script>
+                 </div>
+                  <div class="col-lg-7">
                     <div class="prosess-feature-image wow fadeInLeft text-right">
 
                         <div class="img-one">
