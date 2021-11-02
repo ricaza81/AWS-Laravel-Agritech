@@ -102,9 +102,9 @@
                   <li><a href="agricultor_asesoria">Asesoría</a></li>
                 <li><a href="login">Ingresar</a></li>
                 <li><a href="{{asset('landing#asi-funciona')}}">Así funciona</a></li>
-               <li class="menu-item-has-children" id="strange"><a href="{{asset('producto')}}">Producto</a>
+               <li class="menu-item-has-children" id="strange-1"><a href="{{asset('producto')}}">Producto</a>
               
-                  <div class="popoverContent" id="popoverContent2">
+                  <div class="popoverContent" id="popoverContent2-1">
                     <div class="featureLinks">
                       <a class="featureLinksWrapper" href="{{asset('landing#prosess')}}">
                         <span class="featureLinksIcon featureIconAllFeatures"></span>
