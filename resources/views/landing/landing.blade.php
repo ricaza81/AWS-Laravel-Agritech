@@ -735,7 +735,7 @@
                     <div class="prosess-feature-image wow fadeInLeft text-right">
 
                         <div class="img-one">
-                            <img class="" src="{{url('css/appx/media/faq/faq3.png')}}" alt="Prosess" />
+                            <img class="" src="{{url('css/appx/media/faq/faq3.png')}}" alt="Prosess" style="padding-top:28px;">
 
                             <div class="hotspot-wraper">
                                 <div class="pulse-box">
