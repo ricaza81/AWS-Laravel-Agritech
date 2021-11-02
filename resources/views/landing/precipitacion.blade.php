@@ -98,10 +98,10 @@
                         <nav class="site-nav">
                             <ul class="site-menu">
                                 <li><a href="login">{{ trans('messages.ingresar1') }}</a></li>
-                                <li class="menu-item-has-children" id="strange">
+                                <li class="menu-item-has-children" id="strange-1">
                                     <a href="{{asset('producto')}}">{{ trans('messages.pdto') }}</a>
 
-                                    <div class="popoverContent" id="popoverContent2">
+                                    <div class="popoverContent" id="popoverContent2-1">
                                         <div class="featureLinks">
                                             <a class="featureLinksWrapper" href="{{asset('landing#prosess')}}">
                                                 <span class="featureLinksIcon featureIconAllFeatures"></span>
@@ -149,9 +149,9 @@
                                         </div>
                                     </div>
                                 </li>
-                                <li class="menu-item-has-children" id="strange2">
+                                <li class="menu-item-has-children" id="strange2-1">
                                     <a href="{{asset('ventainformes')}}">{{ trans('messages.informes') }}</a>
-                                    <div class="popoverContentlang" id="popoverContent4">
+                                    <div class="popoverContentlang" id="popoverContent4-1">
                                         <div class="featureLinks">
                                             <a class="featureLinksWrapper" href="{{asset('demosector')}}">
                                                 <span class="featureLinksIcon2 featureIconAllFeatures"></span>

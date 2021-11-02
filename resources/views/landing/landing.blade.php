@@ -121,10 +121,10 @@
                                     <a href="{{asset('landing#asi-funciona')}}">{{ trans('messages.asifunciona') }} </a>
                                 </li>-->
 
-                                <li class="menu-item-has-children" id="strange">
+                                <li class="menu-item-has-children" id="strange-1">
                                     <a href="{{asset('producto')}}">{{ trans('messages.pdto') }}</a>
 
-                                    <div class="popoverContent" id="popoverContent2">
+                                    <div class="popoverContent" id="popoverContent2-1">
                                         <div class="featureLinks">
                                             <a class="featureLinksWrapper" href="{{asset('landing#prosess')}}">
                                                 <span class="featureLinksIcon featureIconAllFeatures"></span>
