@@ -185,7 +185,7 @@ class AuthController extends Controller
         $departamentos=Departamentos::all();
         $date = Carbon::now();
 
-        return view('precipitacion')
+        return view('landing.precipitacion')
         ->with("paises",$paises)
         //->with("productorecomendado",$productorecomendado)
         ->with("zonas",$zonas)
