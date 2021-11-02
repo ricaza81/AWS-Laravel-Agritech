@@ -736,7 +736,7 @@
                   <div class="col-lg-7">
                     <div class="prosess-feature-image wow fadeInLeft text-right">
 
-                        <div class="img-one">
+                        <div class="img-one" style="margin-top:27px;">
                             <img class="" src="{{url('css/appx/media/faq/faq3.png')}}" alt="Prosess" style="padding-top:28px;">
 
                             <div class="hotspot-wraper">
