@@ -757,7 +757,7 @@
                         </div>
 
                         <div class="img-two fadeInDown">
-                            <img src="{{url('css/appx/media/faq/faq4.png')}}" alt="Prosess" style="max-width: 130%;"/>
+                            <img src="{{url('css/appx/media/faq/faq4.png')}}" alt="Prosess" style="max-width: 130%;padding-top:15px"/>
                         </div>
                     </div>
                     <!-- /.prosess-feature-image -->
