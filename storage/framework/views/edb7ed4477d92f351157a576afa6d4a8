@@ -6,34 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>En Campo | Demo</title>
+    <title>En Campo | Log in</title>
 
 
 
 
     <link rel="stylesheet" href="https://getbootstrap.com/docs/4.0/dist/css/bootstrap.min.css">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-     <link rel="stylesheet" href="https://www.agronielsen.com/encampo/public/css/pe-icon-7-stroke.css">
-    <link rel="stylesheet" href="https://www.agronielsen.com/encampo/public/css/material/css/ionicons.min.css">
-      <link rel="stylesheet" href="https://www.agronielsen.com/encampo/public/css/appx/dependencies/simple-line-icons/css/simple-line-icons.css" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="<?php echo e(url('css/pe-icon-7-stroke.css')); ?>">
+    <link rel="stylesheet" href="<?php echo e(url('css/material/css/ionicons.min.css')); ?>">
+    <link rel="stylesheet" href="<?php echo e(url('css/appx/dependencies/simple-line-icons/css/simple-line-icons.css')); ?>" type="text/css">
     <!-- Theme style -->
-   <link rel="stylesheet" href="https://www.agronielsen.com/encampo/public/dist/css/AdminLTE.min.css">
+    <link rel="stylesheet" href="<?php echo e(url('dist/css/AdminLTE.min.css')); ?>">
     <!-- iCheck -->
-    <link rel="stylesheet" href="https://www.agronielsen.com/encampo/public/plugins/iCheck/square/blue.css">
-
-    <link rel="stylesheet" href="https://www.agronielsen.com/encampo/public/css/sistemalaravel.css">
-
-
-
-   <link href="https://www.agronielsen.com/encampo/public/css/main.css" rel="stylesheet"> 
-
-   <link rel="stylesheet" href="https://www.agronielsen.com/encampo/public/css/material/style.css">
-   
-        <link rel="stylesheet" href="https://www.agronielsen.com/encampo/public/css/appx/dependencies/font-awesome/css/font-awesome.min.css" type="text/css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
- <link rel="stylesheet" href="https://www.agronielsen.com/encampo/public/css/pe-icon-7-stroke.css">
-
-
+    <link rel="stylesheet" href="<?php echo e(url('plugins/iCheck/square/blue.css')); ?>">
+    <link rel="stylesheet" href="<?php echo e(url('css/sistemalaravel.css')); ?>">
+    <link href="<?php echo e(url('css/main.css')); ?>" rel="stylesheet">
+    <link rel="stylesheet" href="<?php echo e(url('css/material/style.css')); ?>">
+    <link rel="stylesheet" href="<?php echo e(url('css/appx/dependencies/font-awesome/css/font-awesome.min.css" type="text/css')); ?>">
+    <link rel="stylesheet" href="<?php echo e(url('css/font-awesome.min.css')); ?>">
+    <link rel="stylesheet" href="<?php echo e(url('css/pe-icon-7-stroke.css')); ?>">
     <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
   
   <link href='https://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
@@ -44,21 +36,22 @@
   <body class="mini-sidebar">
 
 
-    <section id="wrapper" class="login-register login-sidebar" style="background-image: url(https://www.agronielsen.com/encampo/public/imagenes/field-min.jpg);height;10%">
+    <section id="wrapper" class="login-register login-sidebar" style="background-image:
+    <?php echo e(url('/imagenes/field-min.jpg')); ?>;height;10%">
    
 
 
 
         <div class="col-md-8 text-right"> 
  
-            <div class="agronielsen" id="agronielsen" style="padding-top:20px;font-size:30px;color:#fff;line-height:35px;float:right">Demo Agronielsen <b>en Campo</b> <br> <br>
+            <div class="agronielsen" id="agronielsen" style="padding-top:20px;font-size:30px;color:#fff;line-height:35px;float:right">Agronielsen <b>en Campo</b> <br> <br>
 
 <div class="bd-example">
   <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
 
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img class="" style="width:80%" src="../public/imagenes/map-agronielsen.png">
+        <img class="" style="width:80%" src="<?php echo e(asset('/imagenes/map-agronielsen.png')); ?>">
       </div>
 
           <div class="ajuste-caption">"No importan los formatos,</div>
@@ -92,7 +85,7 @@
                          <form id="login" action="login" class="form-horizontal form-material" method="post">
                      
                                   <input type="hidden" name="_token" value="<?php echo csrf_token(); ?>">   
-                                    <h3 class="box-title m-t-40 m-b-0">Ingresa al Demo</h3>
+                                    <h3 class="box-title m-t-40 m-b-0">Ingresa al Sistema</h3>
 
                     <?php
                      if ($msj==!"") { ?>
@@ -102,7 +95,7 @@
     border-radius: .25rem;"><?php  echo $msj;?></div>
                     <?php } ?>
                                 
-                                  <div class="form-group m-t-20">
+  <div class="form-group m-t-20">
                                     <div class="col-xs-12">
                                          <input class="form-control" type="text" required="" value="demo1@agronielsen.com" name="email">
                                      </div>
@@ -142,7 +135,7 @@
     color:#000;
 }
 </style>
-                       <!--    <div class="row">
+                           <div class="row">
                                  <div class="or"></div>
                              <div class="col-xs-12 col-sm-12 col-md-12 mt-2 text-center">
                                   <label>Ó Ingresa con Facebook</label>
@@ -155,7 +148,7 @@
                              <div class="form-group m-b-0">
                                 <div class="col-sm-12 text-center">No tienes una cuenta?<a href="register" class="text-primary m-l-5"><b>Registrate sin costo</b></a>
                                </div>
-                            </div>-->
+                            </div>
 
                      </form>
 
