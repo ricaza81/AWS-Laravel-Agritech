@@ -2,14 +2,14 @@
 <html lang="es">
 
 <head>
-    @include('/landing/partials.header')
+    <?php echo $__env->make('/landing/partials.header', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
 </head>
 
 <body style="background:#000000;height: 1000px;/*#48484A*/">
 
       <div class="col col-xl-12 m-auto col-lg-12 col-md-12 col-sm-12 col-12" style="margin-right: -16px;">
         <div class="site-logo" style="padding-top: 45px;margin-right: -16px;padding-bottom: 20px">
-                            <a href="landing" class="main-logo"><img src="{{url('css/appx/assets/img/agronielsen.png')}}" alt="Agronielsen en Campo" />
+                            <a href="landing" class="main-logo"><img src="<?php echo e(url('css/appx/assets/img/agronielsen.png')); ?>" alt="Agronielsen en Campo" />
                             </a>
         </div>
      </div>
@@ -115,7 +115,7 @@
 
               </p>
            
-                      <form action="{{ url('/newclima') }}" method="post" id="">  
+                      <form action="<?php echo e(url('/newclima')); ?>" method="post" id="">  
                           <input type="hidden" name="_token" value="<?php echo csrf_token(); ?>"/>
                             
                             <div class="row">
@@ -215,7 +215,7 @@
                             <ul>
                                 <li><span>4</span> <span>mediciones/dia</span>
                                    
-                            <!--<a class="generic_price_btn clearfix" href="{{asset('register')}}">Gratis 15 dias</a>-->
+                            <!--<a class="generic_price_btn clearfix" href="<?php echo e(asset('register')); ?>">Gratis 15 dias</a>-->
                        
                                 </li>
                                 <li><span>Temperatura (°C) (máxima, mínima, promedio)</span></li>
@@ -255,7 +255,7 @@
                     <div class="col-lg-4 col-md-7">
                         <div class="widget widget-about">
                             <div class="footer-logo">
-                                <img src="{{url('css/appx/assets/img/sticky-logo.png')}}" alt="Agronielsen en Campo" />
+                                <img src="<?php echo e(url('css/appx/assets/img/sticky-logo.png')); ?>" alt="Agronielsen en Campo" />
                             </div>
 
                             <p class="content">
@@ -289,8 +289,8 @@
 
                             <ul class="footer-menu">
                                 <li><a href="https://www.agronielsen.com/" target="_blank">Agronielsen</a></li>
-                                <li><a href="{{asset('visor')}}" target="_blank">Analítica de datos</a></li>
-                                <li><a href="{{asset('ventainformes')}}" target="_blank">Venta de Informes</a></li>
+                                <li><a href="<?php echo e(asset('visor')); ?>" target="_blank">Analítica de datos</a></li>
+                                <li><a href="<?php echo e(asset('ventainformes')); ?>" target="_blank">Venta de Informes</a></li>
                                 <!-- <li><a href="https://www.agronielsen.com/membresia-inteligencia-de-mercados-agricolas-colombia/?restricted=page" target="_blank">Membresía Inteligencia de Mercados</a></li>-->
                                 <!-- <li><a href="https://www.agronielsen.com/blog/abre-tu-cuenta-gratis/" target="_blank">Demo de tablero de Análisis</a></li>-->
                                 <!-- <li><a href="https://www.agronielsen.com/mineria" target="_blank">Míneria de Clientes</a></li>-->
@@ -314,7 +314,7 @@
                             </ul>
 
                             <div class="follow-us">
-                                <span>{{trans('messages.follower')}}</span>
+                                <span><?php echo e(trans('messages.follower')); ?></span>
 
                                 <ul class="footer-social-two">
                                     <li>
@@ -373,7 +373,7 @@
         <div class="footer-animate-bubble"></div>
     </footer>
 
-@include('/landing/partials.footer')
+<?php echo $__env->make('/landing/partials.footer', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
 
     <!-- Start of  Zendesk Widget script -->
 <!--<script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=c5c1215c-ecf8-44af-b71c-210ea7a83f5a"> </script>-->
@@ -512,7 +512,7 @@
                 map: map,
                 //shape: shape,
                 title: "Aquí estoy!",
-                icon: "{{url('imagenes/maker-agronielsen.png')}}",
+                icon: "<?php echo e(url('imagenes/maker-agronielsen.png')); ?>",
                 label: {
                     text: "Ubicación",
                     color: "#fff",
@@ -682,7 +682,7 @@
                 map: map,
                 //shape: shape,
                 title: "Aquí estoy!",
-                icon: "{{url('imagenes/maker-agronielsen.png')}}",
+                icon: "<?php echo e(url('imagenes/maker-agronielsen.png')); ?>",
                 label: {
                     text: "Ubicación",
                     color: "#fff",
