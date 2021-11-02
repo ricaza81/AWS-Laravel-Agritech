@@ -721,17 +721,17 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-7">
-                    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6899098620713335"
-     crossorigin="anonymous"></script>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-format="fluid"
-     data-ad-layout-key="-gw-3+1f-3d+2z"
-     data-ad-client="ca-pub-6899098620713335"
-     data-ad-slot="2446565679"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+                    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6899098620713335"crossorigin="anonymous"></script>
+                    <ins class="adsbygoogle"
+                     style="display:block;z-index:1"
+                     data-ad-format="fluid"
+                     data-ad-layout-key="-gw-3+1f-3d+2z"
+                     data-ad-client="ca-pub-6899098620713335"
+                     data-ad-slot="2446565679">
+                    </ins>
+                    <script>
+                         (adsbygoogle = window.adsbygoogle || []).push({});
+                    </script>
                     <div class="prosess-feature-image wow fadeInLeft text-right">
 
                         <div class="img-one">
