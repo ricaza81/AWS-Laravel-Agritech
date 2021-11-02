@@ -13,8 +13,16 @@
                 <div class="row">
                   <div class="col col-lg-8 m-auto col-md-8 col-sm-12 col-12">
                     <div class="main-header-content">
-                  <img class="responsive" src="https://www.agronielsen.com/imagenes/vegetables.png" alt="rocket">
-          <a href="shop" id="shop" class="btn btn-primary btn-lg" style="margin-bottom:0px;margin-left: 15px;background:#FF5E3A;border-color:#FF5E3A"> Visita la Plaza de Mercado</a>
+                       <div class="alert alert-success" role="alert" style="margin-top:-70px;color:#155724">
+                        Visitar modulo de cultivos:  
+                        <a href="listado_prospectos_comercial" type="submit" class="btn btn-md-2 btn-primary" style="font-size:15px;margin-bottom:0px;margin-left:12px" target="_blank">Ver modulo cultivos
+                        </a>
+                       </div>
+                      <img class="responsive" src="https://www.agronielsen.com/imagenes/vegetables.png" alt="rocket">
+                     
+                      <a href="shop" id="shop" class="btn btn-primary btn-lg" style="margin-bottom:0px;margin-left: 15px;background:#FF5E3A;border-color:#FF5E3A">
+                        Visita la Plaza de Mercado
+                      </a>
                     </div>
                   </div>
                 </div>
