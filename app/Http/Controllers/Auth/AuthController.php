@@ -542,7 +542,7 @@ class AuthController extends Controller
         $canales=Canales::all();
         $departamentos=Departamentos::all();
 
-        return view('precios')
+        return view('landing.precios')
         ->with("paises",$paises)
         ->with("zonas",$zonas)
         ->with("canales",$canales)

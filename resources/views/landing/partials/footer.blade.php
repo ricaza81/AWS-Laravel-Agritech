@@ -18,3 +18,5 @@
     <script src="{{url('css/appx/dependencies/slick-carousel/js/slick.js')}}"></script>
     <script src="{{url('css/appx/dependencies/magnific-popup/js/jquery.magnific-popup.min.js')}}"></script>
     <script src="{{url('css/appx/dependencies/parallax/js/jquery.parallax.min.js')}}"></script>
+  <script src="{{url('css/appx/assets/js/SmoothScroll.min.js')}}"></script>
+     <script src="{{url('css/appx/assets/js/app.js')}}"></script>
