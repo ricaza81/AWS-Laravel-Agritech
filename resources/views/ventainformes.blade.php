@@ -54,7 +54,7 @@
                <div class="container">
                 <div class="row">
                  <div class="header--standard-wrap">
-                    <a href="landing" class="main-logo"><img src="https://www.agronielsen.com/encampo/public/css/appx/assets/img/logoagronielsenencampo.png" alt="Agronielsen en Campo" style="margin-top: -127px;"></a>
+                    <a href="landing" class="main-logo"><img src="{{url('css/appx/assets/img/logoagronielsenencampo.png')}}" alt="Agronielsen en Campo" style="margin-top: -127px;"></a>
                   </div>
                   <div class="col col-lg-8 m-auto col-md-8 col-sm-12 col-12">
                     <div class="main-header-content">
@@ -92,7 +92,7 @@
                 </div>
               </div>             
             </div>        
-             <a href="https://checkout.wompi.co/l/q9DAwo" class="main-logo"><img src="https://www.agronielsen.com/encampo/public/imagenes/informe_almacenes.jpg" alt="Agronielsen en Campo" style="margin-top: 0px;max-width:100%;margin-left: 0px;height: auto;display: inline-block;"></a>
+             <a href="https://checkout.wompi.co/l/q9DAwo" class="main-logo"><img src="{{url('imagenes/informe_almacenes.jpg')}}" alt="Agronielsen en Campo" style="margin-top: 0px;max-width:100%;margin-left: 0px;height: auto;display: inline-block;"></a>
             <p style="color:#000000;font-weight:500">En Colombia existen más de 8.000 tiendas agroveterinarias registradas ante el ICA. Por medio de este informe, conocerá como se distribuyen en los diferentes municipios, los datos de contacto y la actualización continua de acuerdo a los datos abiertas del ICA.
             </p>
         
@@ -117,7 +117,7 @@
                 </div>
               </div>             
             </div>        
-            <a href="https://checkout.wompi.co/l/yUs4O0" class="main-logo"><img src="https://www.agronielsen.com/encampo/public/imagenes/ventas_sector.jpg" alt="Agronielsen en Campo" style="margin-top: 0px;max-width:100%;margin-left: 0px;height: auto;display: inline-block;"></a>
+            <a href="https://checkout.wompi.co/l/yUs4O0" class="main-logo"><img src="{{url('imagenes/ventas_sector.jpg')}}" alt="Agronielsen en Campo" style="margin-top: 0px;max-width:100%;margin-left: 0px;height: auto;display: inline-block;"></a>
            <p style="color:#000000;font-weight:500">Informe Premium del Sector de Agroquímicos y Fertilizantes de Colombia (ventas 2014-2018).</p>
            <p style="color:#000000;font-weight:400">
            Las 25 empresas mas grandes del sector son: Yara Colombia, Monómeros Colombo Venezolanos, Dow Agrosciences Colombia, Brenntag Colombia, Precisagro, Syngenta, Adama Andina, Ecofértil, Arysta Lifescience Colombia, Uniphos Colombia Plant, Disan Agro, Nutrición de Plantas, Adama Colombia, Coacol, Bam, Agrocentro Colombia, UPL Colombia, Nufarm Colombia, Colinagro, Chrysal Colombia, Químicos Oma, Industrias Emu, Triada Ema, Avgust Colombia, y Cosmoagro Triada.
@@ -144,7 +144,7 @@
                 </div>
               </div>             
             </div>        
-            <a href="{{asset('analiticacultivos')}}" class="main-logo" target="_blank"><img src="https://www.agronielsen.com/encampo/public/imagenes/dane-imgweb.jpg" alt="Agronielsen en Campo" style="margin-top: 0px;max-width:100%;margin-left: 0px;height: auto;display: inline-block;"></a>
+            <a href="{{asset('analiticacultivos')}}" class="main-logo" target="_blank"><img src="{{url('imagenes/dane-imgweb.jpg')}}" alt="Agronielsen en Campo" style="margin-top: 0px;max-width:100%;margin-left: 0px;height: auto;display: inline-block;"></a>
            <p style="color:#000000;font-weight:500">Informe Premium de las Hectareas sembradas y cosechadas en Colombia de acuerdo al censo agropecuario del DANE en 2014.</p>
            <p style="color:#000000;font-weight:400">
           De acuerdo a las unidades productivas y su tamaño en Hectareas, las empresas fabricantes y distribuidoras de agroinsumos definen la mejor estrategia de comercialización.
@@ -349,7 +349,7 @@
             <div class="col-lg-4 col-md-7">
               <div class="widget widget-about">
                 <div class="footer-logo">
-                  <a href="{{asset('landing')}}"><img src="https://www.agronielsen.com/encampo/public/css/appx/assets/img/sticky-logo.png" alt="Agronielsen en Campo"></a>
+                  <a href="{{asset('landing')}}"><img src="{{url('css/appx/assets/img/sticky-logo.png')}}" alt="Agronielsen en Campo"></a>
                 </div>
 
                 <p class="content">
