@@ -255,7 +255,7 @@
                     <div class="col-lg-4 col-md-7">
                         <div class="widget widget-about">
                             <div class="footer-logo">
-                                <img src="https://www.agronielsen.com/encampo/public/css/appx/assets/img/sticky-logo.png" alt="Agronielsen en Campo" />
+                                <img src="{{url('css/appx/assets/img/sticky-logo.png')}}" alt="Agronielsen en Campo" />
                             </div>
 
                             <p class="content">
@@ -422,7 +422,7 @@
       
       
       xhr = new XMLHttpRequest();
-      xhr.open('GET', 'https://www.agronielsen.com/encampo/public/js/globe/population909500.json', true);
+     xhr.open('GET', './js/globe/population909500.json', true);
       xhr.onreadystatechange = function(e) {
         if (xhr.readyState === 4) {
           if (xhr.status === 200) {
@@ -512,7 +512,7 @@
                 map: map,
                 //shape: shape,
                 title: "Aquí estoy!",
-                icon: "https://www.agronielsen.com/encampo/public/imagenes/maker-agronielsen.png",
+                icon: "{{url('imagenes/maker-agronielsen.png')}}",
                 label: {
                     text: "Ubicación",
                     color: "#fff",
@@ -682,7 +682,7 @@
                 map: map,
                 //shape: shape,
                 title: "Aquí estoy!",
-                icon: "https://www.agronielsen.com/encampo/public/imagenes/maker-agronielsen.png",
+                icon: "{{url('imagenes/maker-agronielsen.png')}}",
                 label: {
                     text: "Ubicación",
                     color: "#fff",
