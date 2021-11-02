@@ -195,9 +195,8 @@
       <div class="col col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12 responsive-display-none" style="margin-top:30px;margin-left:0px">
 
 
-        <iframe class="embedly-embed" src="//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fdatastudio.google.com%2Fembed%2Freporting%2Fa2b9da07-31a4-423e-ab45-bc1d00f29a1d%2Fpage%2FmM3VB%3Ffbclid%3DIwAR2XCOsj8zcLXEAEP5Ruz548A57UknlXK3Eab-DwAk9SCFwjCtbttXwhABc%26params%3D%257B%2522df9%2522%3A%2522include%2525EE%252580%2525800%2525EE%252580%252580IN%2525EE%252580%252580EmpresaDemo%2522%257D%26feature%3Doembed&dntp=1&display_name=Google+Data+Studio&url=https%3A%2F%2Fdatastudio.google.com%2Freporting%2Fa2b9da07-31a4-423e-ab45-bc1d00f29a1d%2Fpage%2FmM3VB%3Ffbclid%3DIwAR2XCOsj8zcLXEAEP5Ruz548A57UknlXK3Eab-DwAk9SCFwjCtbttXwhABc%26params%3D%257B%2522df9%2522%3A%2522include%2525EE%252580%2525800%2525EE%252580%252580IN%2525EE%252580%252580EmpresaDemo%2522%257D&image=https%3A%2F%2Fdatastudio.google.com%2Freporting%2Fa2b9da07-31a4-423e-ab45-bc1d00f29a1d%2Fpage%2FmM3VB%2Fthumbnail%3Fsz%3Dw1200-h900-p-nu%26feature%3Doembed&key=internal&type=text%2Fhtml&schema=google" width="700" height="650" scrolling="yes" title="Google Data Studio embed" frameborder="0" allow="autoplay; fullscreen" allowfullscreen="true" style="margin-top:-60px;margin-left:-80px;margin-right:0px;margin-bottom:50px">
-                  </iframe>
-        <iframe width="600" height="750" src="https://datastudio.google.com/embed/reporting/a2b9da07-31a4-423e-ab45-bc1d00f29a1d/page/mM3VB" frameborder="0" style="border:0" allowfullscreen></iframe>
+      
+        <iframe width="600" height="750" src="https://datastudio.google.com/embed/reporting/a2b9da07-31a4-423e-ab45-bc1d00f29a1d/page/mM3VB" frameborder="0" allowfullscreen="true" style="margin-top:-60px;margin-left:-80px;margin-right:0px;margin-bottom:50px" allowfullscreen></iframe>
   
 </div>
 
