@@ -17,7 +17,7 @@
                     <div class="main-header-content">
                        <div class="alert alert-success" role="alert" style="margin-top:-70px;color:#155724">
                         Visitar modulo de cultivos:  
-                        <a href="listado_prospectos_comercial" type="submit" class="btn btn-md-2 btn-primary" style="font-size:15px;margin-bottom:0px;margin-left:12px" target="_blank">Ver modulo cultivos
+                        <a href="listado_todos_prospectos_comercial" type="submit" class="btn btn-md-2 btn-primary" style="font-size:15px;margin-bottom:0px;margin-left:12px" target="_blank">Ver modulo cultivos
                         </a>
                        </div>
                       <img class="responsive" src="https://www.agronielsen.com/imagenes/vegetables.png" alt="rocket">
