@@ -169,12 +169,12 @@
       </div>
 
               <script type="text/javascript">
-                document.getElementById("strange").addEventListener("mouseover", function( event ) {
-                  document.getElementById("popoverContent2").classList.add("keepPopoverOpen");
+                document.getElementById("strange-3").addEventListener("mouseover", function( event ) {
+                  document.getElementById("popoverContent2-3").classList.add("keepPopoverOpen");
                 })
 
-                document.getElementById("popoverContent2").addEventListener("mouseout", function( event ) {
-                  document.getElementById("popoverContent2").classList.remove("keepPopoverOpen");
+                document.getElementById("popoverContent2-3").addEventListener("mouseout", function( event ) {
+                  document.getElementById("popoverContent2-3").classList.remove("keepPopoverOpen");
                 })
               </script>
       <!-- /.header-main -->

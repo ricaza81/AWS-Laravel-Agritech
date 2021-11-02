@@ -565,8 +565,6 @@
   <!-- Dependency Scripts -->
  @include('landing/partials.footer')
 
-  <!-- Site Scripts -->
-  <script src="https://www.agronielsen.com/encampo/public/css/appx/assets/js/app.js"></script>
  <!-- Start of  Zendesk Widget script -->
 <script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=c5c1215c-ecf8-44af-b71c-210ea7a83f5a"> </script>
 <!-- End of  Zendesk Widget script -->
