@@ -115,7 +115,7 @@ class AuthController extends Controller
         $departamentos=Departamentos::all();
         $date = Carbon::now();
 
-        return view('digital')
+        return view('landing.digital')
         ->with("paises",$paises)
         //->with("productorecomendado",$productorecomendado)
         ->with("zonas",$zonas)
@@ -206,7 +206,7 @@ class AuthController extends Controller
         $departamentos=Departamentos::all();
         $date = Carbon::now();
 
-        return view('empresas')
+        return view('landing.empresas')
         ->with("paises",$paises)
         //->with("productorecomendado",$productorecomendado)
         ->with("zonas",$zonas)

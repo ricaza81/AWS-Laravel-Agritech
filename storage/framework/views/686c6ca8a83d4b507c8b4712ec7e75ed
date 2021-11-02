@@ -6,16 +6,71 @@
 </head>
 
 <body id="home-version-2" class="home-version-2" data-style="default">
-    <!-- /.page-loader -->
     <div class="page-loader">
         <div id="preloader">
             <span><?php echo e(trans('messages.cargando')); ?></span>
+            <!--<div class="spinner">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+            <div class="spinner">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+            <div class="spinner">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+            <div class="spinner">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+            <div class="spinner">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+            <div class="spinner">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+            <div class="spinner">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>-->
         </div>
     </div>
     <!-- /.page-loader -->
 
     <div id="">
-        <div class="text-center" style="padding-bottom: 15px; padding-top: 4px; margin-bottom: -6px;color:#fff">
+        <div class="text-center" style="padding-bottom: 15px; padding-top: 4px; margin-bottom: -6px;">
             <?php echo e(trans('messages.consultademo')); ?>
 
             <a
@@ -196,14 +251,14 @@
                                                     <!--<p class="featureLinksDescription"><?php echo e(trans('messages.recorrido')); ?></p>-->
                                                 </span>
                                             </a>
-                                            <a class="featureLinksWrapper" href="<?php echo e(url('analiticacultivos')); ?>">
+                                            <a class="featureLinksWrapper" href="<?php echo e(asset('analiticacultivos')); ?>">
                                                 <span class="featureLinksIcon2 featureIconAllFeatures"></span>
                                                 <span class="featureLinksDetails2">
                                                     <h3 class="featureLinksTitle" style="width: 500px;">Analítica de Cultivos</h3>
                                                     <!--<p class="featureLinksDescription"><?php echo e(trans('messages.recorrido')); ?></p>-->
                                                 </span>
                                             </a>
-                                            <a class="featureLinksWrapper" href="<?php echo e(url('visor')); ?>">
+                                            <a class="featureLinksWrapper" href="<?php echo e(asset('visor')); ?>">
                                                 <span class="featureLinksIcon2 featureIconAllFeatures"></span>
                                                 <span class="featureLinksDetails2">
                                                     <h3 class="featureLinksTitle" style="width: 500px;">Visor Agronielsen</h3>
@@ -215,7 +270,6 @@
                                 </li>
 
                                 <li><a href="<?php echo e(asset('precios')); ?>"><?php echo e(trans('messages.precios')); ?></a></li>
-                                <li><a href="<?php echo e(asset('comprarhistorial')); ?>">Comprar</a></li>
                             </ul>
                             <a href="login" class="nav-button nbtn-two"><?php echo e(trans('messages.ingresar')); ?></a>
                             <a href="register" class="nav-button nbtn-two_1"><?php echo e(trans('messages.registrarme')); ?></a>
@@ -227,16 +281,6 @@
                 <!-- /.container -->
             </div>
 
-                <script type="text/javascript">
-                document.getElementById("strange").addEventListener("mouseover", function( event ) {
-                  document.getElementById("popoverContent2").classList.add("keepPopoverOpen");
-                })
-
-                document.getElementById("popoverContent2").addEventListener("mouseout", function( event ) {
-                  document.getElementById("popoverContent2").classList.remove("keepPopoverOpen");
-                })
-              </script>
-
             <!-- /.header-main -->
         </header>
         <!-- /#site-header -->
@@ -245,347 +289,67 @@
         <!--=        Banner          =-->
         <!--==========================-->
 
-    <section id="prosess2" style="margin-bottom: -95px;"  style="background-color:#000000;height: 1000px;/*#48484A*/">
 
-        
-</div>
-        <div class="container">
-            <div class="row">
-                 <div class="col-md-7" style="margin-top:-108px;padding:38px;background:#000000;margin-bottom: -25px;">
-                    <div class="" style="">
-                   
-                   <!--WebGL Globo-->                    
-      <div id="container" style="height: 623px;
-    color: rgb(255, 255, 255);
-    font: 13px / 20px Arial, sans-serif;
-    margin-left: -39px;
-    cursor: auto;">
-                        <div id="info">
-    <strong>
-        <a href="https://www.chromeexperiments.com/globe"></a></strong> <span class="bull">&bull;</span><span class="bull">&bull;</span><a href="http://sedac.ciesin.columbia.edu/gpw/"></a>
-  </div>
 
-  <div id="currentInfo">
-    <span id="year1990" class="year"></span>
-    <span id="year1995" class="year"></span>
-    <span id="year2000" class="year"></span>
-  </div>
-
-  <div id="title">
-    
-  </div>
-
-  <a id="ce" href="http://www.chromeexperiments.com/globe" style="height: 400px">
-    <span></span>
-  </a>
-</div>
-<!--WebGL Globo-->   
-                       
-
-                           <!-- <div class="hotspot-wraper">
-                                <div class="pulse-box">
-                                    <svg class="pulse-svg" width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink">
-                                        <circle class="circle first-circle" fill="#4442dc" cx="25" cy="25" r="25"></circle>
-                                        <circle class="circle second-circle" fill="#4442dc" cx="25" cy="25" r="25"></circle>
-                                        <circle class="circle third-circle" fill="#4442dc" cx="25" cy="25" r="25"></circle>
-                                        <circle class="circle" fill="#4442dc" cx="25" cy="25" r="25"></circle>
-                                    </svg>
-                                </div>
-
-                                <div class="hotspot-hover">
-                                    <div class="hotspot-massage">
-                                        <p>Todos tus productos son configurables</p>
-                                    </div>
-                                </div>
-                            </div>-->
-                            <!-- /.hotspot-wraper -->
-                     
-
-                      
-                            <!--<img class="responsive" src="<?php echo e(url('css/appx/media/mkt/ciclo-proceso.png')); ?>" alt="Prosess" style="max-width:100%;padding-top: 22px;"/>-->
-                            <!--<img class="responsive" src="<?php echo e(url('css/appx/media/mkt/ciclo-proceso.png')); ?>" alt="Prosess" style="max-width:90%;"/>-->
-                      
-                    </div>
-                    <!-- /.prosess-feature-image -->
-                </div>
-                <!-- /.col-lg-7 -->
-
-                <div class="col-lg-5" style="color:#fff">
-                    <div class="prosess-tabs-inner wow fadeInRight">
-                        <h2 class="title" style="color:#fff">
-                            Mide las principales variables meteorológicas de tu finca o ubicación geográfica
-                        </h2>
-
-                        <div class="norebro-tabs-sc tab-box tabs-left" data-appxbe-tab-box="true" style="padding-bottom:129px;">
-                            <div class="buttons-wrap">
-                                <ul class="buttons" role="tablist">
-                                    <li class="line brand-bg-color"></li>
-                                    <li class="button active undefined" style="color:#fff">Variables</li>
-                                    <li class="button" style="color:#fff">Fincas</li>
-                                    <li class="button" style="color:#fff">Asistencia</li>
-                                    <li class="button" style="color:#fff">Valorización</li>
-                                </ul>
-                            </div>
-                            <div class="items" role="tabpanel">
-                                <div class="item active" data-title="Concept">
-                                    <div class="tab-content">
-                                         <p class="responsive" style="font-size:16px;letter-spacing:0px;line-height:18px;color:#fff;"><br>
-                      Ingresando las variables de Latitud y Longitud de una ubicación, obtendrás los datos climatologicos como <b style="color:#1565C0;font-weight: 600"></b></p>
-
-                        <!--<a href="https://agronielsen.com/encampo/public/descargables/ConsultaFincaRisaraldaSept2020.pdf" target="_blank" style="color: #fff;background: #ff5e3a;line-height: 28px;font-weight: 600">Temperatura, Precipitación, Humedad relativa, Presión atmosferica, Velocidad del viento, UV index (luminosidad)
-                        </a></b>. -->
-                          <div class="white typed" style="padding-top:10px;padding-bottom:10px;background:#3e4095;font-size:25px;color:#fff;line-height:32px;font-weight:700;padding-left: 20px; border-width: 1px;border-style: solid;border-color: white;" id="type">                                 
-                                 
-                                <span class="typed-cursor" style="font-size: 0px;">|</span>
-                        </div>
-                      <p>Puedes marcar la casilla "consultar mi ubicación" o arrastrar el marcador para una nueva ubicación.</span>
-                      <span><a href="consultaclima" target="_blank" style="color: #fff;background: #ff5e3a;line-height: 28px">Ver informe de ejemplo</a></p>
-
-                       
-
-             
-                                        <a href="consultaclima" target="_blank" class="read-btn">Medir variables<i class="ei ei-arrow_right"></i></a>
-                                    </div>
-                                </div>
-                                <div class="item" data-title="Design">
-                                    <div class="tab-content">
-                                        <p>
-                                           Las fincas se agrupan por agricultor y por tipo de cultivo. Cada finca es guardada en el sistema por georeferenciación en unidades de Latitud y Longitud, estas últimas permiten obtener las mediciones de las variables meteorológicas
-                                        </p>
-                                        <a href="https://bit.ly/3pbImdq" class="read-btn" target="_blank">Ver variables meteorológicas<i class="ei ei-arrow_right"></i></a>
-                                    </div>
-                                </div>
-                                <div class="item" data-title="Deployment">
-                                    <div class="tab-content">
-                                        <p>
-                                         El sistema registra los datos claves para gestionar oportunamente el seguimiento y asistencia técnica en los cultivo, garantizando el adecuado desarrollo del cultivo.
-                                        </p>
-                                        <a href="register" class="read-btn"><?php echo e(trans('messages.fichavalorbutton')); ?><i class="ei ei-arrow_right"></i></a>
-                                    </div>
-                                </div>
-                                <div class="item" data-title="Support">
-                                    <div class="tab-content">
-                                        <p>
-                                         Valorizar las recomendaciones técnicas en campo, es un indicador clave para las empresas que fabrican y comercializan agroinsumos.
-                                        </p>
-                                        <a href="register" class="read-btn"><?php echo e(trans('messages.fichaproductbutton')); ?><i class="ei ei-arrow_right"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <style>
-                        #prosess1 {
-                            padding-top: 80px;
-                            padding-bottom: 0px;
-                            overflow: hidden;
-                            background: #fff;
-                        }
-                    </style>
-                    <!-- /.prosess-tabs-inner -->
-                </div>
-                <!-- /.col-lg-5 -->
-            </div>
-            <!-- /.row -->
-        </div>
-
-        <style>
-            #prosess {
-                padding-top: 50px;
-                padding-bottom: 0px;
-                overflow: hidden;
-            }
-        </style>
-        <!-- /.container -->
-    </section>
-
-   <section id="download" style="margin: 0px 0 -2px;padding-bottom: 0px;padding-top: 96px;background:#fff;    margin-left: -160px;">
+   <section id="download" style="margin: 0px 0 -2px;padding-bottom: 0px;padding-top: 143px;background:#fff;    margin-left: -160px;margin-bottom: 0px;">
 
     <div class="container">
         <div class="row">
-
-          
-            <div class="col-md-8" style="margin-top: 0px;margin-left:-39px;margin-right: -92px;">
-
-                 <div class="img-one" style="width: 100%;
-    margin-left: 110px;
-    margin-top: -103px;padding-top:0px;">
-                            <img class="responsive" style="width:109%;margin-left:-99px;" src="<?php echo e(url('css/appx/media/meteo/meteoag.jpg')); ?>" alt="Variables meteorológicas" />
+            <div class="col-md-6" style="margin-top: 0px;margin-left:0px;margin-right:0px;padding-bottom: 121px;">
+                 <div class="img-one" style="margin-left:-40px;margin-top:-43px;padding-top:0px;">
+                            <img class="responsive" style="width:123%;margin-left:66px;margin-bottom:-150px;" src="<?php echo e(url('css/appx/media/mkt/agronielsen-digital.jpg')); ?>" alt="Marketing Dital para el Agro" />
                  </div>
-
-                    
-           </div>
-
-            <div class="col-md-4" style="padding-left: 152px;margin-top:0px;padding-top: -3px;">
-
-                   <div class="prosess-tabs-inner wow fadeInRight responsive" style="margin-top: -118px;">
-                       <h2 class="title responsive" style="color: #000;line-height: 25px;/*margin-top: -110px;*/padding: 17px;font-weight: 550;margin-right: -55px;padding-top: 37px;letter-spacing: -1px;font-size:14px">
-                            Datos del Clima en tu ubicación
-                        </h2>
-
-                 <iframe  style="margin-top: -47px;height: 375px;width:390px;padding: 13px;" id="historyframe" name="historyframe"  src="" frameborder="0" style="border:0" allowfullscreen>
-
-                    
-                     
-                 
-
-                 </iframe>
-                    </div>
-
-            <div class="row" style="margin-left:0px">
-                <div class="text-left">
-
-                               <a
-                            href="<?php echo e(url('consultaclima')); ?>"
-                            target="_blank"
-                            class="read-btn1"
-                            style="
-                                padding: 11px 10px;
-                                background: #3224af;
-
-                                color: #fff;
-                                font-size: 12px;
-                                text-transform: none;
-                                font-weight: 500;
-                                border-radius: 30px;
-                                display: inline-block;
-                                border: 1px solid #3224af;
-                                margin-left: 15px;
-                                margin-top: -10px;
-                            "
-                        >
-                            Medir Variables en Línea
-                        </a>
-                 </div>
-                    <div class="text-right" style="margin-top:-5px;padding-bottom: 15px; padding-top: 4px; margin-bottom: -6px;float: right;">
-
-                               <a
-                            href="https://bit.ly/3pbImdq"
-                            target="_blank"
-                            class="read-btn1"
-                            style="
-                                padding: 11px 10px;
-                                background: #f26d21;
-
-                                color: #fff;
-                                font-size: 14px;
-                                text-transform: none;
-                                font-weight: 500;
-                                border-radius: 30px;
-                                display: inline-block;
-                                border: 1px solid #f26d21;
-                                margin-right: -101px;
-                                margin-top: -9px;
-                                margin-left:10px;
-                                padding-left:20px;
-                                padding-right:17px;
-                            "
-                        >
-                            Ver mediciones
-                        </a>
-                 </div>
-             </div>
             </div>
-                                  
-                           
-                         
-
-                <div id="map_canvas1" class="map_canvas1">
-                            <input type="hidden" id="coords" name="coords">
-                            <input type="hidden" id="coords.lat" name="lat">
-                            <input type="hidden" id="coords.lng" name="lng">
+        <div class="col-lg-6" style="margin-top: -69px;margin-bottom: 28px;">
+            <div class="prosess-tabs-inner wow fadeInRight" style="margin-left: 197px;margin-top: -18px;">
+                <h2 class="title" style="padding-top:100px;">
+                    Especialistas en digitalización para el Campo
+                </h2>
+            <div class="norebro-tabs-sc tab-box tabs-left" data-appxbe-tab-box="true">
+                <div class="buttons-wrap">
+                    <ul class="buttons" role="tablist">
+                        <li class="line brand-bg-color"></li>
+                        <li class="button active undefined">Web</li>
+                        <li class="button">Redes Sociales</li>
+                        <li class="button">Emailing</li>
+                        <li class="button">E-commerce</li>
+                    </ul>
                 </div>
-           </div>
-
-             <div class="col-md-3">
-               
-           </div>
-        </div>
-
-    
-
-        </div>    
-        </section>
-
-     <section id="prosess3" style="padding-bottom: 25px;">
-
-          <div class="col-md-12 text-center" style="">
-
-          <!--  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-                <ins class="adsbygoogle"
-                     style="display:block"
-                     data-ad-format="fluid"
-                     data-ad-layout-key="-gw-3+1f-3d+2z"
-                     data-ad-client="ca-pub-6899098620713335"
-                     data-ad-slot="2446565679">
-                 </ins>
-            <script>
-             (adsbygoogle = window.adsbygoogle || []).push({});
-            </script>-->
-            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6899098620713335"
-     crossorigin="anonymous"></script>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-format="fluid"
-     data-ad-layout-key="-gw-3+1f-3d+2z"
-     data-ad-client="ca-pub-6899098620713335"
-     data-ad-slot="2446565679"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-        </div>
-
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-5" style="margin-top:0px;">
-                    <div class="prosess-tabs-inner wow fadeInRight">
-                        <h2 class="title" style="padding-top: 31px;color:#000">
-                            Los datos también hacer crecer tus cultivos
-                        </h2>
-
-                        <div class="norebro-tabs-sc tab-box tabs-left" data-appxbe-tab-box="true">
-                            <div class="buttons-wrap">
-                                <ul class="buttons" role="tablist">
-                                <li class="line brand-bg-color"></li>
-                                    <li class="button active undefined" style="color:#000"><?php echo e(trans('messages.seccioncloudficha1')); ?></li>
-                                    <li class="button" style="color:#000">Fincas</li>
-                                    <li class="button" style="color:#000"><?php echo e(trans('messages.seccioncloudficha3')); ?></li>
-                                    <li class="button" style="color:#000"><?php echo e(trans('messages.seccioncloudficha4')); ?></li>
-                                </ul>
-                            </div>
-                            <div class="items" role="tabpanel">
-                                <div class="item active" data-title="Concept">
-                                    <div class="tab-content">
-                                        <p style="padding-bottom:40px">
-                                            Agronielsen Analytics es el servicio que te ayudará a tomar decisiones precisas para tu agronegocio.
-                                        </p>
-                                    
+                    <div class="items" role="tabpanel" style="height: 237px;">
+                        <div class="item active" data-title="Concept">
+                            <div class="tab-content">
+                                <p>
+                                    Planeamos, diseñamos y desarrollamos el sitio web de tu marca que permite comunicar, visibilizar y comercializar tu portafolio de productos y servicios.
+                                </p>
+                                        <a target="_blank" href="https://mcooper81.typeform.com/to/rGNLeIgT" class="read-btn">Quiero iniciar<i class="ei ei-arrow_right"></i>
+                                        </a>
                                     </div>
                                 </div>
                                 <div class="item" data-title="Design">
                                     <div class="tab-content">
-                                        <p style="padding-bottom:40px">
-                                            Nuestro sistema en la nube, le permite medir las principales variables climatológicas que afectan la productividad y desarrollos de sus cultivos.
+                                        <p>
+                                            Las redes sociales son un elemento clave en la estrategia de comunicación digital y hace parte de las acciones del marketing directo.
                                         </p>
-                                        <a href="https://bit.ly/3pbImdq" target="_blank" class="read-btn" style="margin-top: -26px;margin-bottom: 30px">Ver variables de fincas<i class="ei ei-arrow_right"></i></a>
+                                        <a target="_blank" href="https://mcooper81.typeform.com/to/rGNLeIgT" class="read-btn">Quiero iniciar<i class="ei ei-arrow_right"></i>
+                                        </a>
                                     </div>
                                 </div>
                                 <div class="item" data-title="Deployment">
                                     <div class="tab-content">
-                                        <p style="padding-bottom:40px">
-                                            <?php echo e(trans('messages.seccioncloudficha3text')); ?>
-
+                                        <p>
+                                            El email marketing es el envío inteligente de correos electrónicos dirigido a tu base de datos o contactos, como lo pueden ser tus clientes potenciales o prospectos.
                                         </p>
-                                        <a href="register" class="read-btn" style="margin-top: -26px;margin-bottom: 30px"><?php echo e(trans('messages.fichavalorbutton')); ?><i class="ei ei-arrow_right"></i></a>
+                                        <a target="_blank" href="https://mcooper81.typeform.com/to/rGNLeIgT" class="read-btn">Quiero iniciar<i class="ei ei-arrow_right"></i>
+                                        </a>
                                     </div>
                                 </div>
                                 <div class="item" data-title="Support">
                                     <div class="tab-content">
-                                        <p style="padding-bottom:40px">
-                                            <?php echo e(trans('messages.seccioncloudficha4text')); ?>
-
+                                        <p>
+                                            El E-commerce significa comercio electrónico y es toda venta realizada en línea. Nace de la necesidad de disminuir la intermediación y llegar directamente a los consumidores.
                                         </p>
-                                        <a href="register" class="read-btn" style="margin-top: -26px;margin-bottom: 30px"><?php echo e(trans('messages.fichaproductbutton')); ?><i class="ei ei-arrow_right"></i></a>
+                                         <a target="_blank" href="https://mcooper81.typeform.com/to/rGNLeIgT" class="read-btn">Quiero iniciar<i class="ei ei-arrow_right"></i>
+                                        </a>
                                     </div>
                                 </div>
             
@@ -593,12 +357,77 @@
                 </div>
             </div>
         </div>
-                <div class="col-lg-7">
-                           <!--  <iframe  style="margin-top: -47px;height: 375px;width:390px;padding: 13px;" id="historyframe1" name="historyframe"  src="" frameborder="0" style="border:0" allowfullscreen>                                          
-                                       </iframe> -->
-                          <div class="img-one">
-                            <img class="responsive" style="padding-top:30px;width:90%;margin-left:0px;" src="<?php echo e(url('css/appx/media/meteo/raspberry-agronielsen.jpg')); ?>" alt="Variables meteorológicas">
-                         </div>
+        </div>
+
+    
+
+        </div>    
+        </section>
+
+     <section id="download" style="padding-bottom: 25px;padding-top:24px;margin-bottom: 0px;background:#fff">
+        <div class="container">
+            <div class="row" style="">
+                <div class="col-lg-6" style="padding-top:0px;">
+                    <div class="prosess-tabs-inner wow fadeInRight">
+                        <!--<h2 class="title" style="padding-top:172px;;margin-top: -43px;">-->
+                        <h2 class="title">
+                            Integramos todos los canales digitales y desarrollamos campañas 360 grados
+                        </h2>
+
+                        <div class="norebro-tabs-sc tab-box tabs-left" data-appxbe-tab-box="true">
+                            <div class="buttons-wrap">
+                                <ul class="buttons" role="tablist">
+                                <li class="line brand-bg-color"></li>
+                                    <li class="button active undefined"><?php echo e(trans('messages.seccioncloudficha1')); ?></li>
+                                    <li class="button">Etapas</li>
+                                    <li class="button">Acompañamiento</li>
+                                    <li class="button">Seamos aliados</li>
+                                </ul>
+                            </div>
+                            <div class="items" role="tabpanel">
+                                <div class="item active" data-title="Concept">
+                                    <div class="tab-content">
+                                        <p>
+                                           Analizamos su presencia digital, como su sitio web, redes sociales, bases de datos que cumplan los requisitos de protección de datos, presencia en google mi negocio, google search console y demás fuentes de tráfico.
+                                        </p>
+                                       <a target="_blank" href="https://mcooper81.typeform.com/to/rGNLeIgT" class="read-btn">Quiero iniciar<i class="ei ei-arrow_right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="item" data-title="Design">
+                                    <div class="tab-content">
+                                        <p>
+                                            Integrar todos los activos digitales de una marca, es un objetivo estratégico que impacta las ventas. Como todo proceso de transformación digital, es clave desarrollar un plan escalable para consolidar los beneficios del marketing digital.
+                                        </p>
+                                        <a href="https://mcooper81.typeform.com/to/rGNLeIgT" target="_blank" class="read-btn">Registrarme<i class="ei ei-arrow_right"></i></a>
+                                    </div>
+                                </div>
+                                <div class="item" data-title="Deployment">
+                                    <div class="tab-content">
+                                        <p>
+                                            Trabajar inicialmente en la cultura más que en la tecnología, es clave la contribución del trabajo en equipo con nuestos clientes, entendiendo que el mayor conocimiento se logra de forma colectiva.
+                                        </p>
+                                        <a href="https://mcooper81.typeform.com/to/rGNLeIgT" target="_blank" class="read-btn"><?php echo e(trans('messages.fichavalorbutton')); ?><i class="ei ei-arrow_right"></i></a>
+                                    </div>
+                                </div>
+                                <div class="item" data-title="Support">
+                                    <div class="tab-content">
+                                        <p>
+                                           Permítanos conocer de forma específica su necesidad en el proceso de transformación digital, registrando el formulario a continuación - tomará solamente 1 minuto y seria de mucha utilidad:
+                                        </p>
+                                        <a href="https://mcooper81.typeform.com/to/rGNLeIgT" target="_blank" class="read-btn"><?php echo e(trans('messages.fichaproductbutton')); ?><i class="ei ei-arrow_right"></i></a>
+                                    </div>
+                                </div>
+            
+                    </div>
+                </div>
+            </div>
+        </div>
+                <div class="col-lg-6">
+                      
+                          
+                            <img class="responsive" style="width:80%;margin-left:18px;padding-top: 54px;" src="<?php echo e(url('css/appx/media/mkt/concepto-360-agronielsen.png')); ?>" alt="Marketing Dital para el Agro" />
+               
                     </div>
                 </div>
             </div>
@@ -616,7 +445,7 @@
             </div>
             <!-- /.section-title title-two -->
 
-            <div class="row" style="margin-bottom: -19px;">
+            <div class="row" style="margin-bottom: -59px;">
                 <div class="col-lg-4 col-md-6">
                     <div class="feature-box-two text-center wow fadeInUp">
                         <div class="icon-container">
@@ -624,7 +453,7 @@
                         </div>
 
                         <div class="content">
-                            <h3><?php echo e(trans('messages.seccionbeneficios1')); ?></h3>
+                            <h3>Todo es medible</h3>
                             <p>
                                 <?php echo e(trans('messages.seccionbeneficios1text')); ?>
 
@@ -724,25 +553,13 @@
     </section>
     <!-- /#swape -->
 
-    <section id="prosess3" style="padding-bottom:20px;">
+    <section id="prosess1">
         <div class="container">
             <div class="row">
                 <div class="col-lg-7">
-                    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6899098620713335"
-     crossorigin="anonymous"></script>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-format="fluid"
-     data-ad-layout-key="-gw-3+1f-3d+2z"
-     data-ad-client="ca-pub-6899098620713335"
-     data-ad-slot="2446565679"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
                     <div class="prosess-feature-image wow fadeInLeft text-right">
-
                         <div class="img-one">
-                            <img class="" src="<?php echo e(url('css/appx/media/faq/faq3.png')); ?>" alt="Prosess" style="padding-top:28px;">
+                            <img class="" src="<?php echo e(url('css/appx/media/faq/faq3.png')); ?>" alt="Prosess" />
 
                             <div class="hotspot-wraper">
                                 <div class="pulse-box">
@@ -764,7 +581,7 @@
                         </div>
 
                         <div class="img-two fadeInDown">
-                            <img src="<?php echo e(url('css/appx/media/faq/faq4.png')); ?>" alt="Prosess" style="max-width: 130%;padding-top:15px"/>
+                            <img src="<?php echo e(url('css/appx/media/faq/faq4.png')); ?>" alt="Prosess" style="max-width: 130%;"/>
                         </div>
                     </div>
                     <!-- /.prosess-feature-image -->
@@ -772,8 +589,8 @@
                 <!-- /.col-lg-7 -->
 
                 <div class="col-lg-5">
-                    <div class="prosess-tabs-inner wow fadeInRight" style="color:#000">
-                        <h2 class="title" style="color:#000">
+                    <div class="prosess-tabs-inner wow fadeInRight">
+                        <h2 class="title">
                             <?php echo e(trans('messages.seccioncloudtitle')); ?>
 
                         </h2>
@@ -782,10 +599,10 @@
                             <div class="buttons-wrap">
                                 <ul class="buttons" role="tablist">
                                     <li class="line brand-bg-color"></li>
-                                    <li class="button active undefined" style="color:#000"><?php echo e(trans('messages.seccioncloudficha1')); ?></li>
-                                    <li class="button" style="color:#000"><?php echo e(trans('messages.seccioncloudficha2')); ?></li>
-                                    <li class="button" style="color:#000"><?php echo e(trans('messages.seccioncloudficha3')); ?></li>
-                                    <li class="button" style="color:#000"><?php echo e(trans('messages.seccioncloudficha4')); ?></li>
+                                    <li class="button active undefined"><?php echo e(trans('messages.seccioncloudficha1')); ?></li>
+                                    <li class="button"><?php echo e(trans('messages.seccioncloudficha2')); ?></li>
+                                    <li class="button"><?php echo e(trans('messages.seccioncloudficha3')); ?></li>
+                                    <li class="button"><?php echo e(trans('messages.seccioncloudficha4')); ?></li>
                                 </ul>
                             </div>
                             <div class="items" role="tabpanel">
@@ -828,7 +645,14 @@
                             </div>
                         </div>
                     </div>
-                   
+                    <style>
+                        #prosess1 {
+                            padding-top: 80px;
+                            padding-bottom: 0px;
+                            overflow: hidden;
+                            background: #fff;
+                        }
+                    </style>
                     <!-- /.prosess-tabs-inner -->
                 </div>
                 <!-- /.col-lg-5 -->
@@ -836,17 +660,23 @@
             <!-- /.row -->
         </div>
 
-       
+        <style>
+            #prosess {
+                padding-top: 50px;
+                padding-bottom: 0px;
+                overflow: hidden;
+            }
+        </style>
         <!-- /.container -->
     </section>
 
     <!--=============================-->
     <!--=        Feature Two        =-->
     <!--=============================-->
-    <section id="feature-two" style="padding-top:20px;margin-top:-28px">
+    <section id="feature-two">
         <div class="container">
             <div class="section-title title-two">
-                <h2 style="padding-top:30px"><?php echo e(trans('messages.seccionempresastitle')); ?></h2>
+                <h2><?php echo e(trans('messages.seccionempresastitle')); ?></h2>
             </div>
             <!-- /.section-title title-two -->
 
@@ -988,7 +818,7 @@
 
                 <div class="store-btns">
                     <a
-                        href="https://play.google.com/store/apps/details?id=io.ionic.agronielsenmeteo"
+                        href="https://play.google.com/store/apps/details?id=io.ionic.agronielsen"
                         target="_blank"
                         class="store-btn wow flipInX"
                         data-wow-delay="0.9s"
@@ -1149,14 +979,7 @@
         <!-- /.container -->
     </section>
 
-     <div class="typeform-widget" data-url="https://form.typeform.com/to/rGNLeIgT" data-transparency="100" data-hide-footer=true style="width: 100%; color: #fff; height: 500px;background:#fff"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #fff;opacity: 0.0; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=rGNLeIgT&utm_source=typeform.com-01E7VHQSH0T5CJ1W5DZFQQCY7Z-free&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=ES" style="color: #999" target="_blank">Typeform</a> </div>
-
-
-
-
-           <div style="position:fixed;top:calc(50% - 250px);right:0;transition:width 300ms ease-out;width:0;"> <a class="typeform-share button" href="https://form.typeform.com/to/rGNLeIgT" data-mode="side_panel" style="box-sizing:border-box;position:absolute;top:300px;width:200px;height:48px;padding:0 20px;margin:0;cursor:pointer;background:#129C3F;border-radius:4px 4px 0px 0px;box-shadow:0px 2px 12px rgba(0, 0, 0, 0.06), 0px 2px 4px rgba(0, 0, 0, 0.08);display:flex;align-items:center;justify-content:flex-start;transform:rotate(-90deg);transform-origin:bottom left;color:white;text-decoration:none;" data-width="320" data-height="500" target="_blank"> <span class="icon" style="width:32px;position:relative;text-align:center;transform:rotate(90deg) scale(0.85);left:-8px;"> <svg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg' style="margin-top:10px;"> <path d='M21 0H0V9L10.5743 24V16.5H21C22.6567 16.5 24 15.1567 24 13.5V3C24 1.34325 22.6567 0 21 0ZM7.5 9.75C6.672 9.75 6 9.07875 6 8.25C6 7.42125 6.672 6.75 7.5 6.75C8.328 6.75 9 7.42125 9 8.25C9 9.07875 8.328 9.75 7.5 9.75ZM12.75 9.75C11.922 9.75 11.25 9.07875 11.25 8.25C11.25 7.42125 11.922 6.75 12.75 6.75C13.578 6.75 14.25 7.42125 14.25 8.25C14.25 9.07875 13.578 9.75 12.75 9.75ZM18 9.75C17.172 9.75 16.5 9.07875 16.5 8.25C16.5 7.42125 17.172 6.75 18 6.75C18.828 6.75 19.5 7.42125 19.5 8.25C19.5 9.07875 18.828 9.75 18 9.75Z' fill='white' /> </svg> </span> <span style="text-decoration:none;font-size:18px;font-family:Helvetica,Arial,sans-serif;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:100%;text-align:center;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;"> ¡Demo sin costo! </span> </a> </div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>  
-
-    <!--<div class="container">
+   <!-- <div class="container">
         <div class="row">
             <div class="section-title">
                 <h2>Blog</h2>
@@ -1192,7 +1015,7 @@
                             <h3 class="widget-title">Soporte</h3>
 
                             <ul class="footer-menu">
-                                <li><a href="https://play.google.com/store/apps/details?id=io.ionic.agronielsenmeteo" target="_blank">Google Play</a></li>
+                                <li><a href="https://play.google.com/store/apps/details?id=io.ionic.agronielsen" target="_blank">Google Play</a></li>
                                 <!--<li><a href="https://www.agronielsen.com/politica-privacidad/" target="_blank">Privacidad</a></li>-->
                                 <!-- <li><a href="https://www.agronielsen.com/modelamiento-de-datos/" target="_blank">Modelo de datos</a></li>-->
                                 <li><a href="register">Registrarme</a></li>
@@ -1210,12 +1033,12 @@
 
                             <ul class="footer-menu">
                                 <li><a href="https://www.agronielsen.com/" target="_blank">Agronielsen</a></li>
-                                <li><a href="<?php echo e(url('visor')); ?>" target="_blank">Analítica de datos</a></li>
-                                <li><a href="<?php echo e(url('ventainformes')); ?>" target="_blank">Venta de Informes</a></li>
+                                <li><a href="<?php echo e(asset('visor')); ?>" target="_blank">Analítica de datos</a></li>
+                                <li><a href="<?php echo e(asset('ventainformes')); ?>" target="_blank">Venta de Informes</a></li>
                                 <!-- <li><a href="https://www.agronielsen.com/membresia-inteligencia-de-mercados-agricolas-colombia/?restricted=page" target="_blank">Membresía Inteligencia de Mercados</a></li>-->
                                 <!-- <li><a href="https://www.agronielsen.com/blog/abre-tu-cuenta-gratis/" target="_blank">Demo de tablero de Análisis</a></li>-->
                                 <!-- <li><a href="https://www.agronielsen.com/mineria" target="_blank">Míneria de Clientes</a></li>-->
-                                <li><a href="directofinca" target="_blank">Directo de Finca</a></li>
+                                <li><a href="https://directodefinca.com" target="_blank">Directo de Finca</a></li>
                                 <li><a href="https://www.agronielsen.com/blog/contacto/" target="_blank">Contacto</a></li>
                                 <li><a href="register" target="_blank">Suscribirse</a></li>
                             </ul>
@@ -1301,101 +1124,7 @@
     
     <!-- Dependency Scripts -->
 
-    <script src="<?php echo e(url('css/appx/dependencies/popper.js/popper.min.js')); ?>"></script>
-    <script src="<?php echo e(url('css/appx/dependencies/jquery/jquery.min.js')); ?>"></script>
-    <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
-    <script src="<?php echo e(url('css/appx/dependencies/bootstrap/js/bootstrap.min.js')); ?>"></script>
-      <script src="<?php echo e(url('js/typewriter.js')); ?>" type="text/javascript"></script>
-  <script src="<?php echo e(url('js/typed.js')); ?>" type="text/javascript"></script>
-    <script src="<?php echo e(url('css/appx/dependencies/swiper/js/swiper.jquery.min.js')); ?>"></script>
-    <script src="<?php echo e(url('css/appx/dependencies/swiperRunner/js/swiperRunner.min.js')); ?>"></script>
-    <script src="<?php echo e(url('css/appx/assets/js/TweenMax.min.js')); ?>"></script>
-    <script src="<?php echo e(url('css/appx/dependencies/wavify/jquery.wavify.js')); ?>"></script>
-    <script src="<?php echo e(url('css/appx/dependencies/jquery.parallax-scroll/jquery.parallax-scroll.js')); ?>"></script>
-    <script src="<?php echo e(url('css/appx/dependencies/countUp.js/countUp.min.js')); ?>"></script>
-    <script src="<?php echo e(url('css/appx/dependencies/jquery.appear/jquery.appear.js')); ?>"></script>
-    <script src="<?php echo e(url('css/appx/dependencies/wow/js/wow.min.js')); ?>"></script>
-    <script src="<?php echo e(url('css/appx/dependencies/raindrops/js/raindrops.js')); ?>"></script>
-    <script src="<?php echo e(url('css/appx/dependencies/slick-carousel/js/slick.js')); ?>"></script>
-    <script src="<?php echo e(url('css/appx/dependencies/magnific-popup/js/jquery.magnific-popup.min.js')); ?>"></script>
-    <script src="<?php echo e(url('css/appx/dependencies/parallax/js/jquery.parallax.min.js')); ?>"></script>
-
-     <script>
-        $(document).ready(function () {
-            $("#mostrarmodal").modal("show");
-        });
- </script>
-
-<script type="text/javascript">
-  $(function(){
-        $(".typed").typed({
-            strings: ["Temperatura del ambiente (°C)", "Temperatura del suelo (°C)", "Precipitación (mm agua)","Humedad Relativa (%)", "Presión atmosférica (hPa)","Velocidad del viento (m/s)","UV index","Luminosidad"],
-            typeSpeed: 50, loop: true, fadeOut: true,
-        });
-    });
-</script>
-
- <script>
-
-  if(!Detector.webgl){
-      Detector.addGetWebGLMessage();
-    } else {
-
-      var years = ['1990','1995','2000'];
-      var container = document.getElementById('container');
-      var globe = new DAT.Globe(container);
-
-      console.log(globe);
-      var i, tweens = [];
-      
-      var settime = function(globe, t) {
-        return function() {
-          new TWEEN.Tween(globe).to({time: t/years.length},500).easing(TWEEN.Easing.Cubic.EaseOut).start();
-          var y = document.getElementById('year'+years[t]);
-          if (y.getAttribute('class') === 'year active') {
-            return;
-          }
-          var yy = document.getElementsByClassName('year');
-          for(i=0; i<yy.length; i++) {
-            yy[i].setAttribute('class','year');
-          }
-          y.setAttribute('class', 'year active');
-        };
-      };
-      
-      for(var i = 0; i<years.length; i++) {
-        var y = document.getElementById('year'+years[i]);
-        y.addEventListener('mouseover', settime(globe,i), false);
-      }
-      
-      var xhr;
-      TWEEN.start();
-      
-      
-      xhr = new XMLHttpRequest();
-      xhr.open('GET', './js/globe/population909500.json', true);
-      xhr.onreadystatechange = function(e) {
-        if (xhr.readyState === 4) {
-          if (xhr.status === 200) {
-            var data = JSON.parse(xhr.responseText);
-            window.data = data;
-            for (i=0;i<data.length;i++) {
-              globe.addData(data[i][1], {format: 'magnitude', name: data[i][0], animated: true});
-            }
-            globe.createPoints();
-            settime(globe,0)();
-            globe.animate();
-            document.body.style.backgroundImage = 'none'; // remove loading
-          }
-        }
-      };
-      xhr.send(null);
-  }
-    </script>
-
-    <!-- Site Scripts -->
-    <script src="<?php echo e(url('css/appx/assets/js/app.js')); ?>"></script>
-    <!--<script src="<?php echo e(url('js/openweathermapipdata.js')); ?>"></script>-->
+ <?php echo $__env->make('/landing/partials.footer', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
 
     <!-- Start of  Zendesk Widget script -->
   
@@ -1459,7 +1188,6 @@ console.log(coords.lng);
 //document.getElementById("enlace").setAttribute('href',URL);
 //document.getElementById("enlace1").setAttribute('href',URL);
 $('#historyframe').attr('src',URL2);
-$('#historyframe1').attr('src',URL2);
 //var iframe = document.getElementById('historyframe');
 //iframe.src = iframe.src + window.location.search;
 // var search = window.location.search;
@@ -1720,7 +1448,7 @@ fetch(`https://api.stormglass.io/v2/bio/point?lat=${lat}&lng=${lon}&params=${par
                         background-image: linear-gradient(40deg, #76A82B 0%, #76A82B 100%);
                         overflow: hidden;
                         padding-top: 100px;
-                        /*background:url(<?php echo e(url('imagenes/agct.jpg')); ?>*/
+                        /*background:url(https://www.agronielsen.com/encampo/public/imagenes/agct.jpg)*/
         }
 
         .site-nav {
@@ -1929,7 +1657,6 @@ fetch(`https://api.stormglass.io/v2/bio/point?lat=${lat}&lng=${lon}&params=${par
             display: none;
             overflow: hidden;
             outline: 0;
-            background:#6c8e38;
         }
 
         .gp-header-fixed .site-logo {
@@ -2257,18 +1984,6 @@ fetch(`https://api.stormglass.io/v2/bio/point?lat=${lat}&lng=${lon}&params=${par
             border: 1px solid transparent;
         }
 
-          .btn-primary:hover {
-            background: #fff;
-            border-radius: 30px;
-            -webkit-box-shadow: none;
-            box-shadow: none;
-            color: #fff;
-            font-weight: 600;
-            font-size: 14px;
-            padding: 9px 28px;
-            border: 1px solid transparent;
-        }
-
         .card-body {
             padding: 2.1rem;
             background: #fff;
@@ -2414,8 +2129,9 @@ fetch(`https://api.stormglass.io/v2/bio/point?lat=${lat}&lng=${lon}&params=${par
         @media (max-width: 991px) {
 
     .prosess-tabs-inner {
-        margin-top: 5px;
-        margin-bottom: 0px;
+       margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top:0px;
     }}
 
     /*@media (max-width:768px) {
@@ -2467,13 +2183,13 @@ fetch(`https://api.stormglass.io/v2/bio/point?lat=${lat}&lng=${lon}&params=${par
 .prosess-tabs-inner {
     margin-top: -52px;
     margin-bottom: 0px;
-    padding-top: 27px;
+    padding-top: 31px;
 }}
 
 @media (max-width: 576px){
 .prosess-feature-image {
     height: 450px;
-    margin-bottom: -93px;
+    margin-bottom: -70px;
 }}
 
 .gm-style .gm-style-iw-c {
@@ -2552,25 +2268,10 @@ fetch(`https://api.stormglass.io/v2/bio/point?lat=${lat}&lng=${lon}&params=${par
 }
 
   #prosess1 {
-                            padding-top: 145px;
-                            padding-bottom: 140px;
-                            overflow: hidden;
-                            background: #ffffff;
-                            color:#000;
-                        }
- #prosess2 {
-                            padding-top: 145px;
-                            padding-bottom: 140px;
-                            overflow: hidden;
-                            background: #000;
-                            color:#fff;
-                        }
-#prosess3 {
-                            padding-top: 45px;
-                            padding-bottom: 140px;
+                            padding-top: 80px;
+                            padding-bottom: 0px;
                             overflow: hidden;
                             background: #fff;
-                            color:#000;
                         }
 
                            #prosess {
@@ -2579,153 +2280,20 @@ fetch(`https://api.stormglass.io/v2/bio/point?lat=${lat}&lng=${lon}&params=${par
                 overflow: hidden;
             }
 
+.tab-box .buttons {
+    width: 115%;
+    white-space: nowrap;
+    overflow: auto;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
 input, p, select {
     font-size: 1.275rem;
     font-weight: 600;
                 }
-
-                 html {
-        height: 100%;
-      }
-      body {
-        margin: 0;
-        padding: 0;
-        background: #000000 url(./loading.gif) center center no-repeat;
-        color: #ffffff;
-        font-family: sans-serif;
-        font-size: 13px;
-        line-height: 20px;
-        height: 100%;
-      }
-
-      #info {
-
-        font-size: 11px;
-        position: absolute;
-        bottom: 5px;
-        /*background-color: rgba(0,0,0,0.8);*/
-        background-color:transparent;
-        border-radius: 3px;
-        right: 10px;
-        padding: 10px;
-
-      }
-
-      #currentInfo {
-        width: 270px;
-        position: absolute;
-        left: 20px;
-        top: 63px;
-
-        /*background-color: rgba(0,0,0,0.2);*/
-        background-color:transparent;
-
-        border-top: 0px solid rgba(255,255,255,0.4);
-        padding: 10px;
-      }
-
-      a {
-        /*color: #aaa;*/
-        color: transparent;
-        text-decoration: none;
-      }
-      a:hover {
-        text-decoration: underline;
-      }
-
-      .bull {
-        padding: 0 5px;
-        color: #555;
-      }
-
-      #title {
-        position: absolute;
-        top: 20px;
-        width: 270px;
-        left: 20px;
-        /*background-color: rgba(0,0,0,0.2);*/
-        background-color:transparent;
-        border-radius: 3px;
-        font: 20px Georgia;
-        padding: 10px;
-      }
-
-      .year {
-        font: 16px Georgia;
-        line-height: 26px;
-        height: 30px;
-        text-align: center;
-        float: left;
-        width: 90px;
-        color: rgba(255, 255, 255, 0.4);
-
-        cursor: pointer;
-        -webkit-transition: all 0.1s ease-out;
-      }
-
-      .year:hover, .year.active {
-        font-size: 23px;
-        color: #fff;
-      }
-
-      #ce span {
-        display: none;
-      }
-
-      #ce {
-        width: 107px;
-        height: 55px;
-        display: block;
-        position: absolute;
-        bottom: 15px;
-        left: 20px;
-        background: url(./ce.png);
-      }
-
-      @media (min-width: 800px) {
-.col-md-12 {
-    flex: 0 0 100%;
-    max-width: 100%;
-    margin-top: -128px;
-    height: 226px;
-}
-}
-
-@media (max-width: 991px) {
-.prosess-tabs-inner {
-    margin-top: -48px;
-    margin-bottom: 0px;
-    padding-top: 90px;
-}
-}
-
-.bg-aqua-active, .modal-info .modal-header, .modal-info .modal-footer {
-    background-color: #5c900a !important;
-}
-
-.modal-header .close {
- padding: 8px;
-    margin: -6px -5px 0px -1px;
-    border-radius: 5px;
-}
-
-
-
-button.close {
-    padding: 0;
-    background-color: #000;
-    border: 0;
-    -webkit-appearance: none;
-}
-
-@media (min-width: 800px) {
-.col-md-12 {
-    flex: 0 0 100%;
-    max-width: 100%;
-    margin-top: 0px;
-    height: auto;
-}
-}
 
 
     </style>
