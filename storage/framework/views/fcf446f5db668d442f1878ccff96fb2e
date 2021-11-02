@@ -742,7 +742,7 @@
                     <div class="prosess-feature-image wow fadeInLeft text-right">
 
                         <div class="img-one">
-                            <img class="" src="<?php echo e(url('css/appx/media/faq/faq3.png')); ?>" alt="Prosess" />
+                            <img class="" src="<?php echo e(url('css/appx/media/faq/faq3.png')); ?>" alt="Prosess" style="padding-top:28px;">
 
                             <div class="hotspot-wraper">
                                 <div class="pulse-box">
@@ -764,7 +764,7 @@
                         </div>
 
                         <div class="img-two fadeInDown">
-                            <img src="<?php echo e(url('css/appx/media/faq/faq4.png')); ?>" alt="Prosess" style="max-width: 130%;"/>
+                            <img src="<?php echo e(url('css/appx/media/faq/faq4.png')); ?>" alt="Prosess" style="max-width: 130%;padding-top:15px"/>
                         </div>
                     </div>
                     <!-- /.prosess-feature-image -->

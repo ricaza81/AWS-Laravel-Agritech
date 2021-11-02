@@ -831,10 +831,10 @@
     <!--=============================-->
     <!--=        Feature Two        =-->
     <!--=============================-->
-    <section id="feature-two" style="padding-top:20px;">
+    <section id="feature-two" style="padding-top:20px;margin-top:-28px">
         <div class="container">
             <div class="section-title title-two">
-                <h2>{{trans('messages.seccionempresastitle')}}</h2>
+                <h2 style="padding-top:30px">{{trans('messages.seccionempresastitle')}}</h2>
             </div>
             <!-- /.section-title title-two -->
 

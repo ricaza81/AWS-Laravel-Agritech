@@ -156,7 +156,7 @@ return [
       /*---SECCIONENTRA2.0---*/
       
       /*---SECCIONEMPRESASAGRICOLAS---*/
-      'seccionempresastitle' => 'Dirigida a empresas fabricantes y distribuidores de insumos agrícolas',
+      'seccionempresastitle' => 'App diseñada para agricultores, empresas fabricantes y distribuidores de insumos agrícolas',
       'seccionempresas1' => 'Fabricantes ó Distribuidores',
       'seccionempresas1text' => 'Agronielsen en Campo está diseñada exclusivamente para empresas que producen y distribuyen insumos agrícolas.',
       'seccionempresas2' => 'Generación de demanda en Campo',
