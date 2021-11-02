@@ -9,7 +9,7 @@
 
       <div class="col col-xl-12 m-auto col-lg-12 col-md-12 col-sm-12 col-12" style="margin-right: -16px;">
         <div class="site-logo" style="padding-top: 45px;margin-right: -16px;padding-bottom: 20px">
-                            <a href="landing" class="main-logo"><img src="https://www.agronielsen.com/encampo/public/css/appx/assets/img/agronielsen.png" alt="Agronielsen en Campo" />
+                            <a href="landing" class="main-logo"><img src="{{url('css/appx/assets/img/agronielsen.png')}}" alt="Agronielsen en Campo" />
                             </a>
         </div>
      </div>
