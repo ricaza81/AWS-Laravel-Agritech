@@ -36,13 +36,13 @@
   <link rel="stylesheet" type="text/css" href="{{url('css/olympus/app/css/main.min.css')}}">
 
   <link rel="stylesheet" type="text/css" href="{{url('css/olympus/app/css/fonts.min.css')}}">
-   <link rel="stylesheet" href="https://www.agronielsen.com/encampo/public/css/appx/assets/css/app.css" type="text/css">
+   <link rel="stylesheet" href="{{url('css/appx/assets/css/app.css')}}" type="text/css">
      <link rel="stylesheet" type="text/css" href="{{url('css/olympus/app/css/main.min.css')}}">
 
   <link rel="stylesheet" type="text/css" href="{{url('css/olympus/app/css/fonts.min.css')}}">
-   <link rel="stylesheet" href="https://www.agronielsen.com/encampo/public/css/appx/dependencies/font-awesome/css/font-awesome.min.css" type="text/css">
+   <link rel="stylesheet" href="{{url('css/appx/dependencies/font-awesome/css/font-awesome.min.css')}}" type="text/css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
- <link rel="stylesheet" href="https://www.agronielsen.com/encampo/public/css/pe-icon-7-stroke.css">
+ <link rel="stylesheet" href="{{url('css/pe-icon-7-stroke.css')}}">
 
 
 
