@@ -371,7 +371,7 @@
       <div class="container" >
         <div class="row">
           <div class="col-md-7">
-            <div class="banner-content" style="padding-top:198px">
+            <div class="banner-content" style="padding-top:1px">
               <h2 class="title wow fadeInUp">Mejora tu Estrategia de Mercadeo</h2>
               <h2 class="title wow fadeInUp" data-wow-delay="0.3s">midiendo tu gestión en campo</h2>
 
