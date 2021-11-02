@@ -229,7 +229,7 @@ class AuthController extends Controller
         $date = Carbon::now();
         $consultasclima=ConsultaClima::all();
 
-        return view('consultaclima')
+        return view('landing.consultaclima')
         ->with("params1",$params1)
         ->with("paises",$paises)
         //->with("productorecomendado",$productorecomendado)
