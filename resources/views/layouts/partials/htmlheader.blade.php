@@ -26,27 +26,27 @@
     <!-- FB Meta tags -->
     <meta property="og:title" content="Agronielsen en Campo: Gestor de visitas técnicas"/>
     <meta property="og:type" content="website"/>
-    <meta property="og:image" content="{{url('/public/css/appx/media/banner/encampoapp.png')}}"/>
+    <meta property="og:image" content="{{url('css/appx/media/banner/encampoapp.png')}}"/>
     <meta property="og:url" content="https://www.agronielsen.com/encampo"/>
     <title>Agronielsen en Campo: Gestor de visitas técnicas</title>
-      <link rel="apple-touch-icon" sizes="180x180" href="https://www.agronielsen.com/encampo/public/css/appx/assets/img/favicon/agronielsen-apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="{{url('/public/css/appx/assets/img/favicon/faviconnielsen.png')}}">
-  <link rel="icon" type="image/png" sizes="16x16" href="{{url('/public/css/appx/assets/img/favicon/faviconnielsen-16-16.png')}}">
+      <link rel="apple-touch-icon" sizes="180x180" href="{{url('css/appx/assets/img/favicon/agronielsen-apple-touch-icon.png')}}">
+  <link rel="icon" type="image/png" sizes="32x32" href="{{url('css/appx/assets/img/favicon/faviconnielsen.png')}}">
+  <link rel="icon" type="image/png" sizes="16x16" href="{{url('css/appx/assets/img/favicon/faviconnielsen-16-16.png')}}">
   <!--<link rel="manifest" href="/site.webmanifest">-->
-  <link rel="mask-icon" href="https://www.agronielsen.com/encampo/public/css/appx/assets/img/favicon/safari-pinned-tab.svg" color="#454be5">
+  <link rel="mask-icon" href="{{url('css/appx/assets/img/favicon/safari-pinned-tab.svg')}}" color="#454be5">
   <meta name="msapplication-TileColor" content="#454be5">
   <meta charset="utf-8">
    
     <!-- Bootstrap 3.3.5 -->
   <!--  <link rel="stylesheet" href="http://www.aplicatics.co/cosmoagro/public/bootstrap/css/bootstrap.min.css"> -->
-    <link rel="stylesheet" href="{{url('/bootstrap/css/bootstrap.min.css')}}">
+    <link rel="stylesheet" href="{{url('bootstrap/css/bootstrap.min.css')}}">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-tour/0.11.0/css/bootstrap-tour.css" rel="stylesheet"/>
    
     <!-- Font Awesome -->
     <link rel="stylesheet" href="{{asset('css/font-awesome.min.css')}}">
     <!-- Ionicons -->
-    <link rel="stylesheet" href="{{url('/css/pe-icon-7-stroke.css')}}">
-    <link rel="stylesheet" href="{{url('/css/pe-icon-7-stroke.css')}}">
+    <link rel="stylesheet" href="{{url('css/pe-icon-7-stroke.css')}}">
+    <link rel="stylesheet" href="{{url('css/pe-icon-7-stroke.css')}}">
     <link href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css" />
     <!-- Theme style -->
     
@@ -100,7 +100,7 @@
 
          <label style="color:#FFF; background-color:#ABB6BA; text-align:center">&nbsp;&nbsp;&nbsp;Espere... &nbsp;&nbsp;&nbsp;</label>
 
-         <img src="{{url('/imagenes/cargando.gif')}}" align="middle" alt="cargador"> &nbsp;<label style="color:#ABB6BA">Realizando tarea solicitada ...</label>
+         <img src="{{url('imagenes/cargando.gif')}}" align="middle" alt="cargador"> &nbsp;<label style="color:#ABB6BA">Realizando tarea solicitada ...</label>
 
           <br>
          <hr style="color:#003" width="50%">
@@ -152,8 +152,8 @@
                       <div class="margin"  id="botones_control" >
                                   <!--<button type="button" class="btn btn-primary" onclick="mostrarseccion(1);" >Informacion</button>
                                   <button type="button" class="btn btn-primary" onclick="mostrarseccion(2);" >Educación</button> -->
-                            <!--      <button type="button" class="btn btn-primary" onclick="mostrarseccion(3);" >Carga Documentos</button>
-                                  <button type="button" class="btn btn-primary" onclick="mostrarseccion(5);" >Seguimiento</button>
+                            <!--      <button type="button" class="btn btn-primary" onclick="mostrarseccion(3);" >Carga Documentos</button>-->
+                            <!--<button type="button" class="btn btn-primary" onclick="mostrarseccion(5);" >Seguimiento</button>-->
                                   <!--<button type="button" class="btn btn-primary" onclick="mostrarseccion(4);" >Proyectos</button> --> 
                                  
                       </div>
@@ -212,7 +212,7 @@
                                   <!--<button type="button" class="btn btn-primary" onclick="mostrarseccion(1);" >Informacion</button>
                                   <button type="button" class="btn btn-primary" onclick="mostrarseccion(2);" >Educación</button> -->
                             <!--      <button type="button" class="btn btn-primary" onclick="mostrarseccion(3);" >Carga Documentos</button>
-                                  <button type="button" class="btn btn-primary" onclick="mostrarseccion(5);" >Seguimiento</button>
+                                  <button type="button" class="btn btn-primary" onclick="mostrarseccion(5);" >Seguimiento</button>-->
                                   <!--<button type="button" class="btn btn-primary" onclick="mostrarseccion(4);" >Proyectos</button> --> 
                                  
                       </div>
@@ -271,7 +271,7 @@
                                   <!--<button type="button" class="btn btn-primary" onclick="mostrarseccion(1);" >Informacion</button>
                                   <button type="button" class="btn btn-primary" onclick="mostrarseccion(2);" >Educación</button> -->
                             <!--      <button type="button" class="btn btn-primary" onclick="mostrarseccion(3);" >Carga Documentos</button>
-                                  <button type="button" class="btn btn-primary" onclick="mostrarseccion(5);" >Seguimiento</button>
+                                  <button type="button" class="btn btn-primary" onclick="mostrarseccion(5);" >Seguimiento</button>-->
                                   <!--<button type="button" class="btn btn-primary" onclick="mostrarseccion(4);" >Proyectos</button> --> 
                                  
                       </div>

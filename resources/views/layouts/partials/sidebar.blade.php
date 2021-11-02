@@ -10,7 +10,7 @@
          <div class="modal-body" align="center">
             <h4>Trabaja en equipo</h4>
             Todo en un mismo lugar.
-          <center>  <img src="https://www.agronielsen.com/encampo/public/imagenes/paso-paso.png" width="571" height="152"> </center>
+          <center>  <img src="{{url('imagenes/paso-paso.png')}}" width="571" height="152"> </center>
      </div>
          <div class="modal-footer">
         <a href="#" data-dismiss="modal" class="btn btn-danger">Cerrar</a>
@@ -28,7 +28,7 @@
           <!-- mini logo for sidebar mini 50x50 pixels -->
           <span class="logo-mini"><b>AGRN</b></span>
           <!-- logo for regular state and mobile devices -->
-          <span class="logo-lg"><img src="https://www.agronielsen.com/encampo/public/imagenes/sdclogo.png" style="height: auto; width: auto; max-width: 242px; max-height: 44px;"></span>
+          <span class="logo-lg"><img src="{{url('imagenes/sdclogo.png')}}" style="height: auto; width: auto; max-width: 242px; max-height: 44px;"></span>
         </a>
         <!-- Header Navbar: style can be found in header.less -->
         <nav class="navbar navbar-static-top" role="navigation">
@@ -81,7 +81,7 @@
               <li class="dropdown user user-menu">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                    <?php if($usuario->imagenurl=="")
-                        { $usuario->imagenurl="https://www.agronielsen.com/encampo/storage/fotografias/userimagen-18.png"; } 
+                        { $usuario->imagenurl="https://www.agronielsen.com/storage/fotografias/userimagen-18.png"; } 
                       ?>
                    <?=  $usuario->nombres;  ?>
                 </a>
