@@ -766,7 +766,7 @@
                 </div>
                 <!-- /.col-lg-7 -->
 
-                <div class="col-lg-5" style="padding-top:83px;">
+                <div class="col-lg-5" style="padding-top:0px;">
                     <div class="prosess-tabs-inner wow fadeInRight" style="color:#000">
                         <h2 class="title" style="color:#000">
                             {{trans('messages.seccioncloudtitle')}}
