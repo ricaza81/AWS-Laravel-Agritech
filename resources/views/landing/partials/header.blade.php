@@ -32,11 +32,11 @@
     <link rel="canonical" href="https://www.agronielsen.com" />
 
     <!-- FB Meta tags -->
-
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
     <link rel="stylesheet" href="https://getbootstrap.com/docs/4.0/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="{{url('css/olympus/app/css/fonts.min.css')}}" />
-    <link rel="stylesheet" href="{{url('css/appx/dependencies/font-awesome/css/font-awesome.min.css')}}" type="text/css" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <!--<link rel="stylesheet" href="{{url('css/appx/dependencies/font-awesome/css/font-awesome.min.css')}}" type="text/css" />-->
+    
     <link rel="stylesheet" href="{{url('css/pe-icon-7-stroke.css')}}" />
 
     <link rel="stylesheet" href="{{url('css/appx/dependencies/components-elegant-icons/css/elegant-icons.min.css')}}" type="text/css" />

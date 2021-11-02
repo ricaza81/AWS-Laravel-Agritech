@@ -123,10 +123,10 @@
                                     <a href="<?php echo e(asset('landing#asi-funciona')); ?>"><?php echo e(trans('messages.asifunciona')); ?> </a>
                                 </li>-->
 
-                                <li class="menu-item-has-children" id="strange">
+                                <li class="menu-item-has-children" id="strange-1">
                                     <a href="<?php echo e(asset('producto')); ?>"><?php echo e(trans('messages.pdto')); ?></a>
 
-                                    <div class="popoverContent" id="popoverContent2">
+                                    <div class="popoverContent" id="popoverContent2-1">
                                         <div class="featureLinks">
                                             <a class="featureLinksWrapper" href="<?php echo e(asset('landing#prosess')); ?>">
                                                 <span class="featureLinksIcon featureIconAllFeatures"></span>
@@ -728,20 +728,22 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-7">
-                    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6899098620713335"
-     crossorigin="anonymous"></script>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-format="fluid"
-     data-ad-layout-key="-gw-3+1f-3d+2z"
-     data-ad-client="ca-pub-6899098620713335"
-     data-ad-slot="2446565679"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+                    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6899098620713335"crossorigin="anonymous"></script>
+                    <ins class="adsbygoogle"
+                     style="display:block;z-index:1"
+                     data-ad-format="fluid"
+                     data-ad-layout-key="-gw-3+1f-3d+2z"
+                     data-ad-client="ca-pub-6899098620713335"
+                     data-ad-slot="2446565679">
+                    </ins>
+                    <script>
+                         (adsbygoogle = window.adsbygoogle || []).push({});
+                    </script>
+                 </div>
+                  <div class="col-lg-7">
                     <div class="prosess-feature-image wow fadeInLeft text-right">
 
-                        <div class="img-one">
+                        <div class="img-one" style="margin-top:27px;">
                             <img class="" src="<?php echo e(url('css/appx/media/faq/faq3.png')); ?>" alt="Prosess" style="padding-top:28px;">
 
                             <div class="hotspot-wraper">
@@ -771,7 +773,7 @@
                 </div>
                 <!-- /.col-lg-7 -->
 
-                <div class="col-lg-5">
+                <div class="col-lg-5" style="padding-top:0px;">
                     <div class="prosess-tabs-inner wow fadeInRight" style="color:#000">
                         <h2 class="title" style="color:#000">
                             <?php echo e(trans('messages.seccioncloudtitle')); ?>

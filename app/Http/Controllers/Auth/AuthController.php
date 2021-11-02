@@ -1173,7 +1173,7 @@ public function postLogindemo(Request $request)
         protected function getRegister()
     {
             $msj="";
-        return view("registro")
+        return view("landing.registro")
       ->with('msj',$msj);
     }
 

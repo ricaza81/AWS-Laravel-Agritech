@@ -1,0 +1,81 @@
+<head>
+    <title>Agronielsen en Campo: Inteligencia Artificial para el Agro</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="La primera plataforma de visitas tecnicas que centraliza y automatiza completamente tu gestión" />
+    <meta
+        name="keywords"
+        content="Estacion meteorologica, estacion virtual, estacion meteorologica virtual, Agronielsen, Agro nielsen, agronielsen en campo, visitas, agrícola, integración, automatización,mercado agrícola,visitas técnicas,gestor de visitas técnicas, fertilizantes foliares, fertilizantes, foliares,abonos"
+    />
+    <meta property="og:title" content="Agronielsen en Campo: Gestor de visitas técnicas" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="<?php echo e(url('css/appx/media/banner/encampoapp.png')); ?>" />
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-120906226-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag("js", new Date());
+
+        gtag("config", "UA-120906226-1");
+    </script>
+
+         <script type="text/javascript" src="<?php echo e(url('js/globe/third-party/Detector.js')); ?>"></script>
+  <script type="text/javascript" src="<?php echo e(url('js/globe/third-party/three.min.js')); ?>"></script>
+  <script type="text/javascript" src="<?php echo e(url('js/globe/third-party/Tween.js')); ?>"></script>
+  <script type="text/javascript" src="<?php echo e(url('js/globe/third-party/globe.js')); ?>"></script>
+
+    <link rel="author" href="https://www.agronielsen.com" />
+    <link rel="canonical" href="https://www.agronielsen.com" />
+
+    <!-- FB Meta tags -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://getbootstrap.com/docs/4.0/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="<?php echo e(url('css/olympus/app/css/fonts.min.css')); ?>" />
+    <!--<link rel="stylesheet" href="<?php echo e(url('css/appx/dependencies/font-awesome/css/font-awesome.min.css')); ?>" type="text/css" />-->
+    
+    <link rel="stylesheet" href="<?php echo e(url('css/pe-icon-7-stroke.css')); ?>" />
+
+    <link rel="stylesheet" href="<?php echo e(url('css/appx/dependencies/components-elegant-icons/css/elegant-icons.min.css')); ?>" type="text/css" />
+    <link rel="stylesheet" href="<?php echo e(url('css/appx/dependencies/swiper/css/swiper.min.css')); ?>" type="text/css" />
+    <link rel="stylesheet" href="<?php echo e(url('css/appx/dependencies/simple-line-icons/css/simple-line-icons.css')); ?>" type="text/css" />
+    <link rel="stylesheet" href="<?php echo e(url('css/appx/dependencies/wow/css/animate.css')); ?>" type="text/css" />
+    <link rel="stylesheet" href="<?php echo e(url('css/appx/dependencies/slick-carousel/css/slick.css')); ?>" type="text/css" />
+    <link rel="stylesheet" href="<?php echo e(url('css/appx/dependencies/magnific-popup/css/magnific-popup.css')); ?>" type="text/css" />
+    <link rel="stylesheet" href="<?php echo e(url('/css/sistemalaravel.css')); ?>">
+     <!-- Ionicons -->
+    <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+
+    <link rel="stylesheet" href="<?php echo e(url('dist/css/AdminLTE.min.css')); ?>">
+     <link rel="stylesheet" href="<?php echo e(url('css/material/style.css')); ?>">
+
+    <link rel="icon" type="image/png" sizes="32x32" href="<?php echo e(url('css/appx/assets/img/favicon/faviconnielsen.png')); ?>" />
+
+    <!--<link rel="manifest" href="/site.webmanifest">-->
+    <link rel="mask-icon" href="<?php echo e(url('css/appx/assets/img/favicon/safari-pinned-tab.svg')); ?>" color="#454be5" />
+
+    <!-- Dependency Styles -->
+
+    <!-- Site Stylesheet -->
+    <link rel="stylesheet" href="<?php echo e(url('css/appx/assets/css/app.css')); ?>" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="<?php echo e(url('css/olympus/app/Bootstrap/dist/css/bootstrap-reboot.css')); ?>" />
+    <link rel="stylesheet" type="text/css" href="<?php echo e(url('css/olympus/app/Bootstrap/dist/css/bootstrap.css')); ?>" />
+    <link rel="stylesheet" type="text/css" href="<?php echo e(url('css/olympus/app/Bootstrap/dist/css/bootstrap-grid.css')); ?>" />
+    <link rel="stylesheet" type="text/css" href="<?php echo e(url('css/olympus/app/css/main.min.css')); ?>" />
+
+    <!-- Google Web Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,300,400,500,600,700%7CPoppins:100,200,300,400,500,600,700,800,900" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" />
+
+    <!-- /.page-loader -->
+    <div class="page-loader">
+        <div id="preloader">
+            <span><?php echo e(trans('messages.cargando')); ?></span>
+        </div>
+    </div>
+    <!-- /.page-loader -->
+</head>

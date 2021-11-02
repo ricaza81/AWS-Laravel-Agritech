@@ -17,17 +17,18 @@ File: scss
 /*Normal Color*/
 /*Extra Variable*/
 /*Preloader*/
-@import url("https://www.agronielsen.com/encampo/public/css/material/css/fontawesome-all.css");
-@import url("https://www.agronielsen.com/encampo/public/css/material/css/simple-line-icons.css");
-@import url("https://www.agronielsen.com/encampo/public/css/material/css/weather-icons.min.css");
-@import url("https://www.agronielsen.com/encampo/public/css/material/css/linea.css");
-@import url("https://www.agronielsen.com/encampo/public/css/material/css/themify-icons.css");
-@import url("https://www.agronielsen.com/encampo/public/css/material/css/flag-icon.min.css");
-@import url("https://www.agronielsen.com/encampo/public/css/material/css/materialdesignicons.min.css");
+
+@import url('./css/fontawesome-all.css');
+@import url('./css//simple-line-icons.css');
+@import url('./css/weather-icons.min.css');
+@import url('./css/linea.css');
+@import url('./css/themify-icons.css');
+@import url('./css/flag-icon.min.css');
+@import url('./css/materialdesignicons.min.css');
 @import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700");
-@import url("https://www.agronielsen.com/encampo/public/css/material/css/spinners.css");
+@import url('./css/spinners.css');
 /*@import url("https://wrappixel.com/demos/admin-templates/material-pro/minisidebar/css/animate.css");*/
-@import url("https://www.agronielsen.com/encampo/public/css/material/css/animate.css");
+@import url('./css/animate.css');
 .preloader {
   width: 100%;
   height: 100%;

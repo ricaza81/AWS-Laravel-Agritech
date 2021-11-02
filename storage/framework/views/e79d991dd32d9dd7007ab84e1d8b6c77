@@ -13,7 +13,7 @@
                 <div class="row">
                   <div class="col col-lg-8 m-auto col-md-8 col-sm-12 col-12">
                     <div class="main-header-content">
-                  <img class="responsive" src="https://www.agronielsen.com/encampo/public/imagenes/vegetables.png" alt="rocket">
+                  <img class="responsive" src="https://www.agronielsen.com/imagenes/vegetables.png" alt="rocket">
           <a href="shop" id="shop" class="btn btn-primary btn-lg" style="margin-bottom:0px;margin-left: 15px;background:#FF5E3A;border-color:#FF5E3A"> Visita la Plaza de Mercado</a>
                     </div>
                   </div>
@@ -207,7 +207,8 @@
                             <div class="post__date">
                               <time class="published" datetime="">
                                 <span>Producto: </span><?php echo e($productor->titulo); ?><br/>
-                                <span>Ref. </span><?=$productor->titulo?>
+                                <span>Ref. </span><?=$productor->titulo?><br/>
+                                <span>Sitio Web. </span><a href="<?=$productor->enlace?>" target="_blank"><?php echo e($productor->enlace); ?></a>
                               </time>
                               </div>
                           </div>
@@ -216,7 +217,7 @@
 
                               <div class="more">
                        
-                        <form method="post"  action="<?php echo e(url('/contactardirecto')); ?>" class="">
+                        <form method=""  action="" class="">
                                               <input type="hidden" name="_token" value="<?php echo csrf_token(); ?>">
                                                <input type="hidden" name="idAgricultor" value="">
                                                <input type="hidden" name="idproducto" value="<?=$productor->id;?>">
@@ -231,11 +232,11 @@
 
 
 
-                      <div class="post-video">
-                        <div class="crumina-module crumina-teammembers-item" style="margin-bottom:-32px;width:100%;">
+                      <div class="post-video" style="width:100%">
+                        <div class="crumina-module crumina-teammembers-item" style="margin-bottom:-32px;">
                          <div class="teammembers-thumb">
-                           <img class="main" src="<?=$productor->img1pdto?>" alt="photo">
-                           <img class="hover" src="<?=$productor->img2pdto?>" alt="photo">
+                           <img class="main" src="<?=$productor->img1pdto?>" alt="Feed">
+                          <!-- <img class="main" src="<?=$productor->img2pdto?>" alt="photo">-->
                         </div>
                         </div>
                       </div>
