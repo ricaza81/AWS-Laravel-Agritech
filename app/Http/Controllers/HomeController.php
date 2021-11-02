@@ -32,6 +32,8 @@ use App\ProductoRecomendado;
 use App\Productos;
 use App\ProductosLineas;
 use App\ProductosTipo;
+use App\Category;
+use App\Product;
 use App\AgriVisitasTecnicasProductos;
 use App\Ciudades;
 use App\TipoIntereses;
