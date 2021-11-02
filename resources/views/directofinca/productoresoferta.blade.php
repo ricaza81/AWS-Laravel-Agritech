@@ -15,7 +15,7 @@
                 <div class="row">
                   <div class="col col-lg-8 m-auto col-md-8 col-sm-12 col-12">
                     <div class="main-header-content">
-                  <img class="responsive" src="https://www.agronielsen.com/encampo/public/imagenes/vegetables.png" alt="rocket">
+                  <img class="responsive" src="https://www.agronielsen.com/imagenes/vegetables.png" alt="rocket">
           <a href="shop" id="shop" class="btn btn-primary btn-lg" style="margin-bottom:0px;margin-left: 15px;background:#FF5E3A;border-color:#FF5E3A"> Visita la Plaza de Mercado</a>
                     </div>
                   </div>

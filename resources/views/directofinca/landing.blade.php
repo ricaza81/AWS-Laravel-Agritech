@@ -401,7 +401,7 @@
                       <div class="post-video" style="padding-top:20px;width:100%;margin-left:0px;">
                         <div class="crumina-module crumina-teammembers-item" style="margin-bottom:-32px">
                          <div class="teammembers-thumb">
-          <a href="{{$productor->enlace}}" target="_blank"><img class="main" src="<?=$productor->img1pdto?>" alt="Feed"/></a>
+          <a href="{{$productor->enlace}}" target="_blank"><img class="main" src="{{ url(env('UPLOAD_PATH').$productor->img1pdto) }}" alt="Feed"/></a>
                         <!--   <img class="hover" src="<?=$productor->img2pdto?>" alt="Feed">-->
                         </div>
                         </div>

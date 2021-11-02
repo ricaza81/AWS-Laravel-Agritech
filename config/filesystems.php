@@ -50,7 +50,9 @@ return [
 
         'fotografias' => [
             'driver' => 'local',
-            'root'   => storage_path('fotografias'),
+            'root'   => storage_path('./storage/fotografias'),
+            'url'        => env('APP_URL') . '/storage',
+            'visibility' => 'public',
         ],
         
          'asesoria' => [

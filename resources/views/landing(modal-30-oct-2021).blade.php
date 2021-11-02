@@ -70,10 +70,65 @@
 </head>
 
 <body id="home-version-2" class="home-version-2" data-style="default">
-    <!-- /.page-loader -->
     <div class="page-loader">
         <div id="preloader">
             <span>{{ trans('messages.cargando') }}</span>
+            <!--<div class="spinner">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+            <div class="spinner">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+            <div class="spinner">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+            <div class="spinner">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+            <div class="spinner">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+            <div class="spinner">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+            <div class="spinner">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>-->
         </div>
     </div>
     <!-- /.page-loader -->
@@ -309,7 +364,58 @@
 
     <section id="prosess2" style="margin-bottom: -95px;"  style="background-color:#000000;height: 1000px;/*#48484A*/">
 
-        
+          <div class="modal fade" id="mostrarmodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="margin-top:2px;margin-top:2px;padding:14px;display:block;">
+            <div class="modal-dialog modal-notify modal-info" role="document">
+                <!--Content-->
+                <div class="modal-content">
+                    <!--Header-->
+                    <div class="modal-header">
+                      <!--  <p class="heading lead">{{ trans('messages.modaltitledemo') }}</p>-->
+                        <p class="heading lead" style="font-size:18px;font-weight:400;line-height:24px;letter-spacing:-1px">Contribuimos al campo desarrollando nuevos canales de contacto y comercialización.
+                            <br/><span><a href="directofinca" target="_blank" type="button" class="btn btn-primary" style="background:#fff;color:#ff5e3a;border:4px solid #ff5e3a;float:right;margin-bottom:-1px;font-size: 17px;letter-spacing: -1px;margin-top:8px">Explorar ></a>
+                            </span>
+                        </p>
+
+
+                        <!--<a href="https://www.agronielsen.com/blog/precision-y-calidad-de-los-datos-meteorologicos" target="_blank" type="button" class="btn btn-primary" style="background:#ff5e3a;color:#fff;border:0px">Nivel de precisión</a>-->
+
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true" class="white-text" style="color:#fff;font-size:25px;border:0px solid #fff;">&times;</span>
+                        </button>
+                    </div>
+
+                    <!--Body-->
+                    <div class="modal-body">
+                        <div class="text-center">
+
+                            <!--<a href="https://play.google.com/store/apps/details?id=io.ionic.agronielsenmeteo" target="_blank"><img class="responsive" src="{{url('css/appx/media/mkt/agronielsen-meteo-1.png')}}" alt="Meteorología" style="max-width:100%;padding-top: 12px;margin-left: 0px"/></a>-->
+
+                             <a href="https://www.agronielsen.com/blog/precision-y-calidad-de-los-datos-meteorologicos" target="_blank"><img class="responsive" src="{{url('css/appx/media/mkt/DirectoFinca2.jpg')}}" alt="Meteorología" style="max-width: 100%;margin-left:0px;margin-top:2px;"/></a>
+                            <!--<iframe width="450px" height="450px" src="https://www.youtube.com/embed/rjNqmfsJ1iE?autoplay=1&rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
+                           <!-- <p><h1>{{ trans('messages.modalcontentdemo') }}</h1></p>-->
+                        </div>
+                    </div>
+
+                    <!--Footer-->
+                    <div class="modal-footer justify-content-center">
+                       <!-- <a href="{{asset('logindemo')}}" target="_blank" type="button" class="btn btn-primary">{{ trans('messages.modalbt1demo') }} </a>-->
+                         <!--<a href="https://play.google.com/store/apps/details?id=io.ionic.agronielsenmeteo" target="_blank" type="button" class="btn btn-primary" style="color:#000">Descargar App </a>-->
+                         <div class="col-md-12 text-center">
+
+                         <a href="directofinca" target="_blank" type="button" class="btn btn-primary" style="background:#ff5e3a;color:#fff;border:0px">Publicar mi oferta
+                         </a>
+                    
+                         
+                         <a href="directofinca" target="_blank" type="button" class="btn btn-primary" style="color:#000">Ver plaza de mercado
+                         </a>
+
+                        </div>
+                        
+                       <!-- <a type="button" class="btn btn-primary" data-dismiss="modal" style="color:#fff">{{ trans('messages.modalbt2demo') }}</a>-->
+                    </div>
+                </div>
+                <!--/.Content-->
+            </div>
 </div>
         <div class="container">
             <div class="row">
@@ -372,7 +478,7 @@
                 </div>
                 <!-- /.col-lg-7 -->
 
-                <div class="col-lg-5" style="color:#fff">
+                <div class="col-lg-5">
                     <div class="prosess-tabs-inner wow fadeInRight">
                         <h2 class="title" style="color:#fff">
                             Mide las principales variables meteorológicas de tu finca o ubicación geográfica
@@ -569,9 +675,9 @@
         </div>    
         </section>
 
-     <section id="prosess3" style="padding-bottom: 25px;">
+     <section id="prosess1" style="padding-bottom: 25px;">
 
-          <div class="col-md-12 text-center" style="">
+          <div class="col-md-12 text-center" style="margin-top: -134px;padding-bottom: 70px;">
 
           <!--  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
                 <ins class="adsbygoogle"
@@ -584,17 +690,6 @@
             <script>
              (adsbygoogle = window.adsbygoogle || []).push({});
             </script>-->
-            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6899098620713335"
-     crossorigin="anonymous"></script>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-format="fluid"
-     data-ad-layout-key="-gw-3+1f-3d+2z"
-     data-ad-client="ca-pub-6899098620713335"
-     data-ad-slot="2446565679"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
         </div>
 
         <div class="container">
@@ -657,7 +752,7 @@
                            <!--  <iframe  style="margin-top: -47px;height: 375px;width:390px;padding: 13px;" id="historyframe1" name="historyframe"  src="" frameborder="0" style="border:0" allowfullscreen>                                          
                                        </iframe> -->
                           <div class="img-one">
-                            <img class="responsive" style="padding-top:30px;width:90%;margin-left:0px;" src="{{url('css/appx/media/meteo/raspberry-agronielsen.jpg')}}" alt="Variables meteorológicas">
+                            <img class="responsive" style="width:90%;margin-left:0px;" src="{{url('css/appx/media/meteo/raspberry-agronielsen.jpg')}}" alt="Variables meteorológicas">
                          </div>
                     </div>
                 </div>
@@ -781,23 +876,11 @@
     </section>
     <!-- /#swape -->
 
-    <section id="prosess3" style="padding-bottom:20px;">
+    <section id="prosess1" style="padding-bottom:20px;">
         <div class="container">
             <div class="row">
                 <div class="col-lg-7">
-                    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6899098620713335"
-     crossorigin="anonymous"></script>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-format="fluid"
-     data-ad-layout-key="-gw-3+1f-3d+2z"
-     data-ad-client="ca-pub-6899098620713335"
-     data-ad-slot="2446565679"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
                     <div class="prosess-feature-image wow fadeInLeft text-right">
-
                         <div class="img-one">
                             <img class="" src="{{url('css/appx/media/faq/faq3.png')}}" alt="Prosess" />
 
@@ -1259,7 +1342,7 @@
                                 <!-- <li><a href="https://www.agronielsen.com/membresia-inteligencia-de-mercados-agricolas-colombia/?restricted=page" target="_blank">Membresía Inteligencia de Mercados</a></li>-->
                                 <!-- <li><a href="https://www.agronielsen.com/blog/abre-tu-cuenta-gratis/" target="_blank">Demo de tablero de Análisis</a></li>-->
                                 <!-- <li><a href="https://www.agronielsen.com/mineria" target="_blank">Míneria de Clientes</a></li>-->
-                                <li><a href="directofinca" target="_blank">Directo de Finca</a></li>
+                                <li><a href="https://directodefinca.com" target="_blank">Directo de Finca</a></li>
                                 <li><a href="https://www.agronielsen.com/blog/contacto/" target="_blank">Contacto</a></li>
                                 <li><a href="register" target="_blank">Suscribirse</a></li>
                             </ul>
@@ -2458,7 +2541,7 @@ fetch(`https://api.stormglass.io/v2/bio/point?lat=${lat}&lng=${lon}&params=${par
         @media (max-width: 991px) {
 
     .prosess-tabs-inner {
-        margin-top: 5px;
+        margin-top: 140px;
         margin-bottom: 0px;
     }}
 
@@ -2608,13 +2691,6 @@ fetch(`https://api.stormglass.io/v2/bio/point?lat=${lat}&lng=${lon}&params=${par
                             overflow: hidden;
                             background: #000;
                             color:#fff;
-                        }
-#prosess3 {
-                            padding-top: 45px;
-                            padding-bottom: 140px;
-                            overflow: hidden;
-                            background: #fff;
-                            color:#000;
                         }
 
                            #prosess {
