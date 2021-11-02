@@ -1,0 +1,391 @@
+
+
+<?php $__env->startSection('htmlheader_title'); ?>
+  Home
+<?php $__env->stopSection(); ?>
+
+
+<?php $__env->startSection('main-content'); ?>
+<body>
+<div class="main-header" style="background:#eee">
+
+
+ <div class="content-bg-wrap bg-account" style=""></div>
+   <div class="container">
+                <div class="row">
+                  <div class="col col-lg-8 m-auto col-md-8 col-sm-12 col-12">
+                    <div class="main-header-content">
+                  <img class="responsive" src="https://www.agronielsen.com/imagenes/vegetables.png" alt="rocket">
+          <a href="shop" id="shop" class="btn btn-primary btn-lg" style="margin-bottom:0px;margin-left: 15px;background:#FF5E3A;border-color:#FF5E3A"> Visita la Plaza de Mercado</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>    
+        </div>
+
+ <div class="container">
+  <div class="row">    
+
+        <div class="col col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+
+      <div class="ui-block">          
+
+              <h3 class="profile-username text-center"></h3>
+
+            <!--  <p class="text-muted text-center"></p>-->
+
+              <ul class="list-group">
+
+                <li class="list-group-item">
+                  <b>Enlace Publico a tu página <br> (este es el enlace si quieres compartirlo)</b>
+                  <span style="float:right;font-size:16px;font-weight:500;color:#4267b2"><b><a style="color:#4267b2" href=""></a></b></span>
+                </li>
+            
+              </ul>
+
+              
+            </div>
+          </div>
+        </div>
+      </div>
+
+       <div class="container">
+        <div class="row">  
+              <!-- Left Sidebar -->
+          <div class="col col-xl-3 order-xl-1 col-lg-12 order-lg-2 col-md-12 col-sm-12 col-12">
+                <div class="ui-block">
+                  <div class="your-profile">
+                    <div class="ui-block-title ui-block-title-small">
+                      <h6 class="title">Información</h6>
+                    </div>
+                    <div id="accordion" role="tablist" aria-multiselectable="true">
+                      <div class="card">
+                          <div class="card-header" role="tab" id="headingOne">
+                            <h6 class="mb-0">
+                              <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne" class="collapsed">
+
+             
+                          <img src="<?php echo e(url('/css/olympus/app/img/badge6.png')); ?>" alt="author"> Datos de Contacto
+                                
+                              </a>
+                            </h6>
+                          </div>
+                  
+                        <div id="collapseOne1" class="collapse show" role="tabpanel" aria-labelledby="headingOne">
+                          <ul class="your-profile-menu">
+                                <div class="author-date">
+                                  <a class="h6 post__author-name fn" >Nombre:</a>
+                                  <div class="post__date">
+                                    <time class="published" datetime="2004-07-24T18:18">
+                                     
+                                    </time>
+                                  </div>
+                                </div>
+                                <hr>
+                                 <div class="author-date">
+                                  <a class="h6 post__author-name fn">Email:</a>
+                                  <div class="post__date">
+                                    <time class="published" datetime="2004-07-24T18:18">
+                                   
+                                    </time>
+                                  </div>
+                                </div>
+                                <hr>
+                                 <div class="author-date">
+                                  <a class="h6 post__author-name fn">Teléfono:</a>
+                                  <div class="post__date">
+                                    <time class="published" datetime="2004-07-24T18:18">
+                                    
+                                    </time>
+                                  </div>
+                                </div>
+                                <hr>
+                          
+
+                                </div>
+
+                             <div class="card-header" role="tab" id="headingTwo">
+                            <h6 class="mb-0">
+                              <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo" class="collapsed"> <img src="<?php echo e(url('/css/olympus/app/img/badge4.png')); ?>" alt="author"> Mis productos
+                             
+                              </a>
+                            </h6>
+                          </div>
+                  
+                        <div id="collapseTwo2" class="collapse show" role="tabpanel" aria-labelledby="headingOne">
+                          <ul class="your-profile-menu">
+                                <div class="author-date">
+                                  <a class="h6 post__author-name fn" href="<?php echo e(url('publicacionproducto')); ?>">
+                                  <time class="published" datetime="2004-07-24T18:18">
+                                     Publicar una Oferta
+                                    </time>                                       
+                                 </a>
+                                </div>
+                     
+                                 <div class="author-date">
+                                   <a class="h6 post__author-name fn" href="<?php echo e(asset('misproductos')); ?>">
+                                  <time class="published" datetime="">
+                                     Editar un producto
+                                    </time>
+                                  </a>
+                                  </div>
+                              </ul>
+                          </div>
+                                    <div class="card-header" role="tab" id="headingTwo">
+                            <h6 class="mb-0">
+                              <a data-toggle="collapse" data-parent="#accordion" href="#collapseContact" aria-expanded="true" aria-controls="collapseContact" class="collapsed"> <img src="<?php echo e(url('/css/olympus/app/img/avatar77-sm.jpg')); ?>" alt=""> Mis contactos
+                             
+                              </a>
+                            </h6>
+                          </div>
+                  
+                        <div id="collapseContact" class="collapse show" role="tabpanel" aria-labelledby="headingContact">
+                          <ul class="your-profile-menu">
+                             <div class="author-date">
+                                  <a class="h6 post__author-name fn" href="<?php echo e(asset('missolicitudes')); ?>">
+                                  <time class="published" datetime="2004-07-24T18:18">
+                                     Solicitudes recibidas
+                                    </time>                                       
+                                 </a>
+                                </div>
+                     
+                                 <div class="author-date">
+                                   <a class="h6 post__author-name fn" href="<?php echo e(asset('missolicitudesenviadas')); ?>">
+                                  <time class="published" datetime="2004-07-24T18:18">
+                                     Solicitudes enviadas
+                                    </time>
+                                  </a>
+                                  </div>
+                              </ul>
+                            </div>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+           
+
+          
+     <!-- ... end Left Sidebar -->
+
+     <!-- ... start center -->
+
+  <main class="col col-xl-6 order-xl-2 col-lg-12 order-lg-1 col-md-12 col-sm-12 col-12">
+
+      <div class="ui-block">
+            <div class="page-description">
+              <div class="icon" style="width: 101%;">
+                <svg class="olymp-star-icon left-menu-icon" data-toggle="tooltip" data-placement="right" data-original-title="Publicaciones recientes"><use xlink:href="<?php echo e(url('/css/olympus/app/svg-icons/sprites/icons.svg#olymp-star-icon')); ?>"></use></svg>
+                <span style="color:#fff">Publicaciones recientes</span>
+
+                                <a href="productoresoferta" class="btn btn-secondary btn-md-2" style="margin-top: -3px;
+    margin-bottom: 0px;">...<?=count($productoresfull)?> más
+                                  <div class="ripple-container">
+                                  </div>
+                                </a>
+                    
+              </div>
+            </div>
+
+                           <?php 
+                   foreach($productores as $productor){  ?>
+                    <article class="hentry post video">
+                      <div class="post__author author vcard inline-items">
+                       
+                    
+                        <div class="author-date">
+                          <a class="h6 post__author-name fn" href="">recientemente</a>
+                          <div class="post__date">
+                            <time class="published" datetime="">
+                              <?=$productor->created_at->diffForHumans();?>
+                            </time>
+                          </div>
+                          <div class="post__date">
+                              <time class="published" datetime="">
+                                
+                              </time>
+                            <div class="post__date">
+                              <time class="published" datetime="">
+                                <span>Producto: </span><?php echo e($productor->titulo); ?><br/>
+                                <span>Ref. </span><?=$productor->titulo?><br/>
+                                <span>Sitio Web. </span><a href="<?=$productor->enlace?>" target="_blank"><?php echo e($productor->enlace); ?></a>
+                              </time>
+                              </div>
+                          </div>
+                        </div> 
+
+
+                              <div class="more">
+                       
+                        <form method=""  action="" class="">
+                                              <input type="hidden" name="_token" value="<?php echo csrf_token(); ?>">
+                                               <input type="hidden" name="idAgricultor" value="">
+                                               <input type="hidden" name="idproducto" value="<?=$productor->id;?>">
+                                              <div class="comments-shared">
+                                                   <svg class="olymp-share-icon" data-toggle="tooltip" data-placement="right" data-original-title="Contacto Directo"><use xlink:href="<?php echo e(url('/css/olympus/app/svg-icons/sprites/icons.svg#olymp-share-icon')); ?>"></use></svg> <button type="submit" class="btn btn-md-2 btn-primary" style="font-size:15px;">Contactar</button>
+                                                 </div>
+                        </form>
+             
+
+                      </div>
+                      <p style="font-size:15px;line-height:18px;"><?=$productor->descripcion?></p>
+
+
+
+                      <div class="post-video" style="width:100%">
+                        <div class="crumina-module crumina-teammembers-item" style="margin-bottom:-32px;">
+                         <div class="teammembers-thumb">
+                           <img class="main" src="<?=$productor->img1pdto?>" alt="Feed">
+                          <!-- <img class="main" src="<?=$productor->img2pdto?>" alt="photo">-->
+                        </div>
+                        </div>
+                      </div>
+                      <div class="post-additional-info inline-items">
+                  
+                      <div class="more">
+                         <a href="#" class="post-add-icon inline-items " >
+                            <svg class="olymp-share-icon" data-toggle="tooltip" data-placement="right" data-original-title="Número de ofertas"><use xlink:href="<?php echo e(url('/css/olympus/app/svg-icons/sprites/icons.svg#olymp-newsfeed-icon')); ?>"></use></svg>
+                            <span style="font-size:0.812rem"></span>
+                          </a>
+                          <a href="#" class="post-add-icon inline-items " >
+                            <svg class="olymp-share-icon" data-toggle="tooltip" data-placement="right" data-original-title="Número de solicitudes"><use xlink:href="<?php echo e(url('/css/olympus/app/svg-icons/sprites/icons.svg#olymp-share-icon')); ?>"></use></svg>
+                            <span style="font-size:0.812rem"></span>
+                          </a>
+                      </div>
+                    </div>
+                  </article>
+                <?php } ?> 
+
+
+          </div>
+    </main>
+ 
+
+
+    <!-- Right Sidebar -->
+
+    <aside class="col col-xl-3 order-xl-3 col-lg-6 order-lg-3 col-md-6 col-sm-12 col-12">
+
+      <div class="ui-block">
+
+        <div class="your-profile">
+          <div class="ui-block-title ui-block-title-small">
+            <h6 class="title">Información</h6>
+          </div>
+          <div id="accordion" role="tablist" aria-multiselectable="true">
+            <div class="card">
+                <div class="card-header" role="tab" id="headingOne">
+                  <h6 class="mb-0">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseRecom" aria-expanded="true" aria-controls="collapseOne" class="collapsed">
+
+   
+                <img src="<?php echo e(url('/css/olympus/app/img/badge2.png')); ?>" alt="author"> Recomendados
+                      
+                    </a>
+                  </h6>
+                </div>
+        
+              <div id="collapseRecom" class="collapse show" role="tabpanel" aria-labelledby="headingRecom">
+                <ul class="your-profile-menu">
+                    <div class="author-date">
+                        <a class="h6 post__author-name fn" href="recomendados">
+                        <time class="published" datetime="2004-07-24T18:18">
+                           Ver productos recomendados
+                          </time>                                       
+                       </a>
+                      </div>
+
+                     </ul>
+                     </div> 
+
+                   <div class="card-header" role="tab" id="headingTwo">
+                  <h6 class="mb-0">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseAsesor" aria-expanded="true" aria-controls="collapseTwo" class="collapsed"> <img src="<?php echo e(url('/css/olympus/app/img/badge9.png')); ?>" alt="author"> Asesoría Técnica
+                   
+                    </a>
+                  </h6>
+                </div>
+        
+              <div id="collapseAsesor" class="collapse show" role="tabpanel" aria-labelledby="headingAsesor">
+                <ul class="your-profile-menu">
+                   <div class="author-date">
+                        <a class="h6 post__author-name fn" target="_blank" href="https://www.agronielsen.com/encampo/public/rankingasesores">
+                        <time class="published" datetime="2004-07-24T18:18">
+                           Contactar un asesor
+                          </time>                                       
+                       </a>
+                      </div>
+                        </div>
+                    </ul>
+
+</div><!--
+                          <div class="card-header" role="tab" id="headingTwo">
+                  <h6 class="mb-0">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseRedes" aria-expanded="true" aria-controls="collapseRedes" class="collapsed"> <img src="<?php echo e(url('/css/olympus/app/img/badge8.png')); ?>" alt="author"> Nuestras redes
+                   
+                    </a>
+                  </h6>
+                </div>
+        
+              <div id="collapseRedes" class="collapse" role="tabpanel" aria-labelledby="headingRedes">
+                <ul class="your-profile-menu">
+                      <div class="author-date">
+                        <a class="h6 post__author-name fn" href="02-ProfilePage.html">Nombre:</a>
+                        <div class="post__date">
+                          <time class="published" datetime="2004-07-24T18:18">
+                           
+                          </time>
+                        </div>
+                      </div>
+                      <hr>
+                       <div class="author-date">
+                        <a class="h6 post__author-name fn" href="02-ProfilePage.html">Email:</a>
+                        <div class="post__date">
+                          <time class="published" datetime="2004-07-24T18:18">
+                            
+                          </time>
+                        </div>
+                      </div>
+                      <hr>
+                       <div class="author-date">
+                        <a class="h6 post__author-name fn" href="02-ProfilePage.html">Teléfono::</a>
+                        <div class="post__date">
+                          <time class="published" datetime="2004-07-24T18:18">
+                           
+                          </time>
+                        </div>
+                      </div>
+                      <hr>
+                    </ul>
+
+</div> -->   </div>
+        <!-- W-Create-Fav-Page -->
+      <!--  
+        <div class="widget w-create-fav-page">
+          <div class="icons-block">
+            <svg class="olymp-star-icon left-menu-icon" data-toggle="tooltip" data-placement="right" data-original-title="FAV PAGE"><use xlink:href="<?php echo e(url('/css/olympus/app/svg-icons/sprites/icons.svg#olymp-star-icon')); ?>"></use></svg>
+        
+            <a href="#" class="more"><svg class="olymp-three-dots-icon"><use xlink:href="<?php echo e(url('/css/olympus/app/svg-icons/sprites/icons.svg#olymp-three-dots-icon')); ?>"></use></svg></a>
+          </div>
+        
+          <div class="content" style="background:#ff5e3a">
+            <span>Explora nuevas oportunidades</span>
+            <h3 class="title">Amplía tu red de consumidores</h3>
+            <a href="<?php echo e(asset('formnuevoproductoempresa')); ?>" class="btn btn-bg-secondary btn-sm">Publicar</a>
+          </div>
+        </div>
+        
+        ... end W-Create-Fav-Page  -->   </div>
+
+    </aside>
+
+    <!-- ... end Right Sidebar -->
+
+  </div>
+</div>
+</body>
+
+<?php $__env->stopSection(); ?>
+<?php echo $__env->make('directofinca.layouts.appdirecto', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

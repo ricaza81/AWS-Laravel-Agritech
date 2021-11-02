@@ -1,0 +1,190 @@
+<?php $__env->startSection('htmlheader_title'); ?>
+  Home
+<?php $__env->stopSection(); ?>
+
+
+<?php $__env->startSection('main-content'); ?>
+<body>
+
+<div class="main-header">
+  <div class="content-bg-wrap bg-account"></div>
+               <div class="container">
+                <div class="row">
+                  <div class="col col-lg-8 m-auto col-md-8 col-sm-12 col-12">
+                    <div class="main-header-content">
+                      <h1>Hola: <b><?=$usuario->nombres?></b></h1>
+                         <h3 >Estos son tus productos publicados:
+                        </h3><br/>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              </div>
+</div>
+
+<div class="container">
+  <div class="row">
+
+    <div class="col col-xl-9 order-xl-2 col-lg-12 order-lg-1 col-md-12 col-sm-12 col-12">
+
+              <div class="page-description">
+                <div class="icon">
+                  <svg class="olymp-star-icon left-menu-icon" data-toggle="tooltip" data-placement="right" data-original-title="MIS PRODUCTOS">
+                    <use xlink:href="<?php echo e(url('/css/olympus/app/svg-icons/sprites/icons.svg#olymp-star-icon')); ?>">
+                    </use>
+                  </svg>
+                </div>
+                     <span>ESTOS SON TUS PRODUCTOS PUBLICADOS.</span>
+                  
+                      <a href="<?php echo e(asset('publicacionproducto')); ?>" class="btn btn-md-2 btn-primary">Publicar un producto Nuevo</a>
+            
+              </div>
+
+<!--
+        <ul class="cat-list-bg-style align-center sorting-menu">
+          <li class="cat-list__item active" data-filter="*"><a href="#" class="">ALL CATEGORIES</a></li>
+          <li class="cat-list__item" data-filter=".community"><a href="#" class="">THE COMMUNITY</a></li>
+          <li class="cat-list__item" data-filter=".news"><a href="#" class="">OLYMPUS NEWS</a></li>
+          <li class="cat-list__item" data-filter=".inspiration"><a href="#" class="">INSPIRATION</a></li>
+        </ul>
+-->  
+    <div class="row sorting-container" id="clients-grid-1" data-layout="masonry">
+
+          <?php 
+               foreach($productores as $productor){  ?>
+          <div class="col col-xl-4 col-lg-4 col-md-4 col-sm-12  sorting-item community">
+
+            <div class="ui-block">
+
+                 <article class="hentry blog-post">
+                        <div class="post-thumb">
+                         <!-- <img src="<?=$productor->img1pdto?>" alt="photo">-->
+                          <img src="<?php echo e(url(env('UPLOAD_PATH').$productor->img1pdto)); ?>" alt="photo">
+
+                          
+
+                        </div>              
+                      <div class="post-content">
+                          <div class="post__author author vcard inline-items">
+                              <!--  <img src="<?=$productor->productor->imagenurl?>" alt="author">-->                    
+                              <div class="author-date">
+                                    <!--     <form method="post"  action="<?php echo e(url('/contactardirecto')); ?>" class="">
+                                              <input type="hidden" name="_token" value="<?php echo csrf_token(); ?>">
+                                               <input type="hidden" name="idAgricultor" value="<?=$productor->productor->id;?>">
+                                               <input type="hidden" name="idproducto" value="<?=$productor->id;?>">
+                                              <div class="comments-shared">
+                                                   <svg class="olymp-share-icon" data-toggle="tooltip" data-placement="right" data-original-title="Contacto Directo"><use xlink:href="<?php echo e(url('/css/olympus/app/svg-icons/sprites/icons.svg#olymp-share-icon')); ?>"></use></svg> <button id="contacto" type="submit" class="btn btn-md-2 btn-primary" style="font-size:15px;">Contactar</button>
+                                                 </div>
+                                     </form>-->
+                                     <div class="post__date">
+                                      <time class="published" datetime="">
+                                          <!--<productor-departamento;?>-->
+                                        <?=$productor->departamento->departamento;?>
+                                      </time>
+                                     </div>
+                                     <div class="post__date">
+                                      <time class="published" datetime="">
+                                        <?=$productor->created_at->diffForHumans();?>
+                                      </time>
+                                    </div>
+                              </div>
+
+
+                                <a href="#" class="h4 post-title"><?=$productor->titulo;?></a>
+                                <p><?=$productor->descripcion;?></p>
+                          </div>
+
+                              <div class="post-additional-info inline-items">
+                                  <div class="names-people-likes">
+                                        <a href="">Precio de Referencia:</a>
+                                        <br><a href="">Consultar</a>
+                                  </div>
+                                  <div class="comments-shared">
+                                       <a href="" class="btn btn-md-2 btn-primary">Editar</a>
+
+
+                                  </div>
+                              </div>
+                      </div>                
+                </article>
+      
+            </div>
+             </div>
+
+        <?php } ?>  
+
+ </div>
+</div>
+
+<style>
+.post-thumb:hover {
+    transform: scale(1.2);
+   
+}
+
+.post-thumb img {
+    width: 100%;
+    object-fit: cover;
+    height: 147px;
+}
+</style>
+
+
+
+ <aside class="col col-xl-3 order-xl-1 col-lg-6 order-lg-2 col-md-6 col-sm-12 col-12">
+      <div class="ui-block" style="background:#38a9ff">
+        <div class="widget w-wethear" style="background:#38a9ff">
+          <div class="widget w-create-fav-page" style="background:#38a9ff">
+                <div class="icons-block">
+                  <svg class="olymp-star-icon left-menu-icon" data-toggle="tooltip" data-placement="right" data-original-title="FAV PAGE"><use xlink:href="<?php echo e(url('/css/olympus/app/svg-icons/sprites/icons.svg#olymp-star-icon')); ?>"></use></svg>
+                  <a href="#" class="more"><svg class="olymp-three-dots-icon"><use xlink:href="<?php echo e(url('/css/olympus/app/svg-icons/sprites/icons.svg#olymp-three-dots-icon')); ?>"></use></svg></a>
+                </div>
+                <div class="content" style="background:#38a9ff">
+                  <span>Explora nuevas oportunidades</span>
+                  <h3 class="title">Ver Solicitudes recibidas</h3>
+                  <a href="<?php echo e(asset('missolicitudes')); ?>" class="btn btn-bg-secondary btn-sm">Revisar</a>
+                </div>
+            </div>
+        </div>
+      </div>
+    </aside>
+
+</div>
+</body>
+
+
+<style>
+  .header-spacer--standard {
+    height: 135px;
+}
+
+.btn {
+    color: #fff;
+    margin-bottom: 0px;
+    position: relative;
+}
+
+.page-description .icon {
+    padding: 15px 18px;
+    fill: #fff;
+    background-color: #76A82B;
+    border-right: 1px solid #e6ecf5;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 25px;
+}
+.bg-account {
+    background-image: url(https://www.directodefinca.com/public/css/olympus/app/img/top-header7.png);
+}
+
+.main-header {
+   padding: 110px 0 0px;
+    max-width: calc(100%);
+    margin: 0 auto 30px;
+    position: relative;
+    background-position: 50% 50%;
+}
+
+</style>
+<?php $__env->stopSection(); ?>    
+<?php echo $__env->make('directofinca.layouts.appdirecto', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
