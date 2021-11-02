@@ -60,7 +60,11 @@
 
                  <article class="hentry blog-post">
                         <div class="post-thumb">
-                          <img src="<?=$productor->img1pdto?>" alt="photo">
+                         <!-- <img src="<?=$productor->img1pdto?>" alt="photo">-->
+                          <img src="{{ url(env('UPLOAD_PATH').$productor->img1pdto) }}" alt="photo">
+
+                          
+
                         </div>              
                       <div class="post-content">
                           <div class="post__author author vcard inline-items">
@@ -77,7 +81,7 @@
                                      <div class="post__date">
                                       <time class="published" datetime="">
                                           <!--<productor-departamento;?>-->
-                                        <?=$productor->departamento;?>
+                                        <?=$productor->departamento->departamento;?>
                                       </time>
                                      </div>
                                      <div class="post__date">

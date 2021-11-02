@@ -271,13 +271,13 @@ class HomeController extends Controller {
         $extension=$foto1->getClientOriginalExtension();
         $nuevo_nombre="foto1visita-".$id.".".$extension;
         $r1=Storage::disk('fotografias')->put($nuevo_nombre,  \File::get($foto1) );
-        $rutadelaimagen="../storage/fotografias/".$nuevo_nombre;
+        $rutadelaimagen="/storage/fotografias/".$nuevo_nombre;
 
         $nombre_original=$foto2->getClientOriginalName();
         $extension=$foto2->getClientOriginalExtension();
         $nuevo_nombre="foto2visita-".$id.".".$extension;
         $r1=Storage::disk('fotografias')->put($nuevo_nombre,  \File::get($foto2) );
-        $rutadelaimagen2="../storage/fotografias/".$nuevo_nombre;
+        $rutadelaimagen2="/storage/fotografias/".$nuevo_nombre;
       
       }
 
