@@ -35,14 +35,14 @@ class Kernel extends ConsoleKernel
         $schedule->command('email:medicionfincameteo')
                  //->dailyAt('01:44');
                    ->everyMinute();
-        $schedule->command('email:medicionfincameteo')
+        /*$schedule->command('email:medicionfincameteo')
                  ->dailyAt('11:08');
         $schedule->command('email:medicionfincameteo')
                  ->dailyAt('15:08');
         $schedule->command('email:medicionfincameteo')
                  ->dailyAt('23:14');
         $schedule->command('email:consolidado')
-                 ->dailyAt('13:37');
+                 ->dailyAt('13:37');*/
         
     }
 }
