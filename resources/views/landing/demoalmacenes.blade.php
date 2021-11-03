@@ -83,8 +83,8 @@
         <div class="container">
           <div class="header-inner clearfix">
             <div class="site-logo">
-              <a href="landing" class="main-logo"><img src="https://www.agronielsen.com/encampo/public/css/appx/assets/img/logoagronielsenencampo.png" alt="Agronielsen en Campo"></a>
-              <a href="landing" class="sticky-logo"><img src="https://www.agronielsen.com/encampo/public/css/appx/assets/img/sticky-logo.png" alt="Agronielsen en Campo"></a>
+              <a href="landing" class="main-logo"><img src="{{url('css/appx/assets/img/logoagronielsenencampo.png')}}" alt="Agronielsen en Campo"></a>
+              <a href="landing" class="sticky-logo"><img src="{{url('css/appx/assets/img/sticky-logo.png')}}" alt="Agronielsen en Campo"></a>
             </div>
             <!-- /.site-logo -->
 
@@ -331,7 +331,7 @@
             <div class="col-lg-4 col-md-7">
               <div class="widget widget-about">
                 <div class="footer-logo">
-                  <a href="{{asset('landing')}}"><img src="https://www.agronielsen.com/encampo/public/css/appx/assets/img/sticky-logo.png" alt="Agronielsen en Campo"></a>
+                  <a href="{{asset('landing')}}"><img src="{{url('css/appx/assets/img/sticky-logo.png')}}" alt="Agronielsen en Campo"></a>
                 </div>
 
                 <p class="content">
@@ -499,7 +499,7 @@
     
 
   <!-- Site Scripts -->
-  <script src="https://www.agronielsen.com/encampo/public/css/appx/assets/js/app.js"></script>
+  <script src="{{url('css/appx/assets/js/app.js')}}"></script>
 
 
   <style>
