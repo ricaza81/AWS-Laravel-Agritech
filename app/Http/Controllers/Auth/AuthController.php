@@ -653,7 +653,7 @@ class AuthController extends Controller
         $canales=Canales::all();
         $departamentos=Departamentos::all();
 
-        return view('analiticacultivos')
+        return view('landing.analiticacultivos')
         ->with("paises",$paises)
         ->with("zonas",$zonas)
         ->with("canales",$canales)
