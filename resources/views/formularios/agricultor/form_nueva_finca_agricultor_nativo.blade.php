@@ -225,7 +225,7 @@ function setMapa (coords)
         map: map,
         shape: shape,
         title: 'Aquí estoy!',
-         icon: 'https://www.agronielsen.com/encampo/public/imagenes/maker-agronielsen.png',
+         icon: '{{url('imagenes/maker-agronielsen.png')}}',
        label: {
           text: markerLabel,
           color: "#fff",
@@ -436,7 +436,7 @@ fetch(`https://api.stormglass.io/v2/bio/point?lat=${lat}&lng=${lon}&params=${par
 <script>
 $(document).ready(function() {
 $("#pais").change(function(event){
-$.get("/encampo/public/departamentos/"+event.target.value+"",function(response,state) {
+$.get("departamentos/"+event.target.value+"",function(response,state) {
 $("#departamento").empty();
 $("#departamento").append("<option value=''>Selecciona un departamento</option>");
 for(i=0; i<response.length; i++) {
