@@ -51,7 +51,7 @@ margin-bottom: 10px; font-family: Arial; font-size:12px; width:100%'><?php  echo
     <div class="box box-info" style="background:#4267b2 !important">
         <div class="box-header with-border" >
              <div class="col-md-4" >
-                      <h3 class="box box-info"><td><span class="label label-info" style="font-size:15px"><img class="aligncenter size-full wp-image-2701" src="https://www.agronielsen.com/encampo/public/imagenes/gif-icons/animat-piechart-color.gif" alt="dato de mercado" width="80" height="80">Dato de Mercado</span></td></h3>
+                      <h3 class="box box-info"><td><span class="label label-info" style="font-size:15px"><img class="aligncenter size-full wp-image-2701" src="{{url('imagenes/gif-icons/animat-piechart-color.gif')}}" alt="dato de mercado" width="80" height="80">Dato de Mercado</span></td></h3>
                 </div>
        
         <div class="col-md-8 text-left" style="color:#fff">
