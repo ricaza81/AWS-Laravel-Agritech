@@ -88,8 +88,10 @@
                 <ul class="dropdown-menu">
 
                   <li class="user-header">
-                    <?php if($usuario->imagenurl==""){$usuario->imagenurl="{{url('imagenes/avatar.jpg')}}"?>
-               <img src="https://www.agronielsen.com/encampo/public/imagenes/avatar.jpg"  alt="User Image"  style="width:50px;height:50px;">
+                    <?php if($usuario->imagenurl=="")
+                    {$usuario->imagenurl="https://www.agronielsen.com/imagenes/avatar.jpg"; }  ?>
+               <img src="./imagenes/avatar.jpg"  alt="User Image"
+               style="width:50px;height:50px;">
                     <p>
                      Usuario AGRONIELSEN (<?=$usuario->id;?>)
                       <small>Miembro desde:</small><?=$usuario->created_at;?></small>
