@@ -12,7 +12,7 @@
         />
         <meta property="og:title" content="Agronielsen en Campo: Gestor de visitas técnicas" />
         <meta property="og:type" content="website" />
-        <meta property="og:image" content="https://www.agronielsen.com/encampo/public/css/appx/media/banner/posicion-gif.gif" />
+        <meta property="og:image" content="https://www.agronielsen.com/css/appx/media/banner/posicion-gif.gif" />
 
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-120906226-1"></script>
         <script>
@@ -25,8 +25,8 @@
             gtag("config", "UA-120906226-1");
         </script>
 
-        <link rel="author" href="https://www.agronielsen.com/encampo" />
-        <link rel="canonical" href="https://www.agronielsen.com/encampo" />
+        <link rel="author" href="https://www.agronielsen.com">
+        <link rel="canonical" href="https://www.agronielsen.com">
 
         <!-- FB Meta tags -->
 
@@ -70,7 +70,7 @@
         <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" />
         <!--<link rel="stylesheet" href="https://www.agronielsen.com/encampo/public/css/material/css/ionicons.min.css">-->
 
-        <link rel="stylesheet" href="https://www.agronielsen.com/encampo/public/css/material/style.css" />
+        <link rel="stylesheet" href="https://www.agronielsen.com/css/material/style.css" />
     </head>
     <body id="body">
         <div class="container">

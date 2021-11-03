@@ -101,7 +101,7 @@ padding-bottom: 10px;
 
 <hr>
 
-<div class="Agronielsen" ><a href="https://www.agronielsen.com/encampo"><img src="https://www.agronielsen.com/encampo/public/css/appx/assets/img/agronielsen.png" style="height: auto; width: auto; max-width: 154px; max-height: 98px;"></a>
+<div class="Agronielsen" ><a href="https://www.agronielsen.com"><img src="https://www.agronielsen.com/css/appx/assets/img/agronielsen.png" style="height: auto; width: auto; max-width: 154px; max-height: 98px;"></a>
 </div>
 
 <div align="center" style="font-size: 14px; font-family: Helvetica, Arial, sans-serif; color: #333333; padding-top: 15px;" class="padding-copy"><h2>Informe de medición de variables meteorologicas</h2></div>
@@ -211,7 +211,7 @@ padding-bottom: 10px;
 Estás interesado(a) en monitorear tus cultivos fácilmente, sin usar instalaciones específicas, confiando en las últimas mediciones por medio de satelite y manteniendo todos los datos en un solo lugar, ahorrando tiempo y reduciendo costos.
 <br/>
  <a
-                 href="https://agronielsen.com/encampo/public/planclima"
+                 href="https://agronielsen.com/planclima"
                 target="_blank"
                 class="read-btn1"
                 style="padding: 22px;background:#f46036;
