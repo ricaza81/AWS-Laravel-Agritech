@@ -636,7 +636,7 @@ class AuthController extends Controller
         $canales=Canales::all();
         $departamentos=Departamentos::all();
 
-        return view('demoalmacenes')
+        return view('landing.demoalmacenes')
         ->with("paises",$paises)
         ->with("zonas",$zonas)
         ->with("canales",$canales)

@@ -1,51 +1,8 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-
-  <title>Agronielsen en Campo | Agronegocios mas competitivos</title>
-
-  <!-- Required meta tags always come first -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
-
-  <!-- Main Font -->
-  <script src="{{url('css/olympus/app/js/webfontloader.min.js')}}"></script>
-  <script>
-    WebFont.load({
-      google: {
-        families: ['Roboto:300,400,500,700:latin']
-      }
-    });
-  </script>
-    <meta name="description" content="La primera plataforma de visitas técnicas que centraliza y automatiza completamente tu gestión">
-    <meta name="keywords" content="venta directa, venta desde la finca, comercialización directa, visitas, agrícola, integración, automatización,mercado agrícola,visitas técnicas,gestor de visitas técnicas, fertilizantes foliares, fertilizantes, foliares,abonos">
-    <link rel="author" href="https://www.agronielsen.com/encampo" />
-    <link rel="canonical" href="https://www.agronielsen.com/encampo"/>
-    <!-- FB Meta tags -->
-    <meta property="og:title" content="Agronielsen en Campo: Gestor de visitas técnicas"/>
-    <meta property="og:type" content="website"/>
-    <meta property="og:image" content="https://www.agronielsen.com/encampo/public/imagenes/thumb_venta_reportes_web.jpg"/>
-    <meta property="og:url" content="https://www.agronielsen.com/encampo"/>
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" type="text/css" href="{{url('css/olympus/app/Bootstrap/dist/css/bootstrap-reboot.css')}}">
-  <link rel="stylesheet" type="text/css" href="{{url('css/olympus/app/Bootstrap/dist/css/bootstrap.css')}}">
-  <link rel="stylesheet" type="text/css" href="{{url('css/olympus/app/Bootstrap/dist/css/bootstrap-grid.css')}}">
-    <link rel="icon" type="image/png" sizes="32x32" href="https://www.agronielsen.com/encampo/public/css/appx/assets/img/favicon/faviconnielsen.png">  
-  <!-- Main Styles CSS -->
-  <link rel="stylesheet" type="text/css" href="{{url('css/olympus/app/css/main.min.css')}}">
-
-  <link rel="stylesheet" type="text/css" href="{{url('css/olympus/app/css/fonts.min.css')}}">
-   <link rel="stylesheet" href="https://www.agronielsen.com/encampo/public/css/appx/assets/css/app.css" type="text/css">
-     <link rel="stylesheet" type="text/css" href="{{url('css/olympus/app/css/main.min.css')}}">
-
-  <link rel="stylesheet" type="text/css" href="{{url('css/olympus/app/css/fonts.min.css')}}">
-   <link rel="stylesheet" href="https://www.agronielsen.com/encampo/public/css/appx/dependencies/font-awesome/css/font-awesome.min.css" type="text/css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
- <link rel="stylesheet" href="https://www.agronielsen.com/encampo/public/css/pe-icon-7-stroke.css">
-
-
-
+    @include('/landing/partials.header')
 </head>
 
 
