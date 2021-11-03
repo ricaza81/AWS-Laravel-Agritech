@@ -90,7 +90,7 @@
                   <li class="user-header">
                     <?php if($usuario->imagenurl=="")
                     {$usuario->imagenurl="https://www.agronielsen.com/imagenes/avatar.jpg"; }  ?>
-               <img src="./imagenes/avatar.jpg"  alt="User Image"
+               <img src="{{url('imagenes/avatar.jpg')}}"  alt="User Image"
                style="width:50px;height:50px;">
                     <p>
                      Usuario AGRONIELSEN (<?=$usuario->id;?>)
@@ -164,8 +164,8 @@
             <div class="pull-left image">
                 
                 
-                <?php if($usuario->imagenurl==""){ $usuario->imagenurl="https://www.agronielsen.com/encampo/public/imagenes/avatar.jpg"; }  ?>
-               <img src="https://www.agronielsen.com/encampo/public/imagenes/avatar.jpg"  alt="User Image"  style="width:50px;height:50px;">
+                <?php if($usuario->imagenurl==""){ $usuario->imagenurl="https://www.agronielsen.com/imagenes/avatar.jpg"; }  ?>
+               <img src="https://www.agronielsen.com/imagenes/avatar.jpg"  alt="User Image"  style="width:50px;height:50px;">
              
             </div>
             <div class="pull-left info">
