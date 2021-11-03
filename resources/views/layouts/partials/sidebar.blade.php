@@ -297,7 +297,7 @@
              
               <?php
                  if ($usuario->tipoUsuario==1 ) { ?>
-                <li><a href="https://www.agronielsen.com/encampo/public/form_nueva_finca_agricultor_nativo" ><i class="fa fa-circle-o"></i> Añadir </a></li>
+                <li><a href="{{url('form_nueva_finca_agricultor_nativo')}}" ><i class="fa fa-circle-o"></i> Añadir </a></li>
                 <li><a href="{{asset('listado_fincas_agricultores')}}" ><i class="fa fa-circle-o"></i>Fincas</a></li>
 
                  <li><a href="{{asset('listado_fincas_agricultores_compartidas')}}" ><i class="fa fa-circle-o"></i>Compartidas</a></li>
