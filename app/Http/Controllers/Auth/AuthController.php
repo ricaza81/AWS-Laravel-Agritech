@@ -759,7 +759,7 @@ class AuthController extends Controller
         $departamentos=Departamentos::all();
         $msj="";
 
-        return view('planclima')
+        return view('landing.planclima')
         ->with("paises",$paises)
         ->with("zonas",$zonas)
         ->with("canales",$canales)
