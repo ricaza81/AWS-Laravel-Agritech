@@ -59,7 +59,7 @@
           <br/>
           <center>
             <a href="form_nuevo_lead">
-              <img src="{{ url('imagenes/lead.JPG')}}"  width="399">
+              <img src="{{ url('imagenes/avatar.jpg')}}"  width="399">
             </a>
           </center>
         </div>
