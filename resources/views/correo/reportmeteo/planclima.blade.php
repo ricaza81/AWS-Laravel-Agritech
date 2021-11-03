@@ -50,15 +50,15 @@
 
         <link rel="stylesheet" href="{{asset('dist/css/AdminLTE.min.css')}}" />
 
-        <link rel="icon" type="image/png" sizes="32x32" href="https://www.agronielsen.com/encampo/public/css/appx/assets/img/favicon/faviconnielsen.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="{{url('css/appx/assets/img/favicon/faviconnielsen.png')}}">
 
         <!--<link rel="manifest" href="/site.webmanifest">-->
-        <link rel="mask-icon" href="https://www.agronielsen.com/encampo/public/css/appx/assets/img/favicon/safari-pinned-tab.svg" color="#454be5" />
+        <link rel="mask-icon" href="{{url('css/appx/assets/img/favicon/safari-pinned-tab.svg')}}" color="#454be5" />
 
         <!-- Dependency Styles -->
 
         <!-- Site Stylesheet -->
-        <link rel="stylesheet" href="https://www.agronielsen.com/encampo/public/css/appx/assets/css/app.css" type="text/css" />
+        <link rel="stylesheet" href="{{url('css/appx/assets/css/app.css" type="text/css')}}" />
         <link rel="stylesheet" type="text/css" href="{{asset('css/olympus/app/Bootstrap/dist/css/bootstrap-reboot.css')}}" />
         <link rel="stylesheet" type="text/css" href="{{asset('css/olympus/app/Bootstrap/dist/css/bootstrap.css')}}" />
         <link rel="stylesheet" type="text/css" href="{{asset('css/olympus/app/Bootstrap/dist/css/bootstrap-grid.css')}}" />
@@ -76,7 +76,7 @@
         <div class="container">
             <div class="col col-xl-3 order-xl-2 col-lg-3 order-lg-2 col-md-12 order-md-1 col-sm-12 col-12">
                     <div class="site-logo" style="margin-top: 27px;">
-                        <a href="landing" class="main-logo"><img src="https://www.agronielsen.com/encampo/public/css/appx/assets/img/agronielsen.png" alt="Agronielsen en Campo" /></a>
+                        <a href="landing" class="main-logo"><img src="{{url('css/appx/assets/img/agronielsen.png')}}" alt="Agronielsen en Campo" /></a>
                     </div>
                 </div>
             </div>
