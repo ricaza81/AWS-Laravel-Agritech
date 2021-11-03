@@ -420,7 +420,7 @@ function listado_fincas_agricultores()
           $msj="";
           $idusuario=\Auth::user()->id;
           /*$asesor=User::all();*/
-          $fincas= AgriFincas::where('idUsuario','=',$idusuario)->get();
+          $fincas= AgriFincas::where('idUsuario','=',$idusuario)->orderBy('created_at','desc') get();
           //$departamento= AgriFincas::where('idUsuario','=',$idusuario)->select('id_ciudad')->get()->first();
           //$ndepto=Departamentos::find($departamento->id_ciudad);
           //$nombredepto=$ndepto->departamento;
