@@ -501,10 +501,10 @@ $('#wind_input').val(wind.speed);
  //SOILAPI
  //API=6c421d18-f909-11ea-9025-0242ac130002-6c421e6c-f909-11ea-9025-0242ac130002
 
-//const lat= coords.lat;
-//const lon=coords.lng;
+const lat= coords.lat;
+const lon=coords.lng;
 /*const lat1=3.40556;
-const lon1= -76.53239;
+const lon1= -76.53239;*/
 fetch("https://api.stormglass.io/v2/bio/point?lat=${lat}&lng=${lon}&params=soilTemperature", {
   headers: {
     'Authorization': '6c421d18-f909-11ea-9025-0242ac130002-6c421e6c-f909-11ea-9025-0242ac130002'
@@ -514,8 +514,8 @@ fetch("https://api.stormglass.io/v2/bio/point?lat=${lat}&lng=${lon}&params=soilT
   //.then(result => console.log(result))
   console.log("SoilT: " + jsonData.hours[0].soilTemperature.noaa);
    $('#soilTemperature').html(jsonData.hours[0].soilTemperature.noaa);
-  //console.log("SoilT: " + jsonData.meta.dailyQuota);
-});*/
+  console.log("SoilT: " + jsonData.meta.dailyQuota);
+});
 
 //const lat1 = 58.7984;
 //const lng1 = 17.8081;
