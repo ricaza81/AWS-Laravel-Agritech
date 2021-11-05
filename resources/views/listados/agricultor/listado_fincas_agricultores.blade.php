@@ -358,7 +358,7 @@ margin-bottom: 10px; font-family: Arial; font-size:12px; width:100%'><?php  echo
 
 <!--<script type="text/javascript" src="https://cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>-->
 
-
+@stop
 
 
 @section('scripts')
@@ -591,7 +591,7 @@ alert('Datos climatológicos guardados correctamente');
 </style>
 
 
-@stop
+
 
      
 @endsection
