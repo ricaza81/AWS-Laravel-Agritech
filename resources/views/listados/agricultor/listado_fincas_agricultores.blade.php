@@ -501,8 +501,8 @@ $('#wind_input').val(wind.speed);
  //SOILAPI
  //API=6c421d18-f909-11ea-9025-0242ac130002-6c421e6c-f909-11ea-9025-0242ac130002
 
-const lat= coords.lat;
-const lon=coords.lng;
+//const lat= coords.lat;
+//const lon=coords.lng;
 /*const lat1=3.40556;
 const lon1= -76.53239;*/
 fetch("https://api.stormglass.io/v2/bio/point?lat=${lat}&lng=${lon}&params=soilTemperature", {
