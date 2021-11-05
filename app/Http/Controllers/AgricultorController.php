@@ -765,6 +765,8 @@ function listado_fincas_agricultores()
       $medicion->tmax  = $data["temp_max_input"];
       $medicion->tmin  = $data["temp_min_input"];
       $medicion->tdia  = $data["tempactual_input"];
+      $medicion->tsuelo  = $data["tempactual_input"];
+      $medicion->puntorocio  = $data["dew_point_input"];
       $medicion->presion  = $data["pressure_input"];
       $medicion->velviento  = $data["wind_input"];
       $medicion->precipi  = $data["rain_input"];

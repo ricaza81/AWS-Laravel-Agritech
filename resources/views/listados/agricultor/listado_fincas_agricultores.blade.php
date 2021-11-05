@@ -322,7 +322,7 @@ margin-bottom: 10px; font-family: Arial; font-size:12px; width:100%'><?php  echo
                     </div>
                        <div class="day-wethear-item">
                         <h5 class="description-header"><span id="dew_point"></span> &#8451;</h5>
-                        <input type="hidden" name="dew_point_input" id="dew_point_input" style="color: #000000;">
+                        <input type="text" name="dew_point_input" id="dew_point_input" style="color: #000000;">
                         <span class="description-text" style="color: #000000;">Punto de rocio</span>
                     </div>
                     <div class="form-group">
