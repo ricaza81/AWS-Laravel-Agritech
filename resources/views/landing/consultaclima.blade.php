@@ -27,7 +27,7 @@
 
                            <div class="ui-block-title inline-items">
                    
-                             <a style="font-size:25px;background: #76A82B;margin-top: 0px;margin-bottom: 60px;" class="btn btn-purple btn-lg" href="https://agronielsen.com/encampo/public/descargables/ConsultaFincaRisaraldaSept2020.pdf" target="_blank">Esto obtienes (clic aquí)
+                             <a style="font-size:25px;background: #76A82B;margin-top: 0px;margin-bottom: 60px;" class="btn btn-purple btn-lg" href="https://drive.google.com/file/d/1VsIBBmmDNlrX5JMuIFx5fWhoE1V4Cr30/view" target="_blank">Esto obtienes (clic aquí)
                                                     </a>
    
                   </div>
