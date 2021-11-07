@@ -337,7 +337,7 @@
                                 <span class="typed-cursor" style="font-size: 0px;">|</span>
                         </div>
                       <p>Puedes marcar la casilla "consultar mi ubicación" o arrastrar el marcador para una nueva ubicación.</span>
-                      <span><a href="consultaclima" target="_blank" style="color: #fff;background: #ff5e3a;line-height: 28px">Ver informe de ejemplo</a></p>
+                      <span><a href="https://drive.google.com/file/d/1VsIBBmmDNlrX5JMuIFx5fWhoE1V4Cr30/view" target="_blank" style="color: #fff;background: #ff5e3a;line-height: 28px">Ver informe de ejemplo</a></p>
 
                        
 
