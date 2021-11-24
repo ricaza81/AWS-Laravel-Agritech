@@ -114,7 +114,7 @@ return [
         /*
          * Laravel Framework Service Providers...
          */
-        Barryvdh\DomPDF\ServiceProvider::class,
+        //Barryvdh\DomPDF\ServiceProvider::class,
         Maatwebsite\Excel\ExcelServiceProvider::class,
         Collective\Html\HtmlServiceProvider::class,
         Illuminate\Foundation\Providers\ArtisanServiceProvider::class,
@@ -164,7 +164,7 @@ return [
     */
 
     'aliases' => [
-       'PDF' => Barryvdh\DomPDF\Facade::class,
+       //'PDF' => Barryvdh\DomPDF\Facade::class,
         'Excel' => Maatwebsite\Excel\Facades\Excel::class,
         'App'       => Illuminate\Support\Facades\App::class,
         'Artisan'   => Illuminate\Support\Facades\Artisan::class,
