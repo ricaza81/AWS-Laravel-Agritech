@@ -13,13 +13,13 @@
     <meta property="og:image" content="{{url('css/appx/media/banner/encampoapp.png')}}" />
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-4NXK2JZJ17"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-M1SECW5QF0"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'G-4NXK2JZJ17');
+  gtag('config', 'G-M1SECW5QF0');
 </script>
 
          <script type="text/javascript" src="{{url('js/globe/third-party/Detector.js')}}"></script>
