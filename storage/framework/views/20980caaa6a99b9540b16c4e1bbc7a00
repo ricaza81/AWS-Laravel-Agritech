@@ -1,85 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+
 <head>
-    <title>Agronielsen en Campo: Inteligencia Artificial para el Agro</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="description" content="La primera plataforma de visitas tecnicas que centraliza y automatiza completamente tu gestión" />
-    <meta
-        name="keywords"
-        content="Estacion meteorologica, estacion virtual, estacion meteorologica virtual, Agronielsen, Agro nielsen, agronielsen en campo, visitas, agrícola, integración, automatización,mercado agrícola,visitas técnicas,gestor de visitas técnicas, fertilizantes foliares, fertilizantes, foliares,abonos"
-    />
-    <meta property="og:title" content="Agronielsen en Campo: Gestor de visitas técnicas" />
-    <meta property="og:type" content="website" />
-    <meta property="og:image" content="{{url('css/appx/media/banner/encampoapp.png')}}" />
-
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-40CRSJJ9M8"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-40CRSJJ9M8');
-</script>
-
-         <script type="text/javascript" src="{{url('js/globe/third-party/Detector.js')}}"></script>
-  <script type="text/javascript" src="{{url('js/globe/third-party/three.min.js')}}"></script>
-  <script type="text/javascript" src="{{url('js/globe/third-party/Tween.js')}}"></script>
-  <script type="text/javascript" src="{{url('js/globe/third-party/globe.js')}}"></script>
-
-    <link rel="author" href="https://www.agronielsen.com" />
-    <link rel="canonical" href="https://www.agronielsen.com" />
-
-    <!-- FB Meta tags -->
-
-    <link rel="stylesheet" href="https://getbootstrap.com/docs/4.0/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" type="text/css" href="{{url('css/olympus/app/css/fonts.min.css')}}" />
-    <link rel="stylesheet" href="{{url('css/appx/dependencies/font-awesome/css/font-awesome.min.css')}}" type="text/css" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
-    <link rel="stylesheet" href="{{url('css/pe-icon-7-stroke.css')}}" />
-
-    <link rel="stylesheet" href="{{url('css/appx/dependencies/components-elegant-icons/css/elegant-icons.min.css')}}" type="text/css" />
-    <link rel="stylesheet" href="{{url('css/appx/dependencies/swiper/css/swiper.min.css')}}" type="text/css" />
-    <link rel="stylesheet" href="{{url('css/appx/dependencies/simple-line-icons/css/simple-line-icons.css')}}" type="text/css" />
-    <link rel="stylesheet" href="{{url('css/appx/dependencies/wow/css/animate.css')}}" type="text/css" />
-    <link rel="stylesheet" href="{{url('css/appx/dependencies/slick-carousel/css/slick.css')}}" type="text/css" />
-    <link rel="stylesheet" href="{{url('css/appx/dependencies/magnific-popup/css/magnific-popup.css')}}" type="text/css" />
-    <link rel="stylesheet" href="{{url('/css/sistemalaravel.css')}}">
-
-    <link rel="stylesheet" href="{{url('dist/css/AdminLTE.min.css')}}">
-
-    <link rel="icon" type="image/png" sizes="32x32" href="{{url('css/appx/assets/img/favicon/faviconnielsen.png')}}" />
-
-    <!--<link rel="manifest" href="/site.webmanifest">-->
-    <link rel="mask-icon" href="{{url('css/appx/assets/img/favicon/safari-pinned-tab.svg')}}" color="#454be5" />
-
-    <!-- Dependency Styles -->
-
-    <!-- Site Stylesheet -->
-    <link rel="stylesheet" href="{{url('css/appx/assets/css/app.css')}}" type="text/css" />
-    <link rel="stylesheet" type="text/css" href="{{url('css/olympus/app/Bootstrap/dist/css/bootstrap-reboot.css')}}" />
-    <link rel="stylesheet" type="text/css" href="{{url('css/olympus/app/Bootstrap/dist/css/bootstrap.css')}}" />
-    <link rel="stylesheet" type="text/css" href="{{url('css/olympus/app/Bootstrap/dist/css/bootstrap-grid.css')}}" />
-    <link rel="stylesheet" type="text/css" href="{{url('css/olympus/app/css/main.min.css')}}" />
-
-    <!-- Google Web Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,300,400,500,600,700%7CPoppins:100,200,300,400,500,600,700,800,900" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" />
+    <?php echo $__env->make('/landing/partials.header', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
 </head>
 
 <body id="home-version-2" class="home-version-2" data-style="default">
     <!-- /.page-loader -->
     <div class="page-loader">
         <div id="preloader">
-            <span>{{ trans('messages.cargando') }}</span>
+            <span><?php echo e(trans('messages.cargando')); ?></span>
         </div>
     </div>
     <!-- /.page-loader -->
 
     <div id="">
         <div class="text-center" style="padding-bottom: 15px; padding-top: 4px; margin-bottom: -6px;color:#fff">
-            {{ trans('messages.consultademo') }}
+            <?php echo e(trans('messages.consultademo')); ?>
+
             <a
                 href="logindemo"
                 target="_blank"
@@ -97,10 +35,11 @@
                     border: 1px solid #3224af;
                 "
             >
-                {{ trans('messages.getdemo') }}
+                <?php echo e(trans('messages.getdemo')); ?>
+
             </a>
             <a
-                href="{{ url('lang', ['es']) }}"
+                href="<?php echo e(url('lang', ['es'])); ?>"
                 target="_blank"
                 class="read-btn1"
                 style="
@@ -119,7 +58,7 @@
                 ES
             </a>
             <a
-                href="{{ url('lang', ['en']) }}"
+                href="<?php echo e(url('lang', ['en'])); ?>"
                 target="_blank"
                 class="read-btn1"
                 style="
@@ -147,10 +86,10 @@
                 <div class="container">
                     <div class="header-inner clearfix">
                         <div class="site-logo">
-                            <a href="landing" class="main-logo"><img src="{{url('css/appx/assets/img/agronielsen.png')}}" alt="Agronielsen en Campo" /></a>
+                            <a href="landing" class="main-logo"><img src="<?php echo e(url('css/appx/assets/img/agronielsen.png')); ?>" alt="Agronielsen en Campo" /></a>
 
                             <!--<div class="col col-xl-3 col-lg-3 col-md-12 col-sm-12  sorting-item worlds family politics responsive-display-none" style="position: absolute;left: 0%;color: rgb(0, 0, 0);margin-top:41px;">
-                            <label class="control-label" style="color:#fff">{{trans('messages.follower')}}</label>
+                            <label class="control-label" style="color:#fff"><?php echo e(trans('messages.follower')); ?></label>
                      
                             <br>
                             <div class="more responsive" style="padding-top:8px">
@@ -177,59 +116,59 @@
 
                         <nav class="site-nav">
                             <ul class="site-menu">
-                                <li><a href="login">{{ trans('messages.ingresar1') }}</a></li>
+                                <li><a href="login"><?php echo e(trans('messages.ingresar1')); ?></a></li>
                                 <!--<li><a href="login">Ingresar</a></li>-->
 
                                 <!--<li>
-                                    <a href="{{asset('landing#asi-funciona')}}">{{ trans('messages.asifunciona') }} </a>
+                                    <a href="<?php echo e(asset('landing#asi-funciona')); ?>"><?php echo e(trans('messages.asifunciona')); ?> </a>
                                 </li>-->
 
-                                <li class="menu-item-has-children" id="strange">
-                                    <a href="{{asset('producto')}}">{{ trans('messages.pdto') }}</a>
+                                <li class="menu-item-has-children" id="strange-1">
+                                    <a href="<?php echo e(asset('producto')); ?>"><?php echo e(trans('messages.pdto')); ?></a>
 
-                                    <div class="popoverContent" id="popoverContent2">
+                                    <div class="popoverContent" id="popoverContent2-1">
                                         <div class="featureLinks">
-                                            <a class="featureLinksWrapper" href="{{asset('landing#prosess')}}">
+                                            <a class="featureLinksWrapper" href="<?php echo e(asset('landing#prosess')); ?>">
                                                 <span class="featureLinksIcon featureIconAllFeatures"></span>
                                                 <span class="featureLinksDetails">
-                                                    <h3 class="featureLinksTitle">{{trans('messages.engeneral')}}</h3>
-                                                    <p class="featureLinksDescription">{{trans('messages.recorrido')}}</p>
+                                                    <h3 class="featureLinksTitle"><?php echo e(trans('messages.engeneral')); ?></h3>
+                                                    <p class="featureLinksDescription"><?php echo e(trans('messages.recorrido')); ?></p>
                                                 </span>
                                             </a>
-                                            <a class="featureLinksWrapper" href="{{asset('landing#prosess1')}}">
+                                            <a class="featureLinksWrapper" href="<?php echo e(asset('landing#prosess1')); ?>">
                                                 <span class="featureLinksIcon featureIconGantt"></span>
                                                 <span class="featureLinksDetails">
-                                                    <h3 class="featureLinksTitle">{{trans('messages.geoposicion')}}</h3>
+                                                    <h3 class="featureLinksTitle"><?php echo e(trans('messages.geoposicion')); ?></h3>
 
-                                                    <p class="featureLinksDescription">{{trans('messages.geomapa')}}</p>
+                                                    <p class="featureLinksDescription"><?php echo e(trans('messages.geomapa')); ?></p>
                                                 </span>
                                             </a>
-                                            <a class="featureLinksWrapper" href="{{asset('landing#swape')}}">
+                                            <a class="featureLinksWrapper" href="<?php echo e(asset('landing#swape')); ?>">
                                                 <span class="featureLinksIcon featureIconTracker"></span>
                                                 <span class="featureLinksDetails">
-                                                    <h3 class="featureLinksTitle">{{trans('messages.beneficios')}}</h3>
-                                                    <p class="featureLinksDescription">{{trans('messages.midegestion')}}</p>
+                                                    <h3 class="featureLinksTitle"><?php echo e(trans('messages.beneficios')); ?></h3>
+                                                    <p class="featureLinksDescription"><?php echo e(trans('messages.midegestion')); ?></p>
                                                 </span>
                                             </a>
-                                            <a class="featureLinksWrapper" href="{{asset('landing#feature-two')}}">
+                                            <a class="featureLinksWrapper" href="<?php echo e(asset('landing#feature-two')); ?>">
                                                 <span class="featureLinksIcon featureIconTemplates"></span>
                                                 <span class="featureLinksDetails">
-                                                    <h3 class="featureLinksTitle">{{trans('messages.empreagri')}}</h3>
-                                                    <p class="featureLinksDescription">{{trans('messages.empreagritext')}}</p>
+                                                    <h3 class="featureLinksTitle"><?php echo e(trans('messages.empreagri')); ?></h3>
+                                                    <p class="featureLinksDescription"><?php echo e(trans('messages.empreagritext')); ?></p>
                                                 </span>
                                             </a>
-                                            <a class="featureLinksWrapper" href="{{asset('producto#prosessvit')}}">
+                                            <a class="featureLinksWrapper" href="<?php echo e(asset('producto#prosessvit')); ?>">
                                                 <span class="featureLinksIcon featureIconRoles"></span>
                                                 <span class="featureLinksDetails">
-                                                    <h3 class="featureLinksTitle">{{trans('messages.reportautomaticos')}}</h3>
-                                                    <p class="featureLinksDescription">{{trans('messages.mantengacontrol')}}</p>
+                                                    <h3 class="featureLinksTitle"><?php echo e(trans('messages.reportautomaticos')); ?></h3>
+                                                    <p class="featureLinksDescription"><?php echo e(trans('messages.mantengacontrol')); ?></p>
                                                 </span>
                                             </a>
-                                            <a class="featureLinksWrapper" href="{{asset('producto#prosess')}}">
+                                            <a class="featureLinksWrapper" href="<?php echo e(asset('producto#prosess')); ?>">
                                                 <span class="featureLinksIcon featureIconWall"></span>
                                                 <span class="featureLinksDetails">
-                                                    <h3 class="featureLinksTitle">{{trans('messages.stmkt')}}</h3>
-                                                    <p class="featureLinksDescription">{{trans('messages.stmktext')}}</p>
+                                                    <h3 class="featureLinksTitle"><?php echo e(trans('messages.stmkt')); ?></h3>
+                                                    <p class="featureLinksDescription"><?php echo e(trans('messages.stmktext')); ?></p>
                                                 </span>
                                             </a>
                                         </div>
@@ -238,48 +177,48 @@
                                     <!--  <li><a href="blog.html">Blog</a></li>
                     <li><a href="blog-single.html">Blog Single</a></li>-->
                                 </li>
-                                <!-- <li><a href="{{asset('ventainformes')}}">{{ trans('messages.informes') }}</a>-->
+                                <!-- <li><a href="<?php echo e(asset('ventainformes')); ?>"><?php echo e(trans('messages.informes')); ?></a>-->
                                 <li class="menu-item-has-children" id="strange2">
-                                    <a href="{{asset('ventainformes')}}">{{ trans('messages.informes') }}</a>
+                                    <a href="<?php echo e(asset('ventainformes')); ?>"><?php echo e(trans('messages.informes')); ?></a>
                                     <div class="popoverContentlang" id="popoverContent4">
                                         <div class="featureLinks">
-                                            <a class="featureLinksWrapper" href="{{asset('demosector')}}">
+                                            <a class="featureLinksWrapper" href="<?php echo e(asset('demosector')); ?>">
                                                 <span class="featureLinksIcon2 featureIconAllFeatures"></span>
                                                 <span class="featureLinksDetails2">
                                                     <h3 class="featureLinksTitle" style="width: 500px;">Ventas Sector Agroquímicos</h3>
-                                                    <!--<p class="featureLinksDescription">{{trans('messages.recorrido')}}</p>-->
+                                                    <!--<p class="featureLinksDescription"><?php echo e(trans('messages.recorrido')); ?></p>-->
                                                 </span>
                                             </a>
-                                            <a class="featureLinksWrapper" href="{{asset('demoalmacenes')}}">
+                                            <a class="featureLinksWrapper" href="<?php echo e(asset('demoalmacenes')); ?>">
                                                 <span class="featureLinksIcon2 featureIconAllFeatures"></span>
                                                 <span class="featureLinksDetails2">
                                                     <h3 class="featureLinksTitle" style="width: 500px;">ICA Base datos Almacenes</h3>
-                                                    <!--<p class="featureLinksDescription">{{trans('messages.recorrido')}}</p>-->
+                                                    <!--<p class="featureLinksDescription"><?php echo e(trans('messages.recorrido')); ?></p>-->
                                                 </span>
                                             </a>
-                                            <a class="featureLinksWrapper" href="{{url('analiticacultivos')}}">
+                                            <a class="featureLinksWrapper" href="<?php echo e(url('analiticacultivos')); ?>">
                                                 <span class="featureLinksIcon2 featureIconAllFeatures"></span>
                                                 <span class="featureLinksDetails2">
                                                     <h3 class="featureLinksTitle" style="width: 500px;">Analítica de Cultivos</h3>
-                                                    <!--<p class="featureLinksDescription">{{trans('messages.recorrido')}}</p>-->
+                                                    <!--<p class="featureLinksDescription"><?php echo e(trans('messages.recorrido')); ?></p>-->
                                                 </span>
                                             </a>
-                                            <a class="featureLinksWrapper" href="{{url('visor')}}">
+                                            <a class="featureLinksWrapper" href="<?php echo e(url('visor')); ?>">
                                                 <span class="featureLinksIcon2 featureIconAllFeatures"></span>
                                                 <span class="featureLinksDetails2">
                                                     <h3 class="featureLinksTitle" style="width: 500px;">Visor Agronielsen</h3>
-                                                    <!--<p class="featureLinksDescription">{{trans('messages.recorrido')}}</p>-->
+                                                    <!--<p class="featureLinksDescription"><?php echo e(trans('messages.recorrido')); ?></p>-->
                                                 </span>
                                             </a>
                                         </div>
                                     </div>
                                 </li>
 
-                                <li><a href="{{asset('precios')}}">{{ trans('messages.precios') }}</a></li>
-                                <li><a href="{{asset('comprarhistorial')}}">Comprar</a></li>
+                                <li><a href="<?php echo e(asset('precios')); ?>"><?php echo e(trans('messages.precios')); ?></a></li>
+                                <li><a href="<?php echo e(asset('comprarhistorial')); ?>">Comprar</a></li>
                             </ul>
-                            <a href="login" class="nav-button nbtn-two">{{ trans('messages.ingresar') }}</a>
-                            <a href="register" class="nav-button nbtn-two_1">{{ trans('messages.registrarme') }}</a>
+                            <a href="login" class="nav-button nbtn-two"><?php echo e(trans('messages.ingresar')); ?></a>
+                            <a href="register" class="nav-button nbtn-two_1"><?php echo e(trans('messages.registrarme')); ?></a>
                         </nav>
                         <!-- /.site-nav -->
                     </div>
@@ -363,8 +302,8 @@
                      
 
                       
-                            <!--<img class="responsive" src="{{url('css/appx/media/mkt/ciclo-proceso.png')}}" alt="Prosess" style="max-width:100%;padding-top: 22px;"/>-->
-                            <!--<img class="responsive" src="{{url('css/appx/media/mkt/ciclo-proceso.png')}}" alt="Prosess" style="max-width:90%;"/>-->
+                            <!--<img class="responsive" src="<?php echo e(url('css/appx/media/mkt/ciclo-proceso.png')); ?>" alt="Prosess" style="max-width:100%;padding-top: 22px;"/>-->
+                            <!--<img class="responsive" src="<?php echo e(url('css/appx/media/mkt/ciclo-proceso.png')); ?>" alt="Prosess" style="max-width:90%;"/>-->
                       
                     </div>
                     <!-- /.prosess-feature-image -->
@@ -400,7 +339,7 @@
                                 <span class="typed-cursor" style="font-size: 0px;">|</span>
                         </div>
                       <p>Puedes marcar la casilla "consultar mi ubicación" o arrastrar el marcador para una nueva ubicación.</span>
-                      <span><a href="consultaclima" target="_blank" style="color: #fff;background: #ff5e3a;line-height: 28px">Ver informe de ejemplo</a></p>
+                      <span><a href="https://drive.google.com/file/d/1VsIBBmmDNlrX5JMuIFx5fWhoE1V4Cr30/view" target="_blank" style="color: #fff;background: #ff5e3a;line-height: 28px">Ver informe de ejemplo</a></p>
 
                        
 
@@ -421,7 +360,7 @@
                                         <p>
                                          El sistema registra los datos claves para gestionar oportunamente el seguimiento y asistencia técnica en los cultivo, garantizando el adecuado desarrollo del cultivo.
                                         </p>
-                                        <a href="register" class="read-btn">{{trans('messages.fichavalorbutton')}}<i class="ei ei-arrow_right"></i></a>
+                                        <a href="register" class="read-btn"><?php echo e(trans('messages.fichavalorbutton')); ?><i class="ei ei-arrow_right"></i></a>
                                     </div>
                                 </div>
                                 <div class="item" data-title="Support">
@@ -429,7 +368,7 @@
                                         <p>
                                          Valorizar las recomendaciones técnicas en campo, es un indicador clave para las empresas que fabrican y comercializan agroinsumos.
                                         </p>
-                                        <a href="register" class="read-btn">{{trans('messages.fichaproductbutton')}}<i class="ei ei-arrow_right"></i></a>
+                                        <a href="register" class="read-btn"><?php echo e(trans('messages.fichaproductbutton')); ?><i class="ei ei-arrow_right"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -471,7 +410,7 @@
                  <div class="img-one" style="width: 100%;
     margin-left: 110px;
     margin-top: -103px;padding-top:0px;">
-                            <img class="responsive" style="width:109%;margin-left:-99px;" src="{{url('css/appx/media/meteo/meteoag.jpg')}}" alt="Variables meteorológicas" />
+                            <img class="responsive" style="width:109%;margin-left:-99px;" src="<?php echo e(url('css/appx/media/meteo/meteoag.jpg')); ?>" alt="Variables meteorológicas" />
                  </div>
 
                     
@@ -497,7 +436,7 @@
                 <div class="text-left">
 
                                <a
-                            href="{{ url('consultaclima') }}"
+                            href="<?php echo e(url('consultaclima')); ?>"
                             target="_blank"
                             class="read-btn1"
                             style="
@@ -608,10 +547,10 @@
                             <div class="buttons-wrap">
                                 <ul class="buttons" role="tablist">
                                 <li class="line brand-bg-color"></li>
-                                    <li class="button active undefined" style="color:#000">{{trans('messages.seccioncloudficha1')}}</li>
+                                    <li class="button active undefined" style="color:#000"><?php echo e(trans('messages.seccioncloudficha1')); ?></li>
                                     <li class="button" style="color:#000">Fincas</li>
-                                    <li class="button" style="color:#000">{{trans('messages.seccioncloudficha3')}}</li>
-                                    <li class="button" style="color:#000">{{trans('messages.seccioncloudficha4')}}</li>
+                                    <li class="button" style="color:#000"><?php echo e(trans('messages.seccioncloudficha3')); ?></li>
+                                    <li class="button" style="color:#000"><?php echo e(trans('messages.seccioncloudficha4')); ?></li>
                                 </ul>
                             </div>
                             <div class="items" role="tabpanel">
@@ -634,17 +573,19 @@
                                 <div class="item" data-title="Deployment">
                                     <div class="tab-content">
                                         <p style="padding-bottom:40px">
-                                            {{trans('messages.seccioncloudficha3text')}}
+                                            <?php echo e(trans('messages.seccioncloudficha3text')); ?>
+
                                         </p>
-                                        <a href="register" class="read-btn" style="margin-top: -26px;margin-bottom: 30px">{{trans('messages.fichavalorbutton')}}<i class="ei ei-arrow_right"></i></a>
+                                        <a href="register" class="read-btn" style="margin-top: -26px;margin-bottom: 30px"><?php echo e(trans('messages.fichavalorbutton')); ?><i class="ei ei-arrow_right"></i></a>
                                     </div>
                                 </div>
                                 <div class="item" data-title="Support">
                                     <div class="tab-content">
                                         <p style="padding-bottom:40px">
-                                            {{trans('messages.seccioncloudficha4text')}}
+                                            <?php echo e(trans('messages.seccioncloudficha4text')); ?>
+
                                         </p>
-                                        <a href="register" class="read-btn" style="margin-top: -26px;margin-bottom: 30px">{{trans('messages.fichaproductbutton')}}<i class="ei ei-arrow_right"></i></a>
+                                        <a href="register" class="read-btn" style="margin-top: -26px;margin-bottom: 30px"><?php echo e(trans('messages.fichaproductbutton')); ?><i class="ei ei-arrow_right"></i></a>
                                     </div>
                                 </div>
             
@@ -656,7 +597,7 @@
                            <!--  <iframe  style="margin-top: -47px;height: 375px;width:390px;padding: 13px;" id="historyframe1" name="historyframe"  src="" frameborder="0" style="border:0" allowfullscreen>                                          
                                        </iframe> -->
                           <div class="img-one">
-                            <img class="responsive" style="padding-top:30px;width:90%;margin-left:0px;" src="{{url('css/appx/media/meteo/raspberry-agronielsen.jpg')}}" alt="Variables meteorológicas">
+                            <img class="responsive" style="padding-top:30px;width:90%;margin-left:0px;" src="<?php echo e(url('css/appx/media/meteo/raspberry-agronielsen.jpg')); ?>" alt="Variables meteorológicas">
                          </div>
                     </div>
                 </div>
@@ -671,7 +612,7 @@
     <section id="swape">
         <div class="container">
             <div class="section-title title-two">
-                <h2>{{trans('messages.seccionbeneficiostitle')}}</h2>
+                <h2><?php echo e(trans('messages.seccionbeneficiostitle')); ?></h2>
             </div>
             <!-- /.section-title title-two -->
 
@@ -683,9 +624,10 @@
                         </div>
 
                         <div class="content">
-                            <h3>{{trans('messages.seccionbeneficios1')}}</h3>
+                            <h3><?php echo e(trans('messages.seccionbeneficios1')); ?></h3>
                             <p>
-                                {{trans('messages.seccionbeneficios1text')}}
+                                <?php echo e(trans('messages.seccionbeneficios1text')); ?>
+
                             </p>
                         </div>
                     </div>
@@ -700,9 +642,10 @@
                         </div>
 
                         <div class="content">
-                            <h3>{{trans('messages.seccionbeneficios2')}}</h3>
+                            <h3><?php echo e(trans('messages.seccionbeneficios2')); ?></h3>
                             <p>
-                                {{trans('messages.seccionbeneficios2text')}}
+                                <?php echo e(trans('messages.seccionbeneficios2text')); ?>
+
                             </p>
                         </div>
                     </div>
@@ -717,9 +660,10 @@
                         </div>
 
                         <div class="content">
-                            <h3>{{trans('messages.seccionbeneficios3')}}</h3>
+                            <h3><?php echo e(trans('messages.seccionbeneficios3')); ?></h3>
                             <p>
-                                {{trans('messages.seccionbeneficios3text')}}
+                                <?php echo e(trans('messages.seccionbeneficios3text')); ?>
+
                             </p>
                         </div>
                     </div>
@@ -784,21 +728,23 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-7">
-                    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6899098620713335"
-     crossorigin="anonymous"></script>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-format="fluid"
-     data-ad-layout-key="-gw-3+1f-3d+2z"
-     data-ad-client="ca-pub-6899098620713335"
-     data-ad-slot="2446565679"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+                    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6899098620713335"crossorigin="anonymous"></script>
+                    <ins class="adsbygoogle"
+                     style="display:block;z-index:1"
+                     data-ad-format="fluid"
+                     data-ad-layout-key="-gw-3+1f-3d+2z"
+                     data-ad-client="ca-pub-6899098620713335"
+                     data-ad-slot="2446565679">
+                    </ins>
+                    <script>
+                         (adsbygoogle = window.adsbygoogle || []).push({});
+                    </script>
+                 </div>
+                  <div class="col-lg-7">
                     <div class="prosess-feature-image wow fadeInLeft text-right">
 
-                        <div class="img-one">
-                            <img class="" src="{{url('css/appx/media/faq/faq3.png')}}" alt="Prosess" />
+                        <div class="img-one" style="margin-top:27px;">
+                            <img class="" src="<?php echo e(url('css/appx/media/faq/faq3.png')); ?>" alt="Prosess" style="padding-top:28px;">
 
                             <div class="hotspot-wraper">
                                 <div class="pulse-box">
@@ -820,60 +766,65 @@
                         </div>
 
                         <div class="img-two fadeInDown">
-                            <img src="{{url('css/appx/media/faq/faq4.png')}}" alt="Prosess" style="max-width: 130%;"/>
+                            <img src="<?php echo e(url('css/appx/media/faq/faq4.png')); ?>" alt="Prosess" style="max-width: 130%;padding-top:15px"/>
                         </div>
                     </div>
                     <!-- /.prosess-feature-image -->
                 </div>
                 <!-- /.col-lg-7 -->
 
-                <div class="col-lg-5">
+                <div class="col-lg-5" style="padding-top:0px;">
                     <div class="prosess-tabs-inner wow fadeInRight" style="color:#000">
                         <h2 class="title" style="color:#000">
-                            {{trans('messages.seccioncloudtitle')}}
+                            <?php echo e(trans('messages.seccioncloudtitle')); ?>
+
                         </h2>
 
                         <div class="norebro-tabs-sc tab-box tabs-left" data-appxbe-tab-box="true">
                             <div class="buttons-wrap">
                                 <ul class="buttons" role="tablist">
                                     <li class="line brand-bg-color"></li>
-                                    <li class="button active undefined" style="color:#000">{{trans('messages.seccioncloudficha1')}}</li>
-                                    <li class="button" style="color:#000">{{trans('messages.seccioncloudficha2')}}</li>
-                                    <li class="button" style="color:#000">{{trans('messages.seccioncloudficha3')}}</li>
-                                    <li class="button" style="color:#000">{{trans('messages.seccioncloudficha4')}}</li>
+                                    <li class="button active undefined" style="color:#000"><?php echo e(trans('messages.seccioncloudficha1')); ?></li>
+                                    <li class="button" style="color:#000"><?php echo e(trans('messages.seccioncloudficha2')); ?></li>
+                                    <li class="button" style="color:#000"><?php echo e(trans('messages.seccioncloudficha3')); ?></li>
+                                    <li class="button" style="color:#000"><?php echo e(trans('messages.seccioncloudficha4')); ?></li>
                                 </ul>
                             </div>
                             <div class="items" role="tabpanel">
                                 <div class="item active" data-title="Concept">
                                     <div class="tab-content">
                                         <p>
-                                            {{trans('messages.seccioncloudficha1text')}}
+                                            <?php echo e(trans('messages.seccioncloudficha1text')); ?>
+
                                         </p>
-                                        <a href="register" class="read-btn">{{trans('messages.fichaagributton')}}<i class="ei ei-arrow_right"></i></a>
+                                        <a href="register" class="read-btn"><?php echo e(trans('messages.fichaagributton')); ?><i class="ei ei-arrow_right"></i></a>
                                     </div>
                                 </div>
                                 <div class="item" data-title="Design">
                                     <div class="tab-content">
                                         <p>
-                                            {{trans('messages.seccioncloudficha2text')}}
+                                            <?php echo e(trans('messages.seccioncloudficha2text')); ?>
+
                                         </p>
-                                        <a href="register" class="read-btn">{{trans('messages.fichaproductbutton')}}<i class="ei ei-arrow_right"></i></a>
+                                        <a href="register" class="read-btn"><?php echo e(trans('messages.fichaproductbutton')); ?><i class="ei ei-arrow_right"></i></a>
                                     </div>
                                 </div>
                                 <div class="item" data-title="Deployment">
                                     <div class="tab-content">
                                         <p>
-                                            {{trans('messages.seccioncloudficha3text')}}
+                                            <?php echo e(trans('messages.seccioncloudficha3text')); ?>
+
                                         </p>
-                                        <a href="register" class="read-btn">{{trans('messages.fichavalorbutton')}}<i class="ei ei-arrow_right"></i></a>
+                                        <a href="register" class="read-btn"><?php echo e(trans('messages.fichavalorbutton')); ?><i class="ei ei-arrow_right"></i></a>
                                     </div>
                                 </div>
                                 <div class="item" data-title="Support">
                                     <div class="tab-content">
                                         <p>
-                                            {{trans('messages.seccioncloudficha4text')}}
+                                            <?php echo e(trans('messages.seccioncloudficha4text')); ?>
+
                                         </p>
-                                        <a href="register" class="read-btn">{{trans('messages.fichaproductbutton')}}<i class="ei ei-arrow_right"></i></a>
+                                        <a href="register" class="read-btn"><?php echo e(trans('messages.fichaproductbutton')); ?><i class="ei ei-arrow_right"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -894,10 +845,10 @@
     <!--=============================-->
     <!--=        Feature Two        =-->
     <!--=============================-->
-    <section id="feature-two" style="padding-top:20px;">
+    <section id="feature-two" style="padding-top:20px;margin-top:-28px">
         <div class="container">
             <div class="section-title title-two">
-                <h2>{{trans('messages.seccionempresastitle')}}</h2>
+                <h2 style="padding-top:30px"><?php echo e(trans('messages.seccionempresastitle')); ?></h2>
             </div>
             <!-- /.section-title title-two -->
 
@@ -909,9 +860,10 @@
                         </div>
 
                         <div class="content">
-                            <h3>{{trans('messages.seccionempresas1')}}</h3>
+                            <h3><?php echo e(trans('messages.seccionempresas1')); ?></h3>
                             <p>
-                                {{trans('messages.seccionempresas1text')}}
+                                <?php echo e(trans('messages.seccionempresas1text')); ?>
+
                             </p>
                         </div>
                     </div>
@@ -926,9 +878,10 @@
                         </div>
 
                         <div class="content">
-                            <h3>{{trans('messages.seccionempresas2')}}</h3>
+                            <h3><?php echo e(trans('messages.seccionempresas2')); ?></h3>
                             <p>
-                                {{trans('messages.seccionempresas2text')}}
+                                <?php echo e(trans('messages.seccionempresas2text')); ?>
+
                             </p>
                         </div>
                     </div>
@@ -943,9 +896,10 @@
                         </div>
 
                         <div class="content">
-                            <h3>{{trans('messages.seccionempresas3')}}</h3>
+                            <h3><?php echo e(trans('messages.seccionempresas3')); ?></h3>
                             <p>
-                                {{trans('messages.seccionempresas3text')}}
+                                <?php echo e(trans('messages.seccionempresas3text')); ?>
+
                             </p>
                         </div>
                     </div>
@@ -960,9 +914,10 @@
                         </div>
 
                         <div class="content">
-                            <h3>{{trans('messages.seccionempresas4')}}</h3>
+                            <h3><?php echo e(trans('messages.seccionempresas4')); ?></h3>
                             <p>
-                                {{trans('messages.seccionempresas4text')}}
+                                <?php echo e(trans('messages.seccionempresas4text')); ?>
+
                             </p>
                         </div>
                     </div>
@@ -977,9 +932,10 @@
                         </div>
 
                         <div class="content">
-                            <h3>{{trans('messages.seccionempresas5')}}</h3>
+                            <h3><?php echo e(trans('messages.seccionempresas5')); ?></h3>
                             <p>
-                                {{trans('messages.seccionempresas5text')}}
+                                <?php echo e(trans('messages.seccionempresas5text')); ?>
+
                             </p>
                         </div>
                     </div>
@@ -994,9 +950,10 @@
                         </div>
 
                         <div class="content">
-                            <h3>{{trans('messages.seccionempresas6')}}</h3>
+                            <h3><?php echo e(trans('messages.seccionempresas6')); ?></h3>
                             <p>
-                                {{trans('messages.seccionempresas6text')}}
+                                <?php echo e(trans('messages.seccionempresas6text')); ?>
+
                             </p>
                         </div>
                     </div>
@@ -1024,10 +981,11 @@
     <section id="download-two">
         <div class="container">
             <div class="download-content text-center">
-                <h2 class="download-title wow fadeInUp" data-wow-delay="0.3s">{{trans('messages.seccionplaystoretitle')}}</h2>
+                <h2 class="download-title wow fadeInUp" data-wow-delay="0.3s"><?php echo e(trans('messages.seccionplaystoretitle')); ?></h2>
 
                 <p class="wow fadeInUp" data-wow-delay="0.5s">
-                    {{trans('messages.seccionplaystoremessage')}}
+                    <?php echo e(trans('messages.seccionplaystoremessage')); ?>
+
                 </p>
 
                 <div class="store-btns">
@@ -1040,8 +998,9 @@
                     >
                         <i class="fi flaticon-google-play-1"></i>
                         <div class="btn-text">
-                            <span>{{trans('messages.seccionplaystoredescarga')}}</span>
-                            {{trans('messages.seccionplaystoreen')}}
+                            <span><?php echo e(trans('messages.seccionplaystoredescarga')); ?></span>
+                            <?php echo e(trans('messages.seccionplaystoreen')); ?>
+
                         </div>
                     </a>
 
@@ -1060,11 +1019,11 @@
         <!-- /.container -->
 
         <div class="bg-animate-mob">
-            <img src="{{url('css/appx/media/download/m1.png')}}" class="mbg1" alt="bg-mob" data-parallax='{"x" : 50, "y" : -100}' />
-            <img src="{{url('css/appx/media/download/m3.png')}}" class="mbg2" alt="bg-mob" data-parallax='{"x" : 60, "y" : -120}' />
-            <img src="{{url('css/appx/media/download/m2.png')}}" class="mbg3" alt="bg-mob" data-parallax='{"x" : 50, "y" : -100}' />
-            <img src="{{url('css/appx/media/download/m5.png')}}" class="mbg4" alt="bg-mob" data-parallax='{"x" : 80, "y" : -160}' />
-            <img src="{{url('css/appx/media/download/m4.png')}}" class="mbg5" alt="bg-mob" data-parallax='{"x" : 100, "y" : -200}' />
+            <img src="<?php echo e(url('css/appx/media/download/m1.png')); ?>" class="mbg1" alt="bg-mob" data-parallax='{"x" : 50, "y" : -100}' />
+            <img src="<?php echo e(url('css/appx/media/download/m3.png')); ?>" class="mbg2" alt="bg-mob" data-parallax='{"x" : 60, "y" : -120}' />
+            <img src="<?php echo e(url('css/appx/media/download/m2.png')); ?>" class="mbg3" alt="bg-mob" data-parallax='{"x" : 50, "y" : -100}' />
+            <img src="<?php echo e(url('css/appx/media/download/m5.png')); ?>" class="mbg4" alt="bg-mob" data-parallax='{"x" : 80, "y" : -160}' />
+            <img src="<?php echo e(url('css/appx/media/download/m4.png')); ?>" class="mbg5" alt="bg-mob" data-parallax='{"x" : 100, "y" : -200}' />
         </div>
     </section>
     <!-- /#download -->
@@ -1072,7 +1031,7 @@
     <section id="testimonial-two">
         <div class="container">
             <div class="section-title">
-                <h2>{{trans('messages.seccionmodulostitle')}}</h2>
+                <h2><?php echo e(trans('messages.seccionmodulostitle')); ?></h2>
             </div>
             <!-- /.section-title -->
 
@@ -1082,7 +1041,7 @@
                         <div class="testimonial-content-two text-center">
                             <div class="content">
                                 <div class="quote1">
-                                    <span class="quote"><img src="{{url('css/appx/media/banner/consolidado-visitas.png')}}" alt="" /></span>
+                                    <span class="quote"><img src="<?php echo e(url('css/appx/media/banner/consolidado-visitas.png')); ?>" alt="" /></span>
                                 </div>
 
                                 <p>
@@ -1112,7 +1071,7 @@
                         <div class="testimonial-content-two text-center">
                             <div class="content">
                                 <div class="quote1">
-                                    <span class="quote"><img src="{{url('css/appx/media/banner/notificacion-email.png')}}" alt="" /></span>
+                                    <span class="quote"><img src="<?php echo e(url('css/appx/media/banner/notificacion-email.png')); ?>" alt="" /></span>
                                 </div>
                                 <p>
                                     Ejemplo de Email de Notificación cada vez que se registra una nueva visita técnica. Se puede configurar para que el reporte llegue con copia al agricultor.
@@ -1141,7 +1100,7 @@
                         <div class="testimonial-content-two text-center">
                             <div class="content">
                                 <div class="quote1">
-                                    <span class="quote"><img src="{{url('css/appx/media/banner/panel-integrado.png')}}" alt="" /></span>
+                                    <span class="quote"><img src="<?php echo e(url('css/appx/media/banner/panel-integrado.png')); ?>" alt="" /></span>
                                 </div>
                                 <p>
                                     Vista del Panel de Administración consolidando todos los agricultores de su base de datos.
@@ -1170,19 +1129,19 @@
                 <div class="slider-nav">
                     <div class="slide-item">
                         <div class="testi-avatar">
-                            <img src="{{url('css/appx/media/testimonial/testimonial1.jpg')}}" alt="Tablero de Control" />
+                            <img src="<?php echo e(url('css/appx/media/testimonial/testimonial1.jpg')); ?>" alt="Tablero de Control" />
                         </div>
                     </div>
 
                     <div class="slide-item">
                         <div class="testi-avatar">
-                            <img src="{{url('css/appx/media/testimonial/testimonial1.jpg')}}" alt="Tablero de Control" />
+                            <img src="<?php echo e(url('css/appx/media/testimonial/testimonial1.jpg')); ?>" alt="Tablero de Control" />
                         </div>
                     </div>
 
                     <div class="slide-item">
                         <div class="testi-avatar">
-                            <img src="{{url('css/appx/media/testimonial/testimonial1.jpg')}}" alt="Tablero de Control" />
+                            <img src="<?php echo e(url('css/appx/media/testimonial/testimonial1.jpg')); ?>" alt="Tablero de Control" />
                         </div>
                     </div>
                 </div>
@@ -1219,7 +1178,7 @@
                     <div class="col-lg-4 col-md-7">
                         <div class="widget widget-about">
                             <div class="footer-logo">
-                                <img src="{{url('css/appx/assets/img/sticky-logo.png')}}" alt="Agronielsen en Campo" />
+                                <img src="<?php echo e(url('css/appx/assets/img/sticky-logo.png')); ?>" alt="Agronielsen en Campo" />
                             </div>
 
                             <p class="content">
@@ -1253,8 +1212,8 @@
 
                             <ul class="footer-menu">
                                 <li><a href="https://www.agronielsen.com/" target="_blank">Agronielsen</a></li>
-                                <li><a href="{{url('visor')}}" target="_blank">Analítica de datos</a></li>
-                                <li><a href="{{url('ventainformes')}}" target="_blank">Venta de Informes</a></li>
+                                <li><a href="<?php echo e(url('visor')); ?>" target="_blank">Analítica de datos</a></li>
+                                <li><a href="<?php echo e(url('ventainformes')); ?>" target="_blank">Venta de Informes</a></li>
                                 <!-- <li><a href="https://www.agronielsen.com/membresia-inteligencia-de-mercados-agricolas-colombia/?restricted=page" target="_blank">Membresía Inteligencia de Mercados</a></li>-->
                                 <!-- <li><a href="https://www.agronielsen.com/blog/abre-tu-cuenta-gratis/" target="_blank">Demo de tablero de Análisis</a></li>-->
                                 <!-- <li><a href="https://www.agronielsen.com/mineria" target="_blank">Míneria de Clientes</a></li>-->
@@ -1278,7 +1237,7 @@
                             </ul>
 
                             <div class="follow-us">
-                                <span>{{trans('messages.follower')}}</span>
+                                <span><?php echo e(trans('messages.follower')); ?></span>
 
                                 <ul class="footer-social-two">
                                     <li>
@@ -1344,24 +1303,24 @@
     
     <!-- Dependency Scripts -->
 
-    <script src="{{url('css/appx/dependencies/popper.js/popper.min.js')}}"></script>
-    <script src="{{url('css/appx/dependencies/jquery/jquery.min.js')}}"></script>
+    <script src="<?php echo e(url('css/appx/dependencies/popper.js/popper.min.js')); ?>"></script>
+    <script src="<?php echo e(url('css/appx/dependencies/jquery/jquery.min.js')); ?>"></script>
     <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
-    <script src="{{url('css/appx/dependencies/bootstrap/js/bootstrap.min.js')}}"></script>
-      <script src="{{url('js/typewriter.js')}}" type="text/javascript"></script>
-  <script src="{{url('js/typed.js')}}" type="text/javascript"></script>
-    <script src="{{url('css/appx/dependencies/swiper/js/swiper.jquery.min.js')}}"></script>
-    <script src="{{url('css/appx/dependencies/swiperRunner/js/swiperRunner.min.js')}}"></script>
-    <script src="{{url('css/appx/assets/js/TweenMax.min.js')}}"></script>
-    <script src="{{url('css/appx/dependencies/wavify/jquery.wavify.js')}}"></script>
-    <script src="{{url('css/appx/dependencies/jquery.parallax-scroll/jquery.parallax-scroll.js')}}"></script>
-    <script src="{{url('css/appx/dependencies/countUp.js/countUp.min.js')}}"></script>
-    <script src="{{url('css/appx/dependencies/jquery.appear/jquery.appear.js')}}"></script>
-    <script src="{{url('css/appx/dependencies/wow/js/wow.min.js')}}"></script>
-    <script src="{{url('css/appx/dependencies/raindrops/js/raindrops.js')}}"></script>
-    <script src="{{url('css/appx/dependencies/slick-carousel/js/slick.js')}}"></script>
-    <script src="{{url('css/appx/dependencies/magnific-popup/js/jquery.magnific-popup.min.js')}}"></script>
-    <script src="{{url('css/appx/dependencies/parallax/js/jquery.parallax.min.js')}}"></script>
+    <script src="<?php echo e(url('css/appx/dependencies/bootstrap/js/bootstrap.min.js')); ?>"></script>
+      <script src="<?php echo e(url('js/typewriter.js')); ?>" type="text/javascript"></script>
+  <script src="<?php echo e(url('js/typed.js')); ?>" type="text/javascript"></script>
+    <script src="<?php echo e(url('css/appx/dependencies/swiper/js/swiper.jquery.min.js')); ?>"></script>
+    <script src="<?php echo e(url('css/appx/dependencies/swiperRunner/js/swiperRunner.min.js')); ?>"></script>
+    <script src="<?php echo e(url('css/appx/assets/js/TweenMax.min.js')); ?>"></script>
+    <script src="<?php echo e(url('css/appx/dependencies/wavify/jquery.wavify.js')); ?>"></script>
+    <script src="<?php echo e(url('css/appx/dependencies/jquery.parallax-scroll/jquery.parallax-scroll.js')); ?>"></script>
+    <script src="<?php echo e(url('css/appx/dependencies/countUp.js/countUp.min.js')); ?>"></script>
+    <script src="<?php echo e(url('css/appx/dependencies/jquery.appear/jquery.appear.js')); ?>"></script>
+    <script src="<?php echo e(url('css/appx/dependencies/wow/js/wow.min.js')); ?>"></script>
+    <script src="<?php echo e(url('css/appx/dependencies/raindrops/js/raindrops.js')); ?>"></script>
+    <script src="<?php echo e(url('css/appx/dependencies/slick-carousel/js/slick.js')); ?>"></script>
+    <script src="<?php echo e(url('css/appx/dependencies/magnific-popup/js/jquery.magnific-popup.min.js')); ?>"></script>
+    <script src="<?php echo e(url('css/appx/dependencies/parallax/js/jquery.parallax.min.js')); ?>"></script>
 
      <script>
         $(document).ready(function () {
@@ -1437,8 +1396,8 @@
     </script>
 
     <!-- Site Scripts -->
-    <script src="{{url('css/appx/assets/js/app.js')}}"></script>
-    <!--<script src="{{url('js/openweathermapipdata.js')}}"></script>-->
+    <script src="<?php echo e(url('css/appx/assets/js/app.js')); ?>"></script>
+    <!--<script src="<?php echo e(url('js/openweathermapipdata.js')); ?>"></script>-->
 
     <!-- Start of  Zendesk Widget script -->
   
@@ -1635,7 +1594,7 @@ fetch(`https://api.stormglass.io/v2/bio/point?lat=${lat}&lng=${lon}&params=${par
                 map: map,
                 //shape: shape,
                 title: "Aquí estoy!",
-                icon: "{{url('imagenes/maker-agronielsen.png')}}",
+                icon: "<?php echo e(url('imagenes/maker-agronielsen.png')); ?>",
                 label: {
                     text: "Ubicación",
                     color: "#fff",
@@ -1763,7 +1722,7 @@ fetch(`https://api.stormglass.io/v2/bio/point?lat=${lat}&lng=${lon}&params=${par
                         background-image: linear-gradient(40deg, #76A82B 0%, #76A82B 100%);
                         overflow: hidden;
                         padding-top: 100px;
-                        /*background:url({{url('imagenes/agct.jpg')}}*/
+                        /*background:url(<?php echo e(url('imagenes/agct.jpg')); ?>*/
         }
 
         .site-nav {
