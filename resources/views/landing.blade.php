@@ -481,7 +481,7 @@
 
                    <div class="prosess-tabs-inner wow fadeInRight responsive" style="margin-top: -118px;">
                        <h2 class="title responsive" style="color: #000;line-height: 25px;/*margin-top: -110px;*/padding: 17px;font-weight: 550;margin-right: -55px;padding-top: 37px;letter-spacing: -1px;font-size:14px">
-                            Datos del Clima en tu ubicación
+                            Datos del Clima en tu ubicación (en tiempo real)
                         </h2>
 
                  <iframe  style="margin-top: -47px;height: 375px;width:390px;padding: 13px;" id="historyframe" name="historyframe"  src="" frameborder="0" style="border:0" allowfullscreen>
